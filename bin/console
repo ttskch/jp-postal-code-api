@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__.'/../vendor/autoload.php';
+
+use Ttskch\JpPostalCodeApi\Csv\Jigyosyo\CsvParser as JigyosyoCsvParser;
+use Ttskch\JpPostalCodeApi\Csv\KenAll\CsvParser as KenAllCsvParser;
+use Ttskch\JpPostalCodeApi\DataSource\CsvProvider;
+use Ttskch\JpPostalCodeApi\JpPostalCodeApi;
+
+(new JpPostalCodeApi(
+    new CsvProvider(),
+    new KenAllCsvParser(),
+    new JigyosyoCsvParser(),
+))->run();

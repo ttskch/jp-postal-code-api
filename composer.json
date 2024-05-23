@@ -9,12 +9,16 @@
         }
     ],
     "require": {
-        "php": "^8.3"
+        "php": "^8.3",
+        "symfony/console": "^7.0",
+        "league/csv": "^9.15",
+        "ext-zip": "*"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.8",
         "phpunit/phpunit": "^9.5",
-        "ext-pcov": "*"
+        "ext-pcov": "*",
+        "phpspec/prophecy-phpunit": "^2.2"
     },
     "autoload": {
         "psr-4": {
