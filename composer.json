@@ -34,8 +34,14 @@
         "coverage": "php -dzend_extension=xdebug.so -dxdebug.mode=coverage ./vendor/bin/phpunit --coverage-text --coverage-html=build/coverage",
         "phpdbg": "phpdbg -qrr ./vendor/bin/phpunit --coverage-text --coverage-html ./build/coverage --coverage-clover=coverage.xml",
         "pcov": "php -dextension=pcov.so -d pcov.enabled=1 ./vendor/bin/phpunit --coverage-text --coverage-html=build/coverage  --coverage-clover=coverage.xml",
-        "cs": "./vendor/bin/phpcs",
-        "cs-fix": "./vendor/bin/phpcbf src tests",
+        "cs": [
+            "@putenv PHP_CS_FIXER_IGNORE_ENV=1",
+            "./vendor/bin/php-cs-fixer fix --config .php-cs-fixer.dist.php --dry-run --diff -v"
+        ],
+        "cs:fix": [
+            "@putenv PHP_CS_FIXER_IGNORE_ENV=1",
+            "./vendor/bin/php-cs-fixer fix --config .php-cs-fixer.dist.php"
+        ],
         "metrics": "./vendor/bin/phpmetrics --report-html=build/metrics --exclude=Exception src",
         "clean": [
             "./vendor/bin/phpstan clear-result-cache",

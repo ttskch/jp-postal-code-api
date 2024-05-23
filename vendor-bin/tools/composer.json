@@ -5,8 +5,8 @@
         "phpmetrics/phpmetrics": "^2.8",
         "phpstan/phpstan": "^1.9",
         "psalm/plugin-phpunit": "^0.18.4",
-        "squizlabs/php_codesniffer": "^3.7",
-        "vimeo/psalm": "^5.4"
+        "vimeo/psalm": "^5.4",
+        "friendsofphp/php-cs-fixer": "^3.57"
     },
     "config": {
         "allow-plugins": {
