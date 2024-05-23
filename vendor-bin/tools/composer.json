@@ -6,7 +6,9 @@
         "phpstan/phpstan": "^1.9",
         "psalm/plugin-phpunit": "^0.18.4",
         "vimeo/psalm": "^5.4",
-        "friendsofphp/php-cs-fixer": "^3.57"
+        "friendsofphp/php-cs-fixer": "^3.57",
+        "phpstan/phpstan-strict-rules": "^1.6",
+        "jangregor/phpstan-prophecy": "^1.0"
     },
     "config": {
         "allow-plugins": {
