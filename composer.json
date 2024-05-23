@@ -13,7 +13,8 @@
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.8",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "ext-pcov": "*"
     },
     "autoload": {
         "psr-4": {
@@ -33,7 +34,7 @@
         "test": "./vendor/bin/phpunit",
         "coverage": "php -dzend_extension=xdebug.so -dxdebug.mode=coverage ./vendor/bin/phpunit --coverage-text --coverage-html=build/coverage",
         "phpdbg": "phpdbg -qrr ./vendor/bin/phpunit --coverage-text --coverage-html ./build/coverage --coverage-clover=coverage.xml",
-        "pcov": "php -dextension=pcov.so -d pcov.enabled=1 ./vendor/bin/phpunit --coverage-text --coverage-html=build/coverage  --coverage-clover=coverage.xml",
+        "pcov": "php -dextension=pcov.so -d pcov.enabled=1 ./vendor/bin/phpunit --coverage-text --coverage-html=build/coverage  --coverage-clover=build/coverage.xml",
         "cs": [
             "@putenv PHP_CS_FIXER_IGNORE_ENV=1",
             "./vendor/bin/php-cs-fixer fix --config .php-cs-fixer.dist.php --dry-run --diff -v"
