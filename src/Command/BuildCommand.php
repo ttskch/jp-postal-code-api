@@ -7,6 +7,7 @@ namespace Ttskch\JpPostalCodeApi\Command;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Ttskch\JpPostalCodeApi\Csv\CsvParserInterface;
@@ -20,7 +21,7 @@ use Ttskch\JpPostalCodeApi\Model\ApiResource;
 )]
 final class BuildCommand extends Command
 {
-    private const string DESTINATION_BASE_PATH = __DIR__.'/../../docs/api';
+    private const string DEFAULT_DESTINATION_DIR = __DIR__.'/../../docs/api';
 
     public function __construct(
         readonly private CsvProviderInterface $csvProvider,
@@ -30,8 +31,16 @@ final class BuildCommand extends Command
         parent::__construct();
     }
 
+    protected function configure(): void
+    {
+        $this->addOption('destination_dir', 'd', InputOption::VALUE_REQUIRED, 'Destination directory path', realpath(self::DEFAULT_DESTINATION_DIR));
+    }
+
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        $destinationDir = $input->getOption('destination_dir');
+        assert(is_string($destinationDir));
+
         $kenAllCsv = $this->csvProvider->fromZipUrl(ZipUrls::KEN_ALL);
         $jigyosyoCsv = $this->csvProvider->fromZipUrl(ZipUrls::JIGYOSYO);
 
@@ -40,19 +49,19 @@ final class BuildCommand extends Command
         $io = new SymfonyStyle($input, $output);
         $io->progressStart($total);
 
-        $this->clear();
+        $this->clear($destinationDir);
 
         /** @var array<int, string> $row */
         foreach ($kenAllCsv as $row) {
             $apiResource = $this->kenAllCsvParser->parse($row);
-            $this->buildOne($apiResource);
+            $this->buildOne($apiResource, $destinationDir);
             $io->progressAdvance();
         }
 
         /** @var array<int, string> $row */
         foreach ($jigyosyoCsv as $row) {
             $apiResource = $this->jigyosyoCsvParser->parse($row);
-            $this->buildOne($apiResource);
+            $this->buildOne($apiResource, $destinationDir);
             $io->progressAdvance();
         }
 
@@ -62,14 +71,14 @@ final class BuildCommand extends Command
         return Command::SUCCESS;
     }
 
-    private function clear(): void
+    private function clear(string $destinationDir): void
     {
-        if (is_file(self::DESTINATION_BASE_PATH)) {
-            unlink(self::DESTINATION_BASE_PATH);
+        if (is_file($destinationDir)) {
+            unlink($destinationDir);
         }
 
-        if (is_dir(self::DESTINATION_BASE_PATH)) {
-            $iterator = new \RecursiveDirectoryIterator(self::DESTINATION_BASE_PATH, \FilesystemIterator::SKIP_DOTS);
+        if (is_dir($destinationDir)) {
+            $iterator = new \RecursiveDirectoryIterator($destinationDir, \FilesystemIterator::SKIP_DOTS);
             $files = new \RecursiveIteratorIterator($iterator, \RecursiveIteratorIterator::CHILD_FIRST);
 
             foreach ($files as $file) {
@@ -77,17 +86,17 @@ final class BuildCommand extends Command
                 $file->isDir() ? rmdir($file->getPathname()) : unlink($file->getPathname());
             }
 
-            rmdir(self::DESTINATION_BASE_PATH);
+            rmdir($destinationDir);
         }
 
-        mkdir(self::DESTINATION_BASE_PATH, recursive: true);
+        mkdir($destinationDir, recursive: true);
     }
 
-    private function buildOne(ApiResource $resource): void
+    private function buildOne(ApiResource $resource, string $destinationDir): void
     {
         $json = json_encode($resource, JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
 
-        $jsonFilePath = sprintf('%s/%s.json', self::DESTINATION_BASE_PATH, $resource->postalCode);
+        $jsonFilePath = sprintf('%s/%s.json', $destinationDir, $resource->postalCode);
 
         file_put_contents($jsonFilePath, $json);
     }
