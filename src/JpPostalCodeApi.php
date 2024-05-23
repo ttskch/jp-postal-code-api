@@ -11,7 +11,6 @@ use Ttskch\JpPostalCodeApi\DataSource\CsvProviderInterface;
 
 final readonly class JpPostalCodeApi
 {
-    /** @psalm-suppress PossiblyUnusedMethod */
     public function __construct(
         private CsvProviderInterface $csvProvider,
         private CsvParserInterface $kenAllCsvParser,

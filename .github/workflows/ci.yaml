@@ -25,7 +25,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ steps.composer-cache-dir-path.outputs.path }}
-          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 
       - name: Install Composer Dependencies

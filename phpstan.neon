@@ -6,4 +6,5 @@ parameters:
   level: max
   paths:
     - src
+    - bin/console
     - tests

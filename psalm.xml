@@ -10,6 +10,7 @@
 >
     <projectFiles>
         <directory name="src" />
+        <file name="bin/console" />
         <ignoreFiles>
             <directory name="vendor" />
         </ignoreFiles>
