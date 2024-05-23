@@ -18,6 +18,6 @@ class JpPostalCodeApiTest extends TestCase
     public function testIsInstanceOfJpPostalCodeApi(): void
     {
         $actual = $this->jpPostalCodeApi;
-        $this->assertInstanceOf(JpPostalCodeApi::class, $actual);
+        self::assertInstanceOf(JpPostalCodeApi::class, $actual);
     }
 }
