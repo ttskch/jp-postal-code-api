@@ -1,0 +1,17 @@
+{
+    "require-dev": {
+        "doctrine/coding-standard": "^11.0",
+        "phpmd/phpmd": "^2.13",
+        "phpmetrics/phpmetrics": "^2.8",
+        "phpstan/phpstan": "^1.9",
+        "psalm/plugin-phpunit": "^0.18.4",
+        "squizlabs/php_codesniffer": "^3.7",
+        "vimeo/psalm": "^5.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
