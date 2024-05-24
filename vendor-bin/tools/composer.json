@@ -1,19 +1,20 @@
 {
     "require-dev": {
-        "doctrine/coding-standard": "^11.0",
-        "phpmd/phpmd": "^2.13",
+        "doctrine/coding-standard": "^12.0",
+        "friendsofphp/php-cs-fixer": "^3.57",
+        "jangregor/phpstan-prophecy": "^1.0",
+        "phpmd/phpmd": "^2.15",
         "phpmetrics/phpmetrics": "^2.8",
         "phpstan/phpstan": "^1.9",
-        "psalm/plugin-phpunit": "^0.18.4",
-        "vimeo/psalm": "^5.4",
-        "friendsofphp/php-cs-fixer": "^3.57",
         "phpstan/phpstan-strict-rules": "^1.6",
-        "jangregor/phpstan-prophecy": "^1.0"
+        "psalm/plugin-phpunit": "^0.18.4",
+        "vimeo/psalm": "^5.4"
     },
     "config": {
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
             "dealerdirect/phpcodesniffer-composer-installer": true
-        }
+        },
+        "sort-packages": true
     }
 }
