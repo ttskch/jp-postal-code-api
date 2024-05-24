@@ -14,6 +14,7 @@ use Ttskch\JpPostalCodeApi\Csv\CsvParserInterface;
 use Ttskch\JpPostalCodeApi\DataSource\CsvProviderInterface;
 use Ttskch\JpPostalCodeApi\DataSource\ZipUrls;
 use Ttskch\JpPostalCodeApi\Model\ApiResource;
+use Ttskch\JpPostalCodeApi\Model\ParsedCsvRow;
 
 #[AsCommand(
     name: 'build',
@@ -53,15 +54,15 @@ final class BuildCommand extends Command
 
         /** @var array<int, string> $row */
         foreach ($kenAllCsv as $row) {
-            $apiResource = $this->kenAllCsvParser->parse($row);
-            $this->buildOne($apiResource, $destinationDir);
+            $parsedRow = $this->kenAllCsvParser->parse($row);
+            $this->buildOne($parsedRow, $destinationDir);
             $io->progressAdvance();
         }
 
         /** @var array<int, string> $row */
         foreach ($jigyosyoCsv as $row) {
-            $apiResource = $this->jigyosyoCsvParser->parse($row);
-            $this->buildOne($apiResource, $destinationDir);
+            $parsedRow = $this->jigyosyoCsvParser->parse($row);
+            $this->buildOne($parsedRow, $destinationDir);
             $io->progressAdvance();
         }
 
@@ -92,11 +93,20 @@ final class BuildCommand extends Command
         mkdir($destinationDir, recursive: true);
     }
 
-    private function buildOne(ApiResource $resource, string $destinationDir): void
+    private function buildOne(ParsedCsvRow $row, string $destinationDir): void
     {
-        $json = json_encode($resource, JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
+        $jsonFilePath = sprintf('%s/%s.json', $destinationDir, $row->postalCode);
 
-        $jsonFilePath = sprintf('%s/%s.json', $destinationDir, $resource->postalCode);
+        $existentJson = is_file($jsonFilePath) ? file_get_contents($jsonFilePath) : false;
+
+        $apiResource = false !== $existentJson
+            ? ApiResource::fromJson($existentJson)
+            : new ApiResource($row->postalCode)
+        ;
+
+        $apiResource->addresses[] = $row->address;
+
+        $json = json_encode($apiResource, JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
 
         file_put_contents($jsonFilePath, $json);
     }

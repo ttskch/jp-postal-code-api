@@ -21,17 +21,17 @@ class CsvParserTest extends TestCase
         $actual = $SUT->parse($csvRow);
 
         self::assertSame($expected[0], $actual->postalCode);
-        self::assertSame($expected[1], $actual->prefCode);
-        self::assertSame($expected[2], $actual->ja->prefecture);
-        self::assertSame($expected[3], $actual->ja->address1);
-        self::assertSame($expected[4], $actual->ja->address2);
-        self::assertSame($expected[5], $actual->ja->address3);
-        self::assertSame($expected[6], $actual->ja->address4);
-        self::assertSame($expected[7], $actual->en->prefecture);
-        self::assertSame($expected[8], $actual->en->address1);
-        self::assertSame($expected[9], $actual->en->address2);
-        self::assertSame($expected[10], $actual->en->address3);
-        self::assertSame($expected[11], $actual->en->address4);
+        self::assertSame($expected[1], $actual->address->prefectureCode);
+        self::assertSame($expected[2], $actual->address->ja->prefecture);
+        self::assertSame($expected[3], $actual->address->ja->address1);
+        self::assertSame($expected[4], $actual->address->ja->address2);
+        self::assertSame($expected[5], $actual->address->ja->address3);
+        self::assertSame($expected[6], $actual->address->ja->address4);
+        self::assertSame($expected[7], $actual->address->en->prefecture);
+        self::assertSame($expected[8], $actual->address->en->address1);
+        self::assertSame($expected[9], $actual->address->en->address2);
+        self::assertSame($expected[10], $actual->address->en->address3);
+        self::assertSame($expected[11], $actual->address->en->address4);
     }
 
     /**

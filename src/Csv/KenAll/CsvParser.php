@@ -6,18 +6,19 @@ namespace Ttskch\JpPostalCodeApi\Csv\KenAll;
 
 use Ttskch\JpPostalCodeApi\Csv\CsvParserInterface;
 use Ttskch\JpPostalCodeApi\Model\Address;
-use Ttskch\JpPostalCodeApi\Model\ApiResource;
+use Ttskch\JpPostalCodeApi\Model\AddressUnit;
+use Ttskch\JpPostalCodeApi\Model\ParsedCsvRow;
 use Ttskch\JpPostalCodeApi\Model\PrefectureCode;
 
 final readonly class CsvParser implements CsvParserInterface
 {
-    public function parse(array $csvRow): ApiResource
+    public function parse(array $csvRow): ParsedCsvRow
     {
         $postalCode = trim($csvRow[CsvHeaders::POSTAL_CODE]);
 
         $prefectureJa = trim($csvRow[CsvHeaders::PREFECTURE_JA]);
 
-        $prefCode = trim(PrefectureCode::of($prefectureJa));
+        $prefectureCode = trim(PrefectureCode::of($prefectureJa));
 
         $address1Ja = trim($csvRow[CsvHeaders::ADDRESS_1_JA]);
         $address1Ja = strval(preg_replace('/　/', '', $address1Ja));
@@ -50,11 +51,12 @@ final readonly class CsvParser implements CsvParserInterface
             $address2En = '';
         }
 
-        return new ApiResource(
-            $postalCode,
-            $prefCode,
-            ja: new Address($prefectureJa, $address1Ja, $address2Ja),
-            en: new Address($prefectureEn, $address1En, $address2En),
+        $address = new Address(
+            $prefectureCode,
+            ja: new AddressUnit($prefectureJa, $address1Ja, $address2Ja),
+            en: new AddressUnit($prefectureEn, $address1En, $address2En),
         );
+
+        return new ParsedCsvRow($postalCode, $address);
     }
 }

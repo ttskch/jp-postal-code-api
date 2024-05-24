@@ -15,4 +15,7 @@
             <directory name="vendor" />
         </ignoreFiles>
     </projectFiles>
+    <issueHandlers>
+        <MixedArgument errorLevel="suppress" />
+    </issueHandlers>
 </psalm>

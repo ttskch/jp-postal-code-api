@@ -11,7 +11,8 @@ use Symfony\Component\Console\Tester\CommandTester;
 use Ttskch\JpPostalCodeApi\Csv\CsvParserInterface;
 use Ttskch\JpPostalCodeApi\DataSource\CsvProviderInterface;
 use Ttskch\JpPostalCodeApi\Model\Address;
-use Ttskch\JpPostalCodeApi\Model\ApiResource;
+use Ttskch\JpPostalCodeApi\Model\AddressUnit;
+use Ttskch\JpPostalCodeApi\Model\ParsedCsvRow;
 
 class BuildCommandTest extends TestCase
 {
@@ -24,19 +25,23 @@ class BuildCommandTest extends TestCase
         $csvProvider->fromZipUrl('https://www.post.japanpost.jp/zipcode/dl/jigyosyo/zip/jigyosyo.zip')->willReturn(Reader::createFromString('jigyo,syo,csv'));
 
         $kenAllCsvParser = $this->prophesize(CsvParserInterface::class);
-        $kenAllCsvParser->parse(['ken', 'all', 'csv'])->willReturn(new ApiResource(
+        $kenAllCsvParser->parse(['ken', 'all', 'csv'])->willReturn(new ParsedCsvRow(
             '0600000',
-            '01',
-            ja: new Address('北海道', '札幌市中央区', '旭ケ丘', '', ''),
-            en: new Address('Hokkaido', 'Chuo-ku, Sapporo-shi', 'Asahigaoka', '', ''),
+            new Address(
+                '01',
+                ja: new AddressUnit('北海道', '札幌市中央区', '旭ケ丘', '', ''),
+                en: new AddressUnit('Hokkaido', 'Chuo-ku, Sapporo-shi', 'Asahigaoka', '', ''),
+            ),
         ));
 
         $jigyosyoCsvParser = $this->prophesize(CsvParserInterface::class);
-        $jigyosyoCsvParser->parse(['jigyo', 'syo', 'csv'])->willReturn(new ApiResource(
+        $jigyosyoCsvParser->parse(['jigyo', 'syo', 'csv'])->willReturn(new ParsedCsvRow(
             '1008111',
-            '13',
-            ja: new Address('東京都', '千代田区', '千代田', '1-1', '宮内庁'),
-            en: new Address(),
+            new Address(
+                '13',
+                ja: new AddressUnit('東京都', '千代田区', '千代田', '1-1', '宮内庁'),
+                en: new AddressUnit(),
+            ),
         ));
 
         $command = new BuildCommand($csvProvider->reveal(), $kenAllCsvParser->reveal(), $jigyosyoCsvParser->reveal());
@@ -58,13 +63,13 @@ class BuildCommandTest extends TestCase
 
         $content = strval(file_get_contents($destinationDir.'/0600000.json'));
         $expected = <<<JSON
-{"postalCode":"0600000","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市中央区","address2":"旭ケ丘","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Chuo-ku, Sapporo-shi","address2":"Asahigaoka","address3":"","address4":""}}
+{"postalCode":"0600000","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市中央区","address2":"旭ケ丘","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Chuo-ku, Sapporo-shi","address2":"Asahigaoka","address3":"","address4":""}}]}
 JSON;
         self::assertSame($expected, $content);
 
         $content = strval(file_get_contents($destinationDir.'/1008111.json'));
         $expected = <<<JSON
-{"postalCode":"1008111","prefCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"千代田","address3":"1-1","address4":"宮内庁"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"1008111","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"千代田","address3":"1-1","address4":"宮内庁"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}
 JSON;
         self::assertSame($expected, $content);
     }
