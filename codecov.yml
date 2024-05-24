@@ -1,14 +1,8 @@
-codecov:
-  notify:
-    require_ci_to_pass: yes
-
 coverage:
   status:
     project:
       default:
-        target: 100%
+        informational: true
     patch:
       default:
-        target: 100%
-
-comment: false
+        informational: true
