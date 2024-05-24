@@ -26,8 +26,14 @@ final readonly class CsvProvider implements CsvProviderInterface
             $zip->extractTo($csvDirPath);
             $zip->close();
 
+            if ('UTF-8' !== $csvEncoding) {
+                if (($content = file_get_contents($csvFilePath)) !== false) {
+                    $content = mb_convert_encoding($content, 'UTF-8', $csvEncoding);
+                    file_put_contents($csvFilePath, $content);
+                }
+            }
+
             $csv = Reader::createFromPath($csvFilePath);
-            $csv->addStreamFilter(sprintf('convert.iconv.%s/UTF-8', $csvEncoding));
 
             return $csv;
         }

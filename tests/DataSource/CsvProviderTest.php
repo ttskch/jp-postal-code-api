@@ -16,48 +16,68 @@ class CsvProviderTest extends TestCase
 
         self::assertSame(124574, $actual->count());
 
-        foreach ($actual as $row) {
-            self::assertSame([
-                '0600000',
-                '北海道',
-                '札幌市　中央区',
-                '以下に掲載がない場合',
-                'HOKKAIDO',
-                'SAPPORO SHI CHUO KU',
-                'IKANIKEISAIGANAIBAAI',
-            ], $row);
-            break;
+        foreach ($actual as $i => $row) {
+            if (0 === $i) {
+                self::assertSame([
+                    '0600000',
+                    '北海道',
+                    '札幌市　中央区',
+                    '以下に掲載がない場合',
+                    'HOKKAIDO',
+                    'SAPPORO SHI CHUO KU',
+                    'IKANIKEISAIGANAIBAAI',
+                ], $row);
+            } elseif ($i === $actual->count() - 1) {
+                self::assertSame([
+                    '9071801',
+                    '沖縄県',
+                    '八重山郡　与那国町',
+                    '与那国',
+                    'OKINAWA KEN',
+                    'YAEYAMA GUN YONAGUNI CHO',
+                    'YONAGUNI',
+                ], $row);
+            }
         }
 
         $actual = $SUT->fromZipUrl(__DIR__.'/../resources/jigyosyo.zip');
 
-        // @see https://www.php.net/manual/ja/language.exceptions.php#language.exceptions.notes
-        set_error_handler(fn ($severity, $message, $filename, $lineno) => throw new \ErrorException($message, 0, $severity, $filename, $lineno));
-        try {
-            self::assertSame(22409, $actual->count());
-        } catch (\ErrorException $e) { // @phpstan-ignore-line
-            if ('fgetcsv(): iconv stream filter ("Shift_JIS"=>"UTF-8"): invalid multibyte sequence' !== $e->getMessage()) {
-                throw $e;
-            }
-        }
+        self::assertSame(22409, $actual->count());
 
-        foreach ($actual as $row) {
-            self::assertSame([
-                '01101',
-                '(ｶﾌﾞ) ﾆﾎﾝｹｲｻﾞｲｼﾝﾌﾞﾝｼﾔ ｻﾂﾎﾟﾛｼｼﾔ',
-                '株式会社　日本経済新聞社　札幌支社',
-                '北海道',
-                '札幌市中央区',
-                '北一条西',
-                '６丁目１−２アーバンネット札幌ビル２Ｆ',
-                '0608621',
-                '060  ',
-                '札幌中央',
-                '0',
-                '0',
-                '0',
-            ], $row);
-            break;
+        foreach ($actual as $i => $row) {
+            if (0 === $i) {
+                self::assertSame([
+                    '01101',
+                    '(ｶﾌﾞ) ﾆﾎﾝｹｲｻﾞｲｼﾝﾌﾞﾝｼﾔ ｻﾂﾎﾟﾛｼｼﾔ',
+                    '株式会社　日本経済新聞社　札幌支社',
+                    '北海道',
+                    '札幌市中央区',
+                    '北一条西',
+                    '６丁目１−２アーバンネット札幌ビル２Ｆ',
+                    '0608621',
+                    '060  ',
+                    '札幌中央',
+                    '0',
+                    '0',
+                    '0',
+                ], $row);
+            } elseif ($i === $actual->count() - 1) {
+                self::assertSame([
+                    '47382',
+                    'ﾖﾅｸﾞﾆﾁﾖｳﾔｸﾊﾞ',
+                    '与那国町役場',
+                    '沖縄県',
+                    '八重山郡与那国町',
+                    '字与那国',
+                    '１２９',
+                    '9071892',
+                    '90718',
+                    '八重山',
+                    '0',
+                    '0',
+                    '0',
+                ], $row);
+            }
         }
     }
 }
