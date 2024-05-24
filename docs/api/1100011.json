@@ -1,1 +1,1 @@
-{"postalCode":"1100011","prefCode":"13","ja":{"prefecture":"東京都","address1":"台東区","address2":"三ノ輪","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Taito-ku","address2":"Minowa","address3":"","address4":""}}
+{"postalCode":"1100011","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"台東区","address2":"三ノ輪","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Taito-ku","address2":"Minowa","address3":"","address4":""}}]}

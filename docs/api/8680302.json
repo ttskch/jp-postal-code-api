@@ -1,1 +1,1 @@
-{"postalCode":"8680302","prefCode":"43","ja":{"prefecture":"熊本県","address1":"球磨郡錦町","address2":"一武","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Nishiki-machi, Kuma-gun","address2":"Ichibu","address3":"","address4":""}}
+{"postalCode":"8680302","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"球磨郡錦町","address2":"一武","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Nishiki-machi, Kuma-gun","address2":"Ichibu","address3":"","address4":""}}]}

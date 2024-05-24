@@ -1,1 +1,1 @@
-{"postalCode":"6050905","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市東山区","address2":"豊浦町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Higashiyama-ku, Kyoto-shi","address2":"Toyoracho","address3":"","address4":""}}
+{"postalCode":"6050905","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市東山区","address2":"豊浦町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Higashiyama-ku, Kyoto-shi","address2":"Toyoracho","address3":"","address4":""}}]}

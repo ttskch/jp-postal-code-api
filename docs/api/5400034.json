@@ -1,1 +1,1 @@
-{"postalCode":"5400034","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市中央区","address2":"島町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Chuo-ku, Osaka-shi","address2":"Shimamachi","address3":"","address4":""}}
+{"postalCode":"5400034","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市中央区","address2":"島町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Chuo-ku, Osaka-shi","address2":"Shimamachi","address3":"","address4":""}}]}

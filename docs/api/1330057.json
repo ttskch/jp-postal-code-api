@@ -1,1 +1,1 @@
-{"postalCode":"1330057","prefCode":"13","ja":{"prefecture":"東京都","address1":"江戸川区","address2":"西小岩","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Edogawa-ku","address2":"Nishikoiwa","address3":"","address4":""}}
+{"postalCode":"1330057","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"江戸川区","address2":"西小岩","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Edogawa-ku","address2":"Nishikoiwa","address3":"","address4":""}}]}

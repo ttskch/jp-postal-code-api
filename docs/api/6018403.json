@@ -1,1 +1,1 @@
-{"postalCode":"6018403","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市南区","address2":"古御旅町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Minami-ku, Kyoto-shi","address2":"Furuotabicho","address3":"","address4":""}}
+{"postalCode":"6018403","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市南区","address2":"古御旅町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Minami-ku, Kyoto-shi","address2":"Furuotabicho","address3":"","address4":""}}]}

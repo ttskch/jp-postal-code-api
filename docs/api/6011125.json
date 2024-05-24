@@ -1,1 +1,1 @@
-{"postalCode":"6011125","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"岩倉木野町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Kinocho, Iwakura","address3":"","address4":""}}
+{"postalCode":"6011125","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"岩倉木野町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Kinocho, Iwakura","address3":"","address4":""}}]}

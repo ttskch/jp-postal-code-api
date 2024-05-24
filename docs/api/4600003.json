@@ -1,1 +1,1 @@
-{"postalCode":"4600003","prefCode":"23","ja":{"prefecture":"愛知県","address1":"名古屋市中区","address2":"錦","address3":"","address4":""},"en":{"prefecture":"Aichi","address1":"Naka-ku, Nagoya-shi","address2":"Nishiki","address3":"","address4":""}}
+{"postalCode":"4600003","addresses":[{"prefectureCode":"23","ja":{"prefecture":"愛知県","address1":"名古屋市中区","address2":"錦","address3":"","address4":""},"en":{"prefecture":"Aichi","address1":"Naka-ku, Nagoya-shi","address2":"Nishiki","address3":"","address4":""}}]}

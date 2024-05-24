@@ -1,1 +1,1 @@
-{"postalCode":"1900034","prefCode":"13","ja":{"prefecture":"東京都","address1":"立川市","address2":"西砂町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Tachikawa-shi","address2":"Nishisunacho","address3":"","address4":""}}
+{"postalCode":"1900034","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"立川市","address2":"西砂町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Tachikawa-shi","address2":"Nishisunacho","address3":"","address4":""}}]}

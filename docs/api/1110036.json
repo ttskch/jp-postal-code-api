@@ -1,1 +1,1 @@
-{"postalCode":"1110036","prefCode":"13","ja":{"prefecture":"東京都","address1":"台東区","address2":"松が谷","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Taito-ku","address2":"Matsugaya","address3":"","address4":""}}
+{"postalCode":"1110036","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"台東区","address2":"松が谷","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Taito-ku","address2":"Matsugaya","address3":"","address4":""}}]}

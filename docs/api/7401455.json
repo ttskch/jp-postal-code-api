@@ -1,1 +1,1 @@
-{"postalCode":"7401455","prefCode":"35","ja":{"prefecture":"山口県","address1":"岩国市","address2":"由宇町北","address3":"","address4":""},"en":{"prefecture":"Yamaguchi","address1":"Iwakuni-shi","address2":"Yumachikita","address3":"","address4":""}}
+{"postalCode":"7401455","addresses":[{"prefectureCode":"35","ja":{"prefecture":"山口県","address1":"岩国市","address2":"由宇町北","address3":"","address4":""},"en":{"prefecture":"Yamaguchi","address1":"Iwakuni-shi","address2":"Yumachikita","address3":"","address4":""}}]}

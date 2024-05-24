@@ -1,1 +1,1 @@
-{"postalCode":"6068425","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"鹿ケ谷西寺ノ前町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Nishiteranomaecho, Shishigatani","address3":"","address4":""}}
+{"postalCode":"6068425","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"鹿ケ谷西寺ノ前町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Nishiteranomaecho, Shishigatani","address3":"","address4":""}}]}

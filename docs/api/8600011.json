@@ -1,1 +1,1 @@
-{"postalCode":"8600011","prefCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市中央区","address2":"新鍛冶屋町","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Chuo-ku, Kumamoto-shi","address2":"Shinkajiyamachi","address3":"","address4":""}}
+{"postalCode":"8600011","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市中央区","address2":"新鍛冶屋町","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Chuo-ku, Kumamoto-shi","address2":"Shinkajiyamachi","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"5470012","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市平野区","address2":"長吉六反","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Hirano-ku, Osaka-shi","address2":"Nagayoshirokutan","address3":"","address4":""}}
+{"postalCode":"5470012","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市平野区","address2":"長吉六反","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Hirano-ku, Osaka-shi","address2":"Nagayoshirokutan","address3":"","address4":""}}]}

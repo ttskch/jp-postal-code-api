@@ -1,1 +1,1 @@
-{"postalCode":"5320004","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市淀川区","address2":"西宮原","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Yodogawa-ku, Osaka-shi","address2":"Nishimiyahara","address3":"","address4":""}}
+{"postalCode":"5320004","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市淀川区","address2":"西宮原","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Yodogawa-ku, Osaka-shi","address2":"Nishimiyahara","address3":"","address4":""}}]}

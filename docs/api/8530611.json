@@ -1,1 +1,1 @@
-{"postalCode":"8530611","prefCode":"42","ja":{"prefecture":"長崎県","address1":"五島市","address2":"三井楽町嵯峨島","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Goto-shi","address2":"Saganoshima, Miirakumachi","address3":"","address4":""}}
+{"postalCode":"8530611","addresses":[{"prefectureCode":"42","ja":{"prefecture":"長崎県","address1":"五島市","address2":"三井楽町嵯峨島","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Goto-shi","address2":"Saganoshima, Miirakumachi","address3":"","address4":""}}]}

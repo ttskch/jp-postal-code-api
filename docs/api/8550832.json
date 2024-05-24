@@ -1,1 +1,1 @@
-{"postalCode":"8550832","prefCode":"42","ja":{"prefecture":"長崎県","address1":"島原市","address2":"坂上町","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Shimabara-shi","address2":"Sakauemachi","address3":"","address4":""}}
+{"postalCode":"8550832","addresses":[{"prefectureCode":"42","ja":{"prefecture":"長崎県","address1":"島原市","address2":"坂上町","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Shimabara-shi","address2":"Sakauemachi","address3":"","address4":""}}]}

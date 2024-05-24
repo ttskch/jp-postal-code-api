@@ -1,1 +1,1 @@
-{"postalCode":"2030021","prefCode":"13","ja":{"prefecture":"東京都","address1":"東久留米市","address2":"学園町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Higashikurume-shi","address2":"Gakuencho","address3":"","address4":""}}
+{"postalCode":"2030021","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"東久留米市","address2":"学園町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Higashikurume-shi","address2":"Gakuencho","address3":"","address4":""}}]}

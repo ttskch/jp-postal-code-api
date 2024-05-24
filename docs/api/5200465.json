@@ -1,1 +1,1 @@
-{"postalCode":"5200465","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"久多上の町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Kaminocho, Kuta","address3":"","address4":""}}
+{"postalCode":"5200465","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"久多上の町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Kaminocho, Kuta","address3":"","address4":""}}]}

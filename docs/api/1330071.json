@@ -1,1 +1,1 @@
-{"postalCode":"1330071","prefCode":"13","ja":{"prefecture":"東京都","address1":"江戸川区","address2":"東松本","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Edogawa-ku","address2":"Higashimatsumoto","address3":"","address4":""}}
+{"postalCode":"1330071","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"江戸川区","address2":"東松本","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Edogawa-ku","address2":"Higashimatsumoto","address3":"","address4":""}}]}

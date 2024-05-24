@@ -1,1 +1,1 @@
-{"postalCode":"5850011","prefCode":"27","ja":{"prefecture":"大阪府","address1":"南河内郡河南町","address2":"寺田","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kanan-cho, Minamikawachi-gun","address2":"Terada","address3":"","address4":""}}
+{"postalCode":"5850011","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"南河内郡河南町","address2":"寺田","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kanan-cho, Minamikawachi-gun","address2":"Terada","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"0800027","prefCode":"01","ja":{"prefecture":"北海道","address1":"帯広市","address2":"西十七条南","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Obihiro-shi","address2":"Nishi17-jominami","address3":"","address4":""}}
+{"postalCode":"0800027","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"帯広市","address2":"西十七条南","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Obihiro-shi","address2":"Nishi17-jominami","address3":"","address4":""}}]}

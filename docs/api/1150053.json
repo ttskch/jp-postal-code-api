@@ -1,1 +1,1 @@
-{"postalCode":"1150053","prefCode":"13","ja":{"prefecture":"東京都","address1":"北区","address2":"赤羽台","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Kita-ku","address2":"Akabanedai","address3":"","address4":""}}
+{"postalCode":"1150053","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"北区","address2":"赤羽台","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Kita-ku","address2":"Akabanedai","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"0040831","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市清田区","address2":"真栄一条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kiyota-ku, Sapporo-shi","address2":"Shinei 1-jo","address3":"","address4":""}}
+{"postalCode":"0040831","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市清田区","address2":"真栄一条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kiyota-ku, Sapporo-shi","address2":"Shinei 1-jo","address3":"","address4":""}}]}

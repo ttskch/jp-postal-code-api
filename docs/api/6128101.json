@@ -1,1 +1,1 @@
-{"postalCode":"6128101","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市伏見区","address2":"観音寺町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Fushimi-ku, Kyoto-shi","address2":"Kannonjicho","address3":"","address4":""}}
+{"postalCode":"6128101","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市伏見区","address2":"観音寺町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Fushimi-ku, Kyoto-shi","address2":"Kannonjicho","address3":"","address4":""}}]}

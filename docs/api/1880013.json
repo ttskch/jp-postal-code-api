@@ -1,1 +1,1 @@
-{"postalCode":"1880013","prefCode":"13","ja":{"prefecture":"東京都","address1":"西東京市","address2":"向台町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Nishitokyo-shi","address2":"Mukodaicho","address3":"","address4":""}}
+{"postalCode":"1880013","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"西東京市","address2":"向台町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Nishitokyo-shi","address2":"Mukodaicho","address3":"","address4":""}}]}

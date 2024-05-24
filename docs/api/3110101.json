@@ -1,1 +1,1 @@
-{"postalCode":"3110101","prefCode":"08","ja":{"prefecture":"茨城県","address1":"那珂市","address2":"本米崎","address3":"","address4":""},"en":{"prefecture":"Ibaraki","address1":"Naka-shi","address2":"Motokomezaki","address3":"","address4":""}}
+{"postalCode":"3110101","addresses":[{"prefectureCode":"08","ja":{"prefecture":"茨城県","address1":"那珂市","address2":"本米崎","address3":"","address4":""},"en":{"prefecture":"Ibaraki","address1":"Naka-shi","address2":"Motokomezaki","address3":"","address4":""}}]}

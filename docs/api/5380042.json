@@ -1,1 +1,1 @@
-{"postalCode":"5380042","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市鶴見区","address2":"今津中","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Tsurumi-ku, Osaka-shi","address2":"Imazunaka","address3":"","address4":""}}
+{"postalCode":"5380042","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市鶴見区","address2":"今津中","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Tsurumi-ku, Osaka-shi","address2":"Imazunaka","address3":"","address4":""}}]}

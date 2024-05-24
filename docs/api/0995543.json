@@ -1,1 +1,1 @@
-{"postalCode":"0995543","prefCode":"01","ja":{"prefecture":"北海道","address1":"紋別郡滝上町","address2":"新町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Takinoe-cho, Mombetsu-gun","address2":"Shimmachi","address3":"","address4":""}}
+{"postalCode":"0995543","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"紋別郡滝上町","address2":"新町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Takinoe-cho, Mombetsu-gun","address2":"Shimmachi","address3":"","address4":""}}]}

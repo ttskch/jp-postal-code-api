@@ -1,1 +1,1 @@
-{"postalCode":"5280052","prefCode":"25","ja":{"prefecture":"滋賀県","address1":"甲賀市","address2":"水口町宇川","address3":"","address4":""},"en":{"prefecture":"Shiga","address1":"Koka-shi","address2":"Ukawa, Minakuchicho","address3":"","address4":""}}
+{"postalCode":"5280052","addresses":[{"prefectureCode":"25","ja":{"prefecture":"滋賀県","address1":"甲賀市","address2":"水口町宇川","address3":"","address4":""},"en":{"prefecture":"Shiga","address1":"Koka-shi","address2":"Ukawa, Minakuchicho","address3":"","address4":""}}]}

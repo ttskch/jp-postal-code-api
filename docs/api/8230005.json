@@ -1,1 +1,1 @@
-{"postalCode":"8230005","prefCode":"40","ja":{"prefecture":"福岡県","address1":"宮若市","address2":"上大隈","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Miyawaka-shi","address2":"Kamiokuma","address3":"","address4":""}}
+{"postalCode":"8230005","addresses":[{"prefectureCode":"40","ja":{"prefecture":"福岡県","address1":"宮若市","address2":"上大隈","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Miyawaka-shi","address2":"Kamiokuma","address3":"","address4":""}}]}

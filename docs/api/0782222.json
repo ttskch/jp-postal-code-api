@@ -1,1 +1,1 @@
-{"postalCode":"0782222","prefCode":"01","ja":{"prefecture":"北海道","address1":"雨竜郡沼田町","address2":"沼田","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Numata-cho, Uryu-gun","address2":"Numata","address3":"","address4":""}}
+{"postalCode":"0782222","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"雨竜郡沼田町","address2":"沼田","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Numata-cho, Uryu-gun","address2":"Numata","address3":"","address4":""}}]}

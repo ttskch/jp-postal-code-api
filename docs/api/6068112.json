@@ -1,1 +1,1 @@
-{"postalCode":"6068112","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"一乗寺西杉ノ宮町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Nishisuginomiyacho, Ichijoji","address3":"","address4":""}}
+{"postalCode":"6068112","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"一乗寺西杉ノ宮町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Nishisuginomiyacho, Ichijoji","address3":"","address4":""}}]}

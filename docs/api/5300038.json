@@ -1,1 +1,1 @@
-{"postalCode":"5300038","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"紅梅町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Osaka-shi","address2":"Kobaicho","address3":"","address4":""}}
+{"postalCode":"5300038","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"紅梅町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Osaka-shi","address2":"Kobaicho","address3":"","address4":""}}]}

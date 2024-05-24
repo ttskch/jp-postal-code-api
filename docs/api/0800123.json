@@ -1,1 +1,1 @@
-{"postalCode":"0800123","prefCode":"01","ja":{"prefecture":"北海道","address1":"河東郡音更町","address2":"柳町南区","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Otofuke-cho, Kato-gun","address2":"Yanagimachiminamiku","address3":"","address4":""}}
+{"postalCode":"0800123","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"河東郡音更町","address2":"柳町南区","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Otofuke-cho, Kato-gun","address2":"Yanagimachiminamiku","address3":"","address4":""}}]}

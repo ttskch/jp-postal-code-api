@@ -1,1 +1,1 @@
-{"postalCode":"8574414","prefCode":"42","ja":{"prefecture":"長崎県","address1":"南松浦郡新上五島町","address2":"飯ノ瀬戸郷","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Shinkamigoto-cho, Minamimatsura-gun","address2":"Inosedogo","address3":"","address4":""}}
+{"postalCode":"8574414","addresses":[{"prefectureCode":"42","ja":{"prefecture":"長崎県","address1":"南松浦郡新上五島町","address2":"飯ノ瀬戸郷","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Shinkamigoto-cho, Minamimatsura-gun","address2":"Inosedogo","address3":"","address4":""}}]}

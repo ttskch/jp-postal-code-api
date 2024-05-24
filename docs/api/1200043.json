@@ -1,1 +1,1 @@
-{"postalCode":"1200043","prefCode":"13","ja":{"prefecture":"東京都","address1":"足立区","address2":"千住宮元町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Adachi-ku","address2":"Miyamotocho, Senju","address3":"","address4":""}}
+{"postalCode":"1200043","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"足立区","address2":"千住宮元町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Adachi-ku","address2":"Miyamotocho, Senju","address3":"","address4":""}}]}

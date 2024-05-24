@@ -1,1 +1,1 @@
-{"postalCode":"3900314","prefCode":"20","ja":{"prefecture":"長野県","address1":"松本市","address2":"岡田伊深","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Matsumoto-shi","address2":"Okadaibuka","address3":"","address4":""}}
+{"postalCode":"3900314","addresses":[{"prefectureCode":"20","ja":{"prefecture":"長野県","address1":"松本市","address2":"岡田伊深","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Matsumoto-shi","address2":"Okadaibuka","address3":"","address4":""}}]}

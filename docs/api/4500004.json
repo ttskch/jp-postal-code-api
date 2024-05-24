@@ -1,1 +1,1 @@
-{"postalCode":"4500004","prefCode":"23","ja":{"prefecture":"愛知県","address1":"名古屋市中村区","address2":"松重町","address3":"","address4":""},"en":{"prefecture":"Aichi","address1":"Nakamura-ku, Nagoya-shi","address2":"Matsushigecho","address3":"","address4":""}}
+{"postalCode":"4500004","addresses":[{"prefectureCode":"23","ja":{"prefecture":"愛知県","address1":"名古屋市中村区","address2":"松重町","address3":"","address4":""},"en":{"prefecture":"Aichi","address1":"Nakamura-ku, Nagoya-shi","address2":"Matsushigecho","address3":"","address4":""}}]}

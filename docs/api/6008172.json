@@ -1,1 +1,1 @@
-{"postalCode":"6008172","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市下京区","address2":"下平野町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Shimogyo-ku, Kyoto-shi","address2":"Shimohiranocho","address3":"","address4":""}}
+{"postalCode":"6008172","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市下京区","address2":"下平野町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Shimogyo-ku, Kyoto-shi","address2":"Shimohiranocho","address3":"","address4":""}}]}

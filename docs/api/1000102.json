@@ -1,1 +1,1 @@
-{"postalCode":"1000102","prefCode":"13","ja":{"prefecture":"東京都","address1":"大島町","address2":"岡田","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Oshima-machi","address2":"Okata","address3":"","address4":""}}
+{"postalCode":"1000102","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"大島町","address2":"岡田","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Oshima-machi","address2":"Okata","address3":"","address4":""}}]}

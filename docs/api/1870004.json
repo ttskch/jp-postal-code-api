@@ -1,1 +1,1 @@
-{"postalCode":"1870004","prefCode":"13","ja":{"prefecture":"東京都","address1":"小平市","address2":"天神町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Kodaira-shi","address2":"Tenjincho","address3":"","address4":""}}
+{"postalCode":"1870004","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"小平市","address2":"天神町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Kodaira-shi","address2":"Tenjincho","address3":"","address4":""}}]}

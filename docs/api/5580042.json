@@ -1,1 +1,1 @@
-{"postalCode":"5580042","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市住吉区","address2":"殿辻","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Sumiyoshi-ku, Osaka-shi","address2":"Tonotsuji","address3":"","address4":""}}
+{"postalCode":"5580042","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市住吉区","address2":"殿辻","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Sumiyoshi-ku, Osaka-shi","address2":"Tonotsuji","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"3210104","prefCode":"09","ja":{"prefecture":"栃木県","address1":"宇都宮市","address2":"台新田","address3":"","address4":""},"en":{"prefecture":"Tochigi","address1":"Utsunomiya-shi","address2":"Daishinden","address3":"","address4":""}}
+{"postalCode":"3210104","addresses":[{"prefectureCode":"09","ja":{"prefecture":"栃木県","address1":"宇都宮市","address2":"台新田","address3":"","address4":""},"en":{"prefecture":"Tochigi","address1":"Utsunomiya-shi","address2":"Daishinden","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"8530411","prefCode":"42","ja":{"prefecture":"長崎県","address1":"五島市","address2":"玉之浦町玉之浦","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Goto-shi","address2":"Tamanora, Tamanoramachi","address3":"","address4":""}}
+{"postalCode":"8530411","addresses":[{"prefectureCode":"42","ja":{"prefecture":"長崎県","address1":"五島市","address2":"玉之浦町玉之浦","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Goto-shi","address2":"Tamanora, Tamanoramachi","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"1940041","prefCode":"13","ja":{"prefecture":"東京都","address1":"町田市","address2":"玉川学園","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Machida-shi","address2":"Tamagawagakuen","address3":"","address4":""}}
+{"postalCode":"1940041","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"町田市","address2":"玉川学園","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Machida-shi","address2":"Tamagawagakuen","address3":"","address4":""}}]}

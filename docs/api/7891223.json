@@ -1,1 +1,1 @@
-{"postalCode":"7891223","prefCode":"39","ja":{"prefecture":"高知県","address1":"高岡郡佐川町","address2":"西山耕","address3":"","address4":""},"en":{"prefecture":"Kochi","address1":"Sakawa-cho, Takaoka-gun","address2":"Nishiyamako","address3":"","address4":""}}
+{"postalCode":"7891223","addresses":[{"prefectureCode":"39","ja":{"prefecture":"高知県","address1":"高岡郡佐川町","address2":"西山耕","address3":"","address4":""},"en":{"prefecture":"Kochi","address1":"Sakawa-cho, Takaoka-gun","address2":"Nishiyamako","address3":"","address4":""}}]}

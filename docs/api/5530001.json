@@ -1,1 +1,1 @@
-{"postalCode":"5530001","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市福島区","address2":"海老江","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Fukushima-ku, Osaka-shi","address2":"Ebie","address3":"","address4":""}}
+{"postalCode":"5530001","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市福島区","address2":"海老江","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Fukushima-ku, Osaka-shi","address2":"Ebie","address3":"","address4":""}}]}

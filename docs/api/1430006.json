@@ -1,1 +1,1 @@
-{"postalCode":"1430006","prefCode":"13","ja":{"prefecture":"東京都","address1":"大田区","address2":"平和島","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Ota-ku","address2":"Heiwajima","address3":"","address4":""}}
+{"postalCode":"1430006","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"大田区","address2":"平和島","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Ota-ku","address2":"Heiwajima","address3":"","address4":""}}]}

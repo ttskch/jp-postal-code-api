@@ -1,1 +1,1 @@
-{"postalCode":"5610854","prefCode":"27","ja":{"prefecture":"大阪府","address1":"豊中市","address2":"稲津町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Toyonaka-shi","address2":"Inazucho","address3":"","address4":""}}
+{"postalCode":"5610854","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"豊中市","address2":"稲津町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Toyonaka-shi","address2":"Inazucho","address3":"","address4":""}}]}

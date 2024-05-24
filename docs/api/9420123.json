@@ -1,1 +1,1 @@
-{"postalCode":"9420123","prefCode":"15","ja":{"prefecture":"新潟県","address1":"上越市","address2":"頸城区下中村","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Joetsu-shi","address2":"Shimonakamura, Kubikiku","address3":"","address4":""}}
+{"postalCode":"9420123","addresses":[{"prefectureCode":"15","ja":{"prefecture":"新潟県","address1":"上越市","address2":"頸城区下中村","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Joetsu-shi","address2":"Shimonakamura, Kubikiku","address3":"","address4":""}}]}

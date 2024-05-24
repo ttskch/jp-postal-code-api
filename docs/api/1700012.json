@@ -1,1 +1,1 @@
-{"postalCode":"1700012","prefCode":"13","ja":{"prefecture":"東京都","address1":"豊島区","address2":"上池袋","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Toshima-ku","address2":"Kamiikebukuro","address3":"","address4":""}}
+{"postalCode":"1700012","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"豊島区","address2":"上池袋","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Toshima-ku","address2":"Kamiikebukuro","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"0491456","prefCode":"01","ja":{"prefecture":"北海道","address1":"松前郡福島町","address2":"松浦","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Fukushima-cho, Matsumae-gun","address2":"Matsura","address3":"","address4":""}}
+{"postalCode":"0491456","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"松前郡福島町","address2":"松浦","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Fukushima-cho, Matsumae-gun","address2":"Matsura","address3":"","address4":""}}]}

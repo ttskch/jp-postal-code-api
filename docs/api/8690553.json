@@ -1,1 +1,1 @@
-{"postalCode":"8690553","prefCode":"43","ja":{"prefecture":"熊本県","address1":"宇城市","address2":"不知火町小曽部","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Uki-shi","address2":"Kosobu, Shiranuhimachi","address3":"","address4":""}}
+{"postalCode":"8690553","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"宇城市","address2":"不知火町小曽部","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Uki-shi","address2":"Kosobu, Shiranuhimachi","address3":"","address4":""}}]}

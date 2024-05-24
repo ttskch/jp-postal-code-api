@@ -1,1 +1,1 @@
-{"postalCode":"6060042","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"上高野鷺町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Sagimachi, Kamitakano","address3":"","address4":""}}
+{"postalCode":"6060042","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"上高野鷺町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Sagimachi, Kamitakano","address3":"","address4":""}}]}

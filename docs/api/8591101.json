@@ -1,1 +1,1 @@
-{"postalCode":"8591101","prefCode":"42","ja":{"prefecture":"長崎県","address1":"雲仙市","address2":"吾妻町本村名","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Unzen-shi","address2":"Motomuramyo, Azumacho","address3":"","address4":""}}
+{"postalCode":"8591101","addresses":[{"prefectureCode":"42","ja":{"prefecture":"長崎県","address1":"雲仙市","address2":"吾妻町本村名","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Unzen-shi","address2":"Motomuramyo, Azumacho","address3":"","address4":""}}]}

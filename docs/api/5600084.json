@@ -1,1 +1,1 @@
-{"postalCode":"5600084","prefCode":"27","ja":{"prefecture":"大阪府","address1":"豊中市","address2":"新千里南町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Toyonaka-shi","address2":"Minamimachi, Shinsenri","address3":"","address4":""}}
+{"postalCode":"5600084","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"豊中市","address2":"新千里南町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Toyonaka-shi","address2":"Minamimachi, Shinsenri","address3":"","address4":""}}]}

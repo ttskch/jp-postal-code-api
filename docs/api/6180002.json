@@ -1,1 +1,1 @@
-{"postalCode":"6180002","prefCode":"27","ja":{"prefecture":"大阪府","address1":"三島郡島本町","address2":"東大寺","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Shimamoto-cho, Mishima-gun","address2":"Todaiji","address3":"","address4":""}}
+{"postalCode":"6180002","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"三島郡島本町","address2":"東大寺","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Shimamoto-cho, Mishima-gun","address2":"Todaiji","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"0410311","prefCode":"01","ja":{"prefecture":"北海道","address1":"函館市","address2":"浜町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Hakodate-shi","address2":"Hamacho","address3":"","address4":""}}
+{"postalCode":"0410311","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"函館市","address2":"浜町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Hakodate-shi","address2":"Hamacho","address3":"","address4":""}}]}

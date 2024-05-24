@@ -1,1 +1,1 @@
-{"postalCode":"1088553","prefCode":"13","ja":{"prefecture":"東京都","address1":"港区","address2":"芝浦","address3":"４丁目９−２５芝浦スクエアビル１５Ｆ","address4":"株式会社 ＩＴサービス 芝浦事業所"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"1088553","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"港区","address2":"芝浦","address3":"４丁目９−２５芝浦スクエアビル１５Ｆ","address4":"株式会社 ＩＴサービス 芝浦事業所"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

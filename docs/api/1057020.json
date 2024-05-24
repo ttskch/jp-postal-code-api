@@ -1,1 +1,1 @@
-{"postalCode":"1057020","prefCode":"13","ja":{"prefecture":"東京都","address1":"港区","address2":"東新橋電通本社ビル","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Minato-ku","address2":"Dentsuhonshabiru, Higashishimbashi","address3":"","address4":""}}
+{"postalCode":"1057020","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"港区","address2":"東新橋電通本社ビル","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Minato-ku","address2":"Dentsuhonshabiru, Higashishimbashi","address3":"","address4":""}}]}

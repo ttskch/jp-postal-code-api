@@ -1,1 +1,1 @@
-{"postalCode":"6020051","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市上京区","address2":"御三軒町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kamigyo-ku, Kyoto-shi","address2":"Gosangencho","address3":"","address4":""}}
+{"postalCode":"6020051","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市上京区","address2":"御三軒町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kamigyo-ku, Kyoto-shi","address2":"Gosangencho","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"0100011","prefCode":"05","ja":{"prefecture":"秋田県","address1":"秋田市","address2":"南通亀の町","address3":"","address4":""},"en":{"prefecture":"Akita","address1":"Akita-shi","address2":"Kamenocho, Minamidori","address3":"","address4":""}}
+{"postalCode":"0100011","addresses":[{"prefectureCode":"05","ja":{"prefecture":"秋田県","address1":"秋田市","address2":"南通亀の町","address3":"","address4":""},"en":{"prefecture":"Akita","address1":"Akita-shi","address2":"Kamenocho, Minamidori","address3":"","address4":""}}]}

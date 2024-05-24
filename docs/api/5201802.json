@@ -1,1 +1,1 @@
-{"postalCode":"5201802","prefCode":"25","ja":{"prefecture":"滋賀県","address1":"高島市","address2":"マキノ町野口","address3":"","address4":""},"en":{"prefecture":"Shiga","address1":"Takashima-shi","address2":"Noguchi, Makinocho","address3":"","address4":""}}
+{"postalCode":"5201802","addresses":[{"prefectureCode":"25","ja":{"prefecture":"滋賀県","address1":"高島市","address2":"マキノ町野口","address3":"","address4":""},"en":{"prefecture":"Shiga","address1":"Takashima-shi","address2":"Noguchi, Makinocho","address3":"","address4":""}}]}

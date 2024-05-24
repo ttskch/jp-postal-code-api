@@ -1,1 +1,1 @@
-{"postalCode":"6128243","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市伏見区","address2":"横大路下三栖城ノ前町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Fushimi-ku, Kyoto-shi","address2":"Jonomaecho, Yokoojishimomisu","address3":"","address4":""}}
+{"postalCode":"6128243","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市伏見区","address2":"横大路下三栖城ノ前町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Fushimi-ku, Kyoto-shi","address2":"Jonomaecho, Yokoojishimomisu","address3":"","address4":""}}]}

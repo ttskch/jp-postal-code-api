@@ -1,1 +1,1 @@
-{"postalCode":"8670173","prefCode":"43","ja":{"prefecture":"熊本県","address1":"水俣市","address2":"葛渡","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Minamata-shi","address2":"Kuzuwatari","address3":"","address4":""}}
+{"postalCode":"8670173","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"水俣市","address2":"葛渡","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Minamata-shi","address2":"Kuzuwatari","address3":"","address4":""}}]}

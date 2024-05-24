@@ -1,1 +1,1 @@
-{"postalCode":"6158033","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市西京区","address2":"下津林東大般若町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Nishikyo-ku, Kyoto-shi","address2":"Higashidaihannyacho, Shimotsubayashi","address3":"","address4":""}}
+{"postalCode":"6158033","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市西京区","address2":"下津林東大般若町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Nishikyo-ku, Kyoto-shi","address2":"Higashidaihannyacho, Shimotsubayashi","address3":"","address4":""}}]}

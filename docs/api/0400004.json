@@ -1,1 +1,1 @@
-{"postalCode":"0400004","prefCode":"01","ja":{"prefecture":"北海道","address1":"函館市","address2":"杉並町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Hakodate-shi","address2":"Suginamicho","address3":"","address4":""}}
+{"postalCode":"0400004","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"函館市","address2":"杉並町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Hakodate-shi","address2":"Suginamicho","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"5520005","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市港区","address2":"田中","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Minato-ku, Osaka-shi","address2":"Tanaka","address3":"","address4":""}}
+{"postalCode":"5520005","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市港区","address2":"田中","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Minato-ku, Osaka-shi","address2":"Tanaka","address3":"","address4":""}}]}

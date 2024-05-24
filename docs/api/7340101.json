@@ -1,1 +1,1 @@
-{"postalCode":"7340101","prefCode":"34","ja":{"prefecture":"広島県","address1":"呉市","address2":"豊浜町豊島","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Kure-shi","address2":"Toyoshima, Toyohamacho","address3":"","address4":""}}
+{"postalCode":"7340101","addresses":[{"prefectureCode":"34","ja":{"prefecture":"広島県","address1":"呉市","address2":"豊浜町豊島","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Kure-shi","address2":"Toyoshima, Toyohamacho","address3":"","address4":""}}]}

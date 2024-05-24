@@ -1,1 +1,1 @@
-{"postalCode":"3111393","prefCode":"08","ja":{"prefecture":"茨城県","address1":"東茨城郡大洗町","address2":"成田町","address3":"４００２番地","address4":"国立研究開発法人 日本原子力研究開発機構 大洗研究開発センター"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"3111393","addresses":[{"prefectureCode":"08","ja":{"prefecture":"茨城県","address1":"東茨城郡大洗町","address2":"成田町","address3":"４００２番地","address4":"国立研究開発法人 日本原子力研究開発機構 大洗研究開発センター"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

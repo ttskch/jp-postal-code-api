@@ -1,1 +1,1 @@
-{"postalCode":"3060109","prefCode":"08","ja":{"prefecture":"茨城県","address1":"古河市","address2":"西間中橋","address3":"","address4":""},"en":{"prefecture":"Ibaraki","address1":"Koga-shi","address2":"Nishimanakabashi","address3":"","address4":""}}
+{"postalCode":"3060109","addresses":[{"prefectureCode":"08","ja":{"prefecture":"茨城県","address1":"古河市","address2":"西間中橋","address3":"","address4":""},"en":{"prefecture":"Ibaraki","address1":"Koga-shi","address2":"Nishimanakabashi","address3":"","address4":""}}]}

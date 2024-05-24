@@ -1,1 +1,1 @@
-{"postalCode":"7500075","prefCode":"35","ja":{"prefecture":"山口県","address1":"下関市","address2":"彦島江の浦町","address3":"","address4":""},"en":{"prefecture":"Yamaguchi","address1":"Shimonoseki-shi","address2":"Enoracho, Hikoshima","address3":"","address4":""}}
+{"postalCode":"7500075","addresses":[{"prefectureCode":"35","ja":{"prefecture":"山口県","address1":"下関市","address2":"彦島江の浦町","address3":"","address4":""},"en":{"prefecture":"Yamaguchi","address1":"Shimonoseki-shi","address2":"Enoracho, Hikoshima","address3":"","address4":""}}]}

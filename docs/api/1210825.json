@@ -1,1 +1,1 @@
-{"postalCode":"1210825","prefCode":"13","ja":{"prefecture":"東京都","address1":"足立区","address2":"西伊興町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Adachi-ku","address2":"Nishiikocho","address3":"","address4":""}}
+{"postalCode":"1210825","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"足立区","address2":"西伊興町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Adachi-ku","address2":"Nishiikocho","address3":"","address4":""}}]}

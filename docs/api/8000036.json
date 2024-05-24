@@ -1,1 +1,1 @@
-{"postalCode":"8000036","prefCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市門司区","address2":"柳原町","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Moji-ku, Kitakyushu-shi","address2":"Yanagiharamachi","address3":"","address4":""}}
+{"postalCode":"8000036","addresses":[{"prefectureCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市門司区","address2":"柳原町","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Moji-ku, Kitakyushu-shi","address2":"Yanagiharamachi","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"1410022","prefCode":"13","ja":{"prefecture":"東京都","address1":"品川区","address2":"東五反田","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shinagawa-ku","address2":"Higashigotanda","address3":"","address4":""}}
+{"postalCode":"1410022","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"品川区","address2":"東五反田","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shinagawa-ku","address2":"Higashigotanda","address3":"","address4":""}}]}

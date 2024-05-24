@@ -1,1 +1,1 @@
-{"postalCode":"0995552","prefCode":"01","ja":{"prefecture":"北海道","address1":"紋別郡滝上町","address2":"滝下","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Takinoe-cho, Mombetsu-gun","address2":"Takishita","address3":"","address4":""}}
+{"postalCode":"0995552","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"紋別郡滝上町","address2":"滝下","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Takinoe-cho, Mombetsu-gun","address2":"Takishita","address3":"","address4":""}}]}

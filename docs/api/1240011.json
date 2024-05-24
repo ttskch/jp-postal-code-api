@@ -1,1 +1,1 @@
-{"postalCode":"1240011","prefCode":"13","ja":{"prefecture":"東京都","address1":"葛飾区","address2":"四つ木","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Katsushika-ku","address2":"Yotsugi","address3":"","address4":""}}
+{"postalCode":"1240011","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"葛飾区","address2":"四つ木","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Katsushika-ku","address2":"Yotsugi","address3":"","address4":""}}]}

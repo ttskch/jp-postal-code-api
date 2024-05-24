@@ -1,1 +1,1 @@
-{"postalCode":"0050008","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"真駒内","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Makomanai","address3":"","address4":""}}
+{"postalCode":"0050008","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"真駒内","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Makomanai","address3":"","address4":""}}]}

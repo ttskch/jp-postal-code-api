@@ -1,1 +1,1 @@
-{"postalCode":"8610155","prefCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市北区","address2":"植木町轟","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Kita-ku, Kumamoto-shi","address2":"Todoroki, Uekimachi","address3":"","address4":""}}
+{"postalCode":"8610155","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市北区","address2":"植木町轟","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Kita-ku, Kumamoto-shi","address2":"Todoroki, Uekimachi","address3":"","address4":""}}]}

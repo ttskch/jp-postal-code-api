@@ -1,1 +1,1 @@
-{"postalCode":"1450067","prefCode":"13","ja":{"prefecture":"東京都","address1":"大田区","address2":"雪谷大塚町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Ota-ku","address2":"Yukigayaotsukamachi","address3":"","address4":""}}
+{"postalCode":"1450067","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"大田区","address2":"雪谷大塚町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Ota-ku","address2":"Yukigayaotsukamachi","address3":"","address4":""}}]}

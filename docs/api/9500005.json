@@ -1,1 +1,1 @@
-{"postalCode":"9500005","prefCode":"15","ja":{"prefecture":"新潟県","address1":"新潟市東区","address2":"太平","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Higashi-ku, Niigata-shi","address2":"Taihei","address3":"","address4":""}}
+{"postalCode":"9500005","addresses":[{"prefectureCode":"15","ja":{"prefecture":"新潟県","address1":"新潟市東区","address2":"太平","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Higashi-ku, Niigata-shi","address2":"Taihei","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"1800014","prefCode":"13","ja":{"prefecture":"東京都","address1":"武蔵野市","address2":"関前","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Musashino-shi","address2":"Sekimae","address3":"","address4":""}}
+{"postalCode":"1800014","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"武蔵野市","address2":"関前","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Musashino-shi","address2":"Sekimae","address3":"","address4":""}}]}

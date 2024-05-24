@@ -1,1 +1,1 @@
-{"postalCode":"0800861","prefCode":"01","ja":{"prefecture":"北海道","address1":"帯広市","address2":"南の森東","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Obihiro-shi","address2":"Higashi, Minaminomori","address3":"","address4":""}}
+{"postalCode":"0800861","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"帯広市","address2":"南の森東","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Obihiro-shi","address2":"Higashi, Minaminomori","address3":"","address4":""}}]}

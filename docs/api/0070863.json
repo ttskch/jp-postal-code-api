@@ -1,1 +1,1 @@
-{"postalCode":"0070863","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市東区","address2":"伏古三条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Higashi-ku, Sapporo-shi","address2":"Fushiko 3-jo","address3":"","address4":""}}
+{"postalCode":"0070863","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市東区","address2":"伏古三条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Higashi-ku, Sapporo-shi","address2":"Fushiko 3-jo","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"8610901","prefCode":"43","ja":{"prefecture":"熊本県","address1":"玉名郡和水町","address2":"上和仁","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Nagomi-machi, Tamana-gun","address2":"Kamiwani","address3":"","address4":""}}
+{"postalCode":"8610901","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"玉名郡和水町","address2":"上和仁","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Nagomi-machi, Tamana-gun","address2":"Kamiwani","address3":"","address4":""}}]}

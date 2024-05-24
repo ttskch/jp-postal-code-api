@@ -1,1 +1,1 @@
-{"postalCode":"3300065","prefCode":"11","ja":{"prefecture":"埼玉県","address1":"さいたま市浦和区","address2":"神明","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Urawa-ku, Saitama-shi","address2":"Shimmei","address3":"","address4":""}}
+{"postalCode":"3300065","addresses":[{"prefectureCode":"11","ja":{"prefecture":"埼玉県","address1":"さいたま市浦和区","address2":"神明","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Urawa-ku, Saitama-shi","address2":"Shimmei","address3":"","address4":""}}]}

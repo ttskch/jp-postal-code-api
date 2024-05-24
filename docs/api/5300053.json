@@ -1,1 +1,1 @@
-{"postalCode":"5300053","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"末広町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Osaka-shi","address2":"Suehirocho","address3":"","address4":""}}
+{"postalCode":"5300053","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"末広町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Osaka-shi","address2":"Suehirocho","address3":"","address4":""}}]}

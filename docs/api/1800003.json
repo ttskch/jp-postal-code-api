@@ -1,1 +1,1 @@
-{"postalCode":"1800003","prefCode":"13","ja":{"prefecture":"東京都","address1":"武蔵野市","address2":"吉祥寺南町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Musashino-shi","address2":"Minamicho, Kichijoji","address3":"","address4":""}}
+{"postalCode":"1800003","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"武蔵野市","address2":"吉祥寺南町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Musashino-shi","address2":"Minamicho, Kichijoji","address3":"","address4":""}}]}

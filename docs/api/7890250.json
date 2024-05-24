@@ -1,1 +1,1 @@
-{"postalCode":"7890250","prefCode":"39","ja":{"prefecture":"高知県","address1":"長岡郡大豊町","address2":"黒石","address3":"","address4":""},"en":{"prefecture":"Kochi","address1":"Otoyo-cho, Nagaoka-gun","address2":"Kuroishi","address3":"","address4":""}}
+{"postalCode":"7890250","addresses":[{"prefectureCode":"39","ja":{"prefecture":"高知県","address1":"長岡郡大豊町","address2":"黒石","address3":"","address4":""},"en":{"prefecture":"Kochi","address1":"Otoyo-cho, Nagaoka-gun","address2":"Kuroishi","address3":"","address4":""}}]}

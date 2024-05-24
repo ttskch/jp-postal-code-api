@@ -1,1 +1,1 @@
-{"postalCode":"0612282","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"藤野二条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Fujino 2-jo","address3":"","address4":""}}
+{"postalCode":"0612282","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"藤野二条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Fujino 2-jo","address3":"","address4":""}}]}

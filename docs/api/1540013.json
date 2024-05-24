@@ -1,1 +1,1 @@
-{"postalCode":"1540013","prefCode":"13","ja":{"prefecture":"東京都","address1":"世田谷区","address2":"駒沢公園","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Setagaya-ku","address2":"Komazawakoen","address3":"","address4":""}}
+{"postalCode":"1540013","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"世田谷区","address2":"駒沢公園","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Setagaya-ku","address2":"Komazawakoen","address3":"","address4":""}}]}

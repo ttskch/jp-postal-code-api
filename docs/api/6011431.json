@@ -1,1 +1,1 @@
-{"postalCode":"6011431","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市伏見区","address2":"石田大受町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Fushimi-ku, Kyoto-shi","address2":"Oukecho, Ishida","address3":"","address4":""}}
+{"postalCode":"6011431","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市伏見区","address2":"石田大受町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Fushimi-ku, Kyoto-shi","address2":"Oukecho, Ishida","address3":"","address4":""}}]}

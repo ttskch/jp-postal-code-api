@@ -1,1 +1,1 @@
-{"postalCode":"7320062","prefCode":"34","ja":{"prefecture":"広島県","address1":"広島市東区","address2":"牛田早稲田","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Higashi-ku, Hiroshima-shi","address2":"Waseda, Ushita","address3":"","address4":""}}
+{"postalCode":"7320062","addresses":[{"prefectureCode":"34","ja":{"prefecture":"広島県","address1":"広島市東区","address2":"牛田早稲田","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Higashi-ku, Hiroshima-shi","address2":"Waseda, Ushita","address3":"","address4":""}}]}

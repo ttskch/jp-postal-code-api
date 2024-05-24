@@ -1,1 +1,1 @@
-{"postalCode":"9500949","prefCode":"15","ja":{"prefecture":"新潟県","address1":"新潟市中央区","address2":"桜木町","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Chuo-ku, Niigata-shi","address2":"Sakuragicho","address3":"","address4":""}}
+{"postalCode":"9500949","addresses":[{"prefectureCode":"15","ja":{"prefecture":"新潟県","address1":"新潟市中央区","address2":"桜木町","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Chuo-ku, Niigata-shi","address2":"Sakuragicho","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"2518560","prefCode":"14","ja":{"prefecture":"神奈川県","address1":"藤沢市","address2":"鵠沼神明","address3":"１丁目４番地２１号ＮＴＴコミュニケーションズ湘南藤沢ビル３Ｆ","address4":"株式会社 ジェイコム湘南"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"2518560","addresses":[{"prefectureCode":"14","ja":{"prefecture":"神奈川県","address1":"藤沢市","address2":"鵠沼神明","address3":"１丁目４番地２１号ＮＴＴコミュニケーションズ湘南藤沢ビル３Ｆ","address4":"株式会社 ジェイコム湘南"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

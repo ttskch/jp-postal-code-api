@@ -1,1 +1,1 @@
-{"postalCode":"0708510","prefCode":"01","ja":{"prefecture":"北海道","address1":"旭川市","address2":"五条通","address3":"８丁目ＮＴＴ５条ビル","address4":"（株） ＮＴＴ東日本北海道 １１６旭川センター"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"0708510","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"旭川市","address2":"五条通","address3":"８丁目ＮＴＴ５条ビル","address4":"（株） ＮＴＴ東日本北海道 １１６旭川センター"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

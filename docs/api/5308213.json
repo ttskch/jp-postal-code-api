@@ -1,1 +1,1 @@
-{"postalCode":"5308213","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"梅田","address3":"２丁目５番２５号ハービスＯＳＡＫＡ１９階","address4":"三菱ＵＦＪリサーチ＆コンサルティング 株式会社"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"5308213","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"梅田","address3":"２丁目５番２５号ハービスＯＳＡＫＡ１９階","address4":"三菱ＵＦＪリサーチ＆コンサルティング 株式会社"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

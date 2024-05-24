@@ -1,1 +1,1 @@
-{"postalCode":"5998252","prefCode":"27","ja":{"prefecture":"大阪府","address1":"堺市中区","address2":"楢葉","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Naka-ku, Sakai-shi","address2":"Naraba","address3":"","address4":""}}
+{"postalCode":"5998252","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"堺市中区","address2":"楢葉","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Naka-ku, Sakai-shi","address2":"Naraba","address3":"","address4":""}}]}

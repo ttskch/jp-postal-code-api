@@ -1,1 +1,1 @@
-{"postalCode":"2070004","prefCode":"13","ja":{"prefecture":"東京都","address1":"東大和市","address2":"清水","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Higashiyamato-shi","address2":"Shimizu","address3":"","address4":""}}
+{"postalCode":"2070004","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"東大和市","address2":"清水","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Higashiyamato-shi","address2":"Shimizu","address3":"","address4":""}}]}

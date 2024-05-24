@@ -1,1 +1,1 @@
-{"postalCode":"6500024","prefCode":"28","ja":{"prefecture":"兵庫県","address1":"神戸市中央区","address2":"海岸通","address3":"","address4":""},"en":{"prefecture":"Hyogo","address1":"Chuo-ku, Kobe-shi","address2":"Kaigandori","address3":"","address4":""}}
+{"postalCode":"6500024","addresses":[{"prefectureCode":"28","ja":{"prefecture":"兵庫県","address1":"神戸市中央区","address2":"海岸通","address3":"","address4":""},"en":{"prefecture":"Hyogo","address1":"Chuo-ku, Kobe-shi","address2":"Kaigandori","address3":"","address4":""}}]}

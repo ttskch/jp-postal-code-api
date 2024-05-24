@@ -1,1 +1,1 @@
-{"postalCode":"8000047","prefCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市門司区","address2":"藤松","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Moji-ku, Kitakyushu-shi","address2":"Fujimatsu","address3":"","address4":""}}
+{"postalCode":"8000047","addresses":[{"prefectureCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市門司区","address2":"藤松","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Moji-ku, Kitakyushu-shi","address2":"Fujimatsu","address3":"","address4":""}}]}

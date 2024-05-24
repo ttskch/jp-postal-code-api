@@ -1,1 +1,1 @@
-{"postalCode":"5900048","prefCode":"27","ja":{"prefecture":"大阪府","address1":"堺市堺区","address2":"一条通","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Sakai-ku, Sakai-shi","address2":"Ichijodori","address3":"","address4":""}}
+{"postalCode":"5900048","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"堺市堺区","address2":"一条通","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Sakai-ku, Sakai-shi","address2":"Ichijodori","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"3550110","prefCode":"11","ja":{"prefecture":"埼玉県","address1":"比企郡吉見町","address2":"東野","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Yoshimi-machi, Hiki-gun","address2":"Higashino","address3":"","address4":""}}
+{"postalCode":"3550110","addresses":[{"prefectureCode":"11","ja":{"prefecture":"埼玉県","address1":"比企郡吉見町","address2":"東野","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Yoshimi-machi, Hiki-gun","address2":"Higashino","address3":"","address4":""}}]}

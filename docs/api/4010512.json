@@ -1,1 +1,1 @@
-{"postalCode":"4010512","prefCode":"19","ja":{"prefecture":"山梨県","address1":"南都留郡忍野村","address2":"内野","address3":"","address4":""},"en":{"prefecture":"Yamanashi","address1":"Oshino-mura, Minamitsuru-gun","address2":"Uchino","address3":"","address4":""}}
+{"postalCode":"4010512","addresses":[{"prefectureCode":"19","ja":{"prefecture":"山梨県","address1":"南都留郡忍野村","address2":"内野","address3":"","address4":""},"en":{"prefecture":"Yamanashi","address1":"Oshino-mura, Minamitsuru-gun","address2":"Uchino","address3":"","address4":""}}]}

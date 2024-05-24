@@ -1,1 +1,1 @@
-{"postalCode":"6160011","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市西京区","address2":"嵐山樋ノ上町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Nishikyo-ku, Kyoto-shi","address2":"Hinokamicho, Arashiyama","address3":"","address4":""}}
+{"postalCode":"6160011","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市西京区","address2":"嵐山樋ノ上町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Nishikyo-ku, Kyoto-shi","address2":"Hinokamicho, Arashiyama","address3":"","address4":""}}]}

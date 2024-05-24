@@ -1,1 +1,1 @@
-{"postalCode":"6048185","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市中京区","address2":"車屋町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Nakagyo-ku, Kyoto-shi","address2":"Kurumayacho","address3":"","address4":""}}
+{"postalCode":"6048185","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市中京区","address2":"車屋町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Nakagyo-ku, Kyoto-shi","address2":"Kurumayacho","address3":"","address4":""}}]}

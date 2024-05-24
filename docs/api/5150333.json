@@ -1,1 +1,1 @@
-{"postalCode":"5150333","prefCode":"24","ja":{"prefecture":"三重県","address1":"多気郡明和町","address2":"坂本","address3":"","address4":""},"en":{"prefecture":"Mie","address1":"Meiwa-cho, Taki-gun","address2":"Sakamoto","address3":"","address4":""}}
+{"postalCode":"5150333","addresses":[{"prefectureCode":"24","ja":{"prefecture":"三重県","address1":"多気郡明和町","address2":"坂本","address3":"","address4":""},"en":{"prefecture":"Mie","address1":"Meiwa-cho, Taki-gun","address2":"Sakamoto","address3":"","address4":""}}]}

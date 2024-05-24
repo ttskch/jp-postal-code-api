@@ -1,1 +1,1 @@
-{"postalCode":"5350000","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市旭区","address2":"","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Asahi-ku, Osaka-shi","address2":"","address3":"","address4":""}}
+{"postalCode":"5350000","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市旭区","address2":"","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Asahi-ku, Osaka-shi","address2":"","address3":"","address4":""}}]}

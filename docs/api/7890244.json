@@ -1,1 +1,1 @@
-{"postalCode":"7890244","prefCode":"39","ja":{"prefecture":"高知県","address1":"長岡郡大豊町","address2":"桃原","address3":"","address4":""},"en":{"prefecture":"Kochi","address1":"Otoyo-cho, Nagaoka-gun","address2":"Momohara","address3":"","address4":""}}
+{"postalCode":"7890244","addresses":[{"prefectureCode":"39","ja":{"prefecture":"高知県","address1":"長岡郡大豊町","address2":"桃原","address3":"","address4":""},"en":{"prefecture":"Kochi","address1":"Otoyo-cho, Nagaoka-gun","address2":"Momohara","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"1028357","prefCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"三番町","address3":"１２番地","address4":"学校法人 大妻学院 大妻女子大学 大妻女子大学短期大学部 大妻中学校 大妻高等学校"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"1028357","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"三番町","address3":"１２番地","address4":"学校法人 大妻学院 大妻女子大学 大妻女子大学短期大学部 大妻中学校 大妻高等学校"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

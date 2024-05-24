@@ -1,1 +1,1 @@
-{"postalCode":"5340024","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市都島区","address2":"東野田町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Miyakojima-ku, Osaka-shi","address2":"Higashinodamachi","address3":"","address4":""}}
+{"postalCode":"5340024","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市都島区","address2":"東野田町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Miyakojima-ku, Osaka-shi","address2":"Higashinodamachi","address3":"","address4":""}}]}

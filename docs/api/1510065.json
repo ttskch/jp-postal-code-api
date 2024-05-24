@@ -1,1 +1,1 @@
-{"postalCode":"1510065","prefCode":"13","ja":{"prefecture":"東京都","address1":"渋谷区","address2":"大山町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shibuya-ku","address2":"Oyamacho","address3":"","address4":""}}
+{"postalCode":"1510065","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"渋谷区","address2":"大山町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shibuya-ku","address2":"Oyamacho","address3":"","address4":""}}]}

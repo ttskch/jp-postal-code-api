@@ -1,1 +1,1 @@
-{"postalCode":"9610001","prefCode":"07","ja":{"prefecture":"福島県","address1":"白河市","address2":"小田川","address3":"","address4":""},"en":{"prefecture":"Fukushima","address1":"Shirakawa-shi","address2":"Kotagawa","address3":"","address4":""}}
+{"postalCode":"9610001","addresses":[{"prefectureCode":"07","ja":{"prefecture":"福島県","address1":"白河市","address2":"小田川","address3":"","address4":""},"en":{"prefecture":"Fukushima","address1":"Shirakawa-shi","address2":"Kotagawa","address3":"","address4":""}}]}

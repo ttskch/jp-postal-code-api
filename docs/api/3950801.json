@@ -1,1 +1,1 @@
-{"postalCode":"3950801","prefCode":"20","ja":{"prefecture":"長野県","address1":"飯田市","address2":"鼎中平","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Iida-shi","address2":"Kanaenakadaira","address3":"","address4":""}}
+{"postalCode":"3950801","addresses":[{"prefectureCode":"20","ja":{"prefecture":"長野県","address1":"飯田市","address2":"鼎中平","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Iida-shi","address2":"Kanaenakadaira","address3":"","address4":""}}]}

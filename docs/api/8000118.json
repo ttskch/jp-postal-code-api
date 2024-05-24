@@ -1,1 +1,1 @@
-{"postalCode":"8000118","prefCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市門司区","address2":"吉志新町","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Moji-ku, Kitakyushu-shi","address2":"Kishishimmachi","address3":"","address4":""}}
+{"postalCode":"8000118","addresses":[{"prefectureCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市門司区","address2":"吉志新町","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Moji-ku, Kitakyushu-shi","address2":"Kishishimmachi","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"9550011","prefCode":"15","ja":{"prefecture":"新潟県","address1":"三条市","address2":"白山新田","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Sanjo-shi","address2":"Shirayamashinden","address3":"","address4":""}}
+{"postalCode":"9550011","addresses":[{"prefectureCode":"15","ja":{"prefecture":"新潟県","address1":"三条市","address2":"白山新田","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Sanjo-shi","address2":"Shirayamashinden","address3":"","address4":""}}]}

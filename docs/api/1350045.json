@@ -1,1 +1,1 @@
-{"postalCode":"1350045","prefCode":"13","ja":{"prefecture":"東京都","address1":"江東区","address2":"古石場","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Koto-ku","address2":"Furuishiba","address3":"","address4":""}}
+{"postalCode":"1350045","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"江東区","address2":"古石場","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Koto-ku","address2":"Furuishiba","address3":"","address4":""}}]}

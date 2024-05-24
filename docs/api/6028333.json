@@ -1,1 +1,1 @@
-{"postalCode":"6028333","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市上京区","address2":"三条殿町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kamigyo-ku, Kyoto-shi","address2":"Sanjodencho","address3":"","address4":""}}
+{"postalCode":"6028333","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市上京区","address2":"三条殿町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kamigyo-ku, Kyoto-shi","address2":"Sanjodencho","address3":"","address4":""}}]}

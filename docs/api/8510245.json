@@ -1,1 +1,1 @@
-{"postalCode":"8510245","prefCode":"42","ja":{"prefecture":"長崎県","address1":"長崎市","address2":"千々町","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Nagasaki-shi","address2":"Chijimachi","address3":"","address4":""}}
+{"postalCode":"8510245","addresses":[{"prefectureCode":"42","ja":{"prefecture":"長崎県","address1":"長崎市","address2":"千々町","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Nagasaki-shi","address2":"Chijimachi","address3":"","address4":""}}]}

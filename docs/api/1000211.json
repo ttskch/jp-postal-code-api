@@ -1,1 +1,1 @@
-{"postalCode":"1000211","prefCode":"13","ja":{"prefecture":"東京都","address1":"大島町","address2":"差木地","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Oshima-machi","address2":"Sashikiji","address3":"","address4":""}}
+{"postalCode":"1000211","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"大島町","address2":"差木地","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Oshima-machi","address2":"Sashikiji","address3":"","address4":""}}]}

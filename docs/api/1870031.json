@@ -1,1 +1,1 @@
-{"postalCode":"1870031","prefCode":"13","ja":{"prefecture":"東京都","address1":"小平市","address2":"小川東町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Kodaira-shi","address2":"Higashicho, Ogawa","address3":"","address4":""}}
+{"postalCode":"1870031","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"小平市","address2":"小川東町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Kodaira-shi","address2":"Higashicho, Ogawa","address3":"","address4":""}}]}

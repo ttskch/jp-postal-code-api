@@ -1,1 +1,1 @@
-{"postalCode":"1940011","prefCode":"13","ja":{"prefecture":"東京都","address1":"町田市","address2":"成瀬が丘","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Machida-shi","address2":"Narusegaoka","address3":"","address4":""}}
+{"postalCode":"1940011","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"町田市","address2":"成瀬が丘","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Machida-shi","address2":"Narusegaoka","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"7230005","prefCode":"34","ja":{"prefecture":"広島県","address1":"三原市","address2":"桜山町","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Mihara-shi","address2":"Sakurayamacho","address3":"","address4":""}}
+{"postalCode":"7230005","addresses":[{"prefectureCode":"34","ja":{"prefecture":"広島県","address1":"三原市","address2":"桜山町","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Mihara-shi","address2":"Sakurayamacho","address3":"","address4":""}}]}

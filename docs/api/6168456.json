@@ -1,1 +1,1 @@
-{"postalCode":"6168456","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市右京区","address2":"嵯峨清滝月ノ輪町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Ukyo-ku, Kyoto-shi","address2":"Tsukinowacho, Sagakiyotaki","address3":"","address4":""}}
+{"postalCode":"6168456","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市右京区","address2":"嵯峨清滝月ノ輪町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Ukyo-ku, Kyoto-shi","address2":"Tsukinowacho, Sagakiyotaki","address3":"","address4":""}}]}

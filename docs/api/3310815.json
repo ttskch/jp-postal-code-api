@@ -1,1 +1,1 @@
-{"postalCode":"3310815","prefCode":"11","ja":{"prefecture":"埼玉県","address1":"さいたま市北区","address2":"大成町","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Kita-ku, Saitama-shi","address2":"Onaricho","address3":"","address4":""}}
+{"postalCode":"3310815","addresses":[{"prefectureCode":"11","ja":{"prefecture":"埼玉県","address1":"さいたま市北区","address2":"大成町","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Kita-ku, Saitama-shi","address2":"Onaricho","address3":"","address4":""}}]}

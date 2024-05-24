@@ -1,1 +1,1 @@
-{"postalCode":"7380001","prefCode":"34","ja":{"prefecture":"広島県","address1":"廿日市市","address2":"佐方","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Hatsukaichi-shi","address2":"Sagata","address3":"","address4":""}}
+{"postalCode":"7380001","addresses":[{"prefectureCode":"34","ja":{"prefecture":"広島県","address1":"廿日市市","address2":"佐方","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Hatsukaichi-shi","address2":"Sagata","address3":"","address4":""}}]}

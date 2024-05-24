@@ -1,1 +1,1 @@
-{"postalCode":"6010131","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市北区","address2":"小野下ノ町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kita-ku, Kyoto-shi","address2":"Shimonocho, Ono","address3":"","address4":""}}
+{"postalCode":"6010131","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市北区","address2":"小野下ノ町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kita-ku, Kyoto-shi","address2":"Shimonocho, Ono","address3":"","address4":""}}]}

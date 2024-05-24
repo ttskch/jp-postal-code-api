@@ -1,1 +1,1 @@
-{"postalCode":"7500311","prefCode":"35","ja":{"prefecture":"山口県","address1":"下関市","address2":"菊川町上大野","address3":"","address4":""},"en":{"prefecture":"Yamaguchi","address1":"Shimonoseki-shi","address2":"Kamiono, Kikugawacho","address3":"","address4":""}}
+{"postalCode":"7500311","addresses":[{"prefectureCode":"35","ja":{"prefecture":"山口県","address1":"下関市","address2":"菊川町上大野","address3":"","address4":""},"en":{"prefecture":"Yamaguchi","address1":"Shimonoseki-shi","address2":"Kamiono, Kikugawacho","address3":"","address4":""}}]}

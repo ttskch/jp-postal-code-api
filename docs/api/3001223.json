@@ -1,1 +1,1 @@
-{"postalCode":"3001223","prefCode":"08","ja":{"prefecture":"茨城県","address1":"牛久市","address2":"城中町","address3":"","address4":""},"en":{"prefecture":"Ibaraki","address1":"Ushiku-shi","address2":"Jochucho","address3":"","address4":""}}
+{"postalCode":"3001223","addresses":[{"prefectureCode":"08","ja":{"prefecture":"茨城県","address1":"牛久市","address2":"城中町","address3":"","address4":""},"en":{"prefecture":"Ibaraki","address1":"Ushiku-shi","address2":"Jochucho","address3":"","address4":""}}]}

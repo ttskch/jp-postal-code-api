@@ -1,1 +1,1 @@
-{"postalCode":"5360005","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市城東区","address2":"中央","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Joto-ku, Osaka-shi","address2":"Chuo","address3":"","address4":""}}
+{"postalCode":"5360005","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市城東区","address2":"中央","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Joto-ku, Osaka-shi","address2":"Chuo","address3":"","address4":""}}]}

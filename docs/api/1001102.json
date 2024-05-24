@@ -1,1 +1,1 @@
-{"postalCode":"1001102","prefCode":"13","ja":{"prefecture":"東京都","address1":"三宅島三宅村","address2":"伊豆","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Miyakejima Miyake Mura","address2":"Izu","address3":"","address4":""}}
+{"postalCode":"1001102","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"三宅島三宅村","address2":"伊豆","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Miyakejima Miyake Mura","address2":"Izu","address3":"","address4":""}}]}

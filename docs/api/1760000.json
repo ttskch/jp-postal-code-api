@@ -1,1 +1,1 @@
-{"postalCode":"1760000","prefCode":"13","ja":{"prefecture":"東京都","address1":"練馬区","address2":"","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Nerima-ku","address2":"","address3":"","address4":""}}
+{"postalCode":"1760000","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"練馬区","address2":"","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Nerima-ku","address2":"","address3":"","address4":""}}]}

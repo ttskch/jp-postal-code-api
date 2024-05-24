@@ -1,1 +1,1 @@
-{"postalCode":"1600023","prefCode":"13","ja":{"prefecture":"東京都","address1":"新宿区","address2":"西新宿","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shinjuku-ku","address2":"Nishishinjuku ","address3":"","address4":""}}
+{"postalCode":"1600023","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"新宿区","address2":"西新宿","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shinjuku-ku","address2":"Nishishinjuku ","address3":"","address4":""}}]}

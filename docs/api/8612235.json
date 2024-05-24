@@ -1,1 +1,1 @@
-{"postalCode":"8612235","prefCode":"43","ja":{"prefecture":"熊本県","address1":"上益城郡益城町","address2":"福富","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Mashiki-machi, Kamimashiki-gun","address2":"Fukudomi","address3":"","address4":""}}
+{"postalCode":"8612235","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"上益城郡益城町","address2":"福富","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Mashiki-machi, Kamimashiki-gun","address2":"Fukudomi","address3":"","address4":""}}]}

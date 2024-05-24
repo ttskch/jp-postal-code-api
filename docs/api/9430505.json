@@ -1,1 +1,1 @@
-{"postalCode":"9430505","prefCode":"15","ja":{"prefecture":"新潟県","address1":"上越市","address2":"清里区東福島","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Joetsu-shi","address2":"Higashifukushima, Kiyosatoku","address3":"","address4":""}}
+{"postalCode":"9430505","addresses":[{"prefectureCode":"15","ja":{"prefecture":"新潟県","address1":"上越市","address2":"清里区東福島","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Joetsu-shi","address2":"Higashifukushima, Kiyosatoku","address3":"","address4":""}}]}

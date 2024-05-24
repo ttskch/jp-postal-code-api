@@ -1,1 +1,1 @@
-{"postalCode":"0028031","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市北区","address2":"西茨戸一条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kita-ku, Sapporo-shi","address2":"Nishibarato 1-jo","address3":"","address4":""}}
+{"postalCode":"0028031","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市北区","address2":"西茨戸一条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kita-ku, Sapporo-shi","address2":"Nishibarato 1-jo","address3":"","address4":""}}]}

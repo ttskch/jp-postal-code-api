@@ -1,1 +1,1 @@
-{"postalCode":"0700022","prefCode":"01","ja":{"prefecture":"北海道","address1":"旭川市","address2":"東２条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Asahikawa-shi","address2":"Higashi2-jo","address3":"","address4":""}}
+{"postalCode":"0700022","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"旭川市","address2":"東２条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Asahikawa-shi","address2":"Higashi2-jo","address3":"","address4":""}}]}

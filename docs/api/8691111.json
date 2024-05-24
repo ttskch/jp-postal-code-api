@@ -1,1 +1,1 @@
-{"postalCode":"8691111","prefCode":"43","ja":{"prefecture":"熊本県","address1":"菊池郡菊陽町","address2":"武蔵ヶ丘","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Kikuyo-machi, Kikuchi-gun","address2":"Musashigaoka","address3":"","address4":""}}
+{"postalCode":"8691111","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"菊池郡菊陽町","address2":"武蔵ヶ丘","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Kikuyo-machi, Kikuchi-gun","address2":"Musashigaoka","address3":"","address4":""}}]}

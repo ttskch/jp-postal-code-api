@@ -1,1 +1,1 @@
-{"postalCode":"5610851","prefCode":"27","ja":{"prefecture":"大阪府","address1":"豊中市","address2":"服部元町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Toyonaka-shi","address2":"Motomachi, Hattori","address3":"","address4":""}}
+{"postalCode":"5610851","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"豊中市","address2":"服部元町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Toyonaka-shi","address2":"Motomachi, Hattori","address3":"","address4":""}}]}

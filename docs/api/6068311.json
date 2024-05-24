@@ -1,1 +1,1 @@
-{"postalCode":"6068311","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"吉田神楽岡町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Kaguraokacho, Yoshida","address3":"","address4":""}}
+{"postalCode":"6068311","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"吉田神楽岡町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Kaguraokacho, Yoshida","address3":"","address4":""}}]}

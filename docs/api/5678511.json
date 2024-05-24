@@ -1,1 +1,1 @@
-{"postalCode":"5678511","prefCode":"27","ja":{"prefecture":"大阪府","address1":"茨木市","address2":"高田町","address3":"１１−１８","address4":"医療法人 恒昭会 藍野病院"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"5678511","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"茨木市","address2":"高田町","address3":"１１−１８","address4":"医療法人 恒昭会 藍野病院"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

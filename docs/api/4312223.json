@@ -1,1 +1,1 @@
-{"postalCode":"4312223","prefCode":"22","ja":{"prefecture":"静岡県","address1":"浜松市北区","address2":"引佐町栃窪","address3":"","address4":""},"en":{"prefecture":"Shizuoka","address1":"Kita-ku, Hamamatsu-shi","address2":"Tochikubo, Inasacho","address3":"","address4":""}}
+{"postalCode":"4312223","addresses":[{"prefectureCode":"22","ja":{"prefecture":"静岡県","address1":"浜松市北区","address2":"引佐町栃窪","address3":"","address4":""},"en":{"prefecture":"Shizuoka","address1":"Kita-ku, Hamamatsu-shi","address2":"Tochikubo, Inasacho","address3":"","address4":""}}]}

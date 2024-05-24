@@ -1,1 +1,1 @@
-{"postalCode":"0430505","prefCode":"01","ja":{"prefecture":"北海道","address1":"久遠郡せたな町","address2":"大成区本陣","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Setana-cho, Kudo-gun","address2":"Honjin, Taiseiku","address3":"","address4":""}}
+{"postalCode":"0430505","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"久遠郡せたな町","address2":"大成区本陣","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Setana-cho, Kudo-gun","address2":"Honjin, Taiseiku","address3":"","address4":""}}]}

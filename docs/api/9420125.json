@@ -1,1 +1,1 @@
-{"postalCode":"9420125","prefCode":"15","ja":{"prefecture":"新潟県","address1":"上越市","address2":"頸城区飯田","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Joetsu-shi","address2":"Iida, Kubikiku","address3":"","address4":""}}
+{"postalCode":"9420125","addresses":[{"prefectureCode":"15","ja":{"prefecture":"新潟県","address1":"上越市","address2":"頸城区飯田","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Joetsu-shi","address2":"Iida, Kubikiku","address3":"","address4":""}}]}

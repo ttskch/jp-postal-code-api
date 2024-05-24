@@ -1,1 +1,1 @@
-{"postalCode":"1150054","prefCode":"13","ja":{"prefecture":"東京都","address1":"北区","address2":"桐ケ丘","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Kita-ku","address2":"Kirigaoka","address3":"","address4":""}}
+{"postalCode":"1150054","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"北区","address2":"桐ケ丘","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Kita-ku","address2":"Kirigaoka","address3":"","address4":""}}]}

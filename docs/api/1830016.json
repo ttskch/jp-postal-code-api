@@ -1,1 +1,1 @@
-{"postalCode":"1830016","prefCode":"13","ja":{"prefecture":"東京都","address1":"府中市","address2":"八幡町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Fuchu-shi","address2":"Hachimancho","address3":"","address4":""}}
+{"postalCode":"1830016","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"府中市","address2":"八幡町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Fuchu-shi","address2":"Hachimancho","address3":"","address4":""}}]}

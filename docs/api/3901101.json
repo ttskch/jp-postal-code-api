@@ -1,1 +1,1 @@
-{"postalCode":"3901101","prefCode":"20","ja":{"prefecture":"長野県","address1":"東筑摩郡朝日村","address2":"西洗馬","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Asahi-mura, Higashichikuma-gun","address2":"Nishiseba","address3":"","address4":""}}
+{"postalCode":"3901101","addresses":[{"prefectureCode":"20","ja":{"prefecture":"長野県","address1":"東筑摩郡朝日村","address2":"西洗馬","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Asahi-mura, Higashichikuma-gun","address2":"Nishiseba","address3":"","address4":""}}]}

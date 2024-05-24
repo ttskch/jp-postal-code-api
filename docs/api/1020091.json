@@ -1,1 +1,1 @@
-{"postalCode":"1020091","prefCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"北の丸公園","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Chiyoda-ku","address2":"Kitanomarukoen","address3":"","address4":""}}
+{"postalCode":"1020091","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"北の丸公園","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Chiyoda-ku","address2":"Kitanomarukoen","address3":"","address4":""}}]}

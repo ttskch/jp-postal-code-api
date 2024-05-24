@@ -1,1 +1,1 @@
-{"postalCode":"0711173","prefCode":"01","ja":{"prefecture":"北海道","address1":"旭川市","address2":"江丹別町中央","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Asahikawa-shi","address2":"Chuo, Etambetsucho","address3":"","address4":""}}
+{"postalCode":"0711173","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"旭川市","address2":"江丹別町中央","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Asahikawa-shi","address2":"Chuo, Etambetsucho","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"7890252","prefCode":"39","ja":{"prefecture":"高知県","address1":"長岡郡大豊町","address2":"上東","address3":"","address4":""},"en":{"prefecture":"Kochi","address1":"Otoyo-cho, Nagaoka-gun","address2":"Kamihigashi","address3":"","address4":""}}
+{"postalCode":"7890252","addresses":[{"prefectureCode":"39","ja":{"prefecture":"高知県","address1":"長岡郡大豊町","address2":"上東","address3":"","address4":""},"en":{"prefecture":"Kochi","address1":"Otoyo-cho, Nagaoka-gun","address2":"Kamihigashi","address3":"","address4":""}}]}

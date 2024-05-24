@@ -1,1 +1,1 @@
-{"postalCode":"5330012","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市東淀川区","address2":"大道南","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Higashiyodogawa-ku, Osaka-shi","address2":"Daidominami","address3":"","address4":""}}
+{"postalCode":"5330012","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市東淀川区","address2":"大道南","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Higashiyodogawa-ku, Osaka-shi","address2":"Daidominami","address3":"","address4":""}}]}

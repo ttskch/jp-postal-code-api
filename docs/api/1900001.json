@@ -1,1 +1,1 @@
-{"postalCode":"1900001","prefCode":"13","ja":{"prefecture":"東京都","address1":"立川市","address2":"若葉町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Tachikawa-shi","address2":"Wakabacho","address3":"","address4":""}}
+{"postalCode":"1900001","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"立川市","address2":"若葉町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Tachikawa-shi","address2":"Wakabacho","address3":"","address4":""}}]}

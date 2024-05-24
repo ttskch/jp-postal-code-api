@@ -1,1 +1,1 @@
-{"postalCode":"8890901","prefCode":"45","ja":{"prefecture":"宮崎県","address1":"東臼杵郡美郷町","address2":"北郷宇納間","address3":"","address4":""},"en":{"prefecture":"Miyazaki","address1":"Misato-cho, Higashiusuki-gun","address2":"Unama, Kitago","address3":"","address4":""}}
+{"postalCode":"8890901","addresses":[{"prefectureCode":"45","ja":{"prefecture":"宮崎県","address1":"東臼杵郡美郷町","address2":"北郷宇納間","address3":"","address4":""},"en":{"prefecture":"Miyazaki","address1":"Misato-cho, Higashiusuki-gun","address2":"Unama, Kitago","address3":"","address4":""}}]}

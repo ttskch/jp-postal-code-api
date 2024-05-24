@@ -1,1 +1,1 @@
-{"postalCode":"8691234","prefCode":"43","ja":{"prefecture":"熊本県","address1":"菊池郡大津町","address2":"引水","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Ozu-machi, Kikuchi-gun","address2":"Hikinomizu","address3":"","address4":""}}
+{"postalCode":"8691234","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"菊池郡大津町","address2":"引水","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Ozu-machi, Kikuchi-gun","address2":"Hikinomizu","address3":"","address4":""}}]}

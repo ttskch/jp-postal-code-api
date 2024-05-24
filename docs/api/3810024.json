@@ -1,1 +1,1 @@
-{"postalCode":"3810024","prefCode":"20","ja":{"prefecture":"長野県","address1":"長野市","address2":"南長池","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Nagano-shi","address2":"Minaminagaike","address3":"","address4":""}}
+{"postalCode":"3810024","addresses":[{"prefectureCode":"20","ja":{"prefecture":"長野県","address1":"長野市","address2":"南長池","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Nagano-shi","address2":"Minaminagaike","address3":"","address4":""}}]}

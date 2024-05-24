@@ -1,1 +1,1 @@
-{"postalCode":"1000400","prefCode":"13","ja":{"prefecture":"東京都","address1":"新島村","address2":"","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Niijima-mura","address2":"","address3":"","address4":""}}
+{"postalCode":"1000400","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"新島村","address2":"","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Niijima-mura","address2":"","address3":"","address4":""}}]}

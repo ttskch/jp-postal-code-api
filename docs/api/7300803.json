@@ -1,1 +1,1 @@
-{"postalCode":"7300803","prefCode":"34","ja":{"prefecture":"広島県","address1":"広島市中区","address2":"広瀬北町","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Naka-ku, Hiroshima-shi","address2":"Hirosekitamachi","address3":"","address4":""}}
+{"postalCode":"7300803","addresses":[{"prefectureCode":"34","ja":{"prefecture":"広島県","address1":"広島市中区","address2":"広瀬北町","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Naka-ku, Hiroshima-shi","address2":"Hirosekitamachi","address3":"","address4":""}}]}

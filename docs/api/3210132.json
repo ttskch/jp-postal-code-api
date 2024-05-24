@@ -1,1 +1,1 @@
-{"postalCode":"3210132","prefCode":"09","ja":{"prefecture":"栃木県","address1":"宇都宮市","address2":"雀の宮","address3":"","address4":""},"en":{"prefecture":"Tochigi","address1":"Utsunomiya-shi","address2":"Suzumenomiya","address3":"","address4":""}}
+{"postalCode":"3210132","addresses":[{"prefectureCode":"09","ja":{"prefecture":"栃木県","address1":"宇都宮市","address2":"雀の宮","address3":"","address4":""},"en":{"prefecture":"Tochigi","address1":"Utsunomiya-shi","address2":"Suzumenomiya","address3":"","address4":""}}]}

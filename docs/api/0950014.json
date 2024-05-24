@@ -1,1 +1,1 @@
-{"postalCode":"0950014","prefCode":"01","ja":{"prefecture":"北海道","address1":"士別市","address2":"東四条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Shibetsu-shi","address2":"Higashi4-jo","address3":"","address4":""}}
+{"postalCode":"0950014","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"士別市","address2":"東四条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Shibetsu-shi","address2":"Higashi4-jo","address3":"","address4":""}}]}

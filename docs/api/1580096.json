@@ -1,1 +1,1 @@
-{"postalCode":"1580096","prefCode":"13","ja":{"prefecture":"東京都","address1":"世田谷区","address2":"玉川台","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Setagaya-ku","address2":"Tamagawadai","address3":"","address4":""}}
+{"postalCode":"1580096","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"世田谷区","address2":"玉川台","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Setagaya-ku","address2":"Tamagawadai","address3":"","address4":""}}]}

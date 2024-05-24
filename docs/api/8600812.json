@@ -1,1 +1,1 @@
-{"postalCode":"8600812","prefCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市中央区","address2":"南熊本","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Chuo-ku, Kumamoto-shi","address2":"Minamikumamoto","address3":"","address4":""}}
+{"postalCode":"8600812","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市中央区","address2":"南熊本","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Chuo-ku, Kumamoto-shi","address2":"Minamikumamoto","address3":"","address4":""}}]}

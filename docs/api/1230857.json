@@ -1,1 +1,1 @@
-{"postalCode":"1230857","prefCode":"13","ja":{"prefecture":"東京都","address1":"足立区","address2":"本木北町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Adachi-ku","address2":"Kitamachi, Motoki","address3":"","address4":""}}
+{"postalCode":"1230857","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"足立区","address2":"本木北町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Adachi-ku","address2":"Kitamachi, Motoki","address3":"","address4":""}}]}

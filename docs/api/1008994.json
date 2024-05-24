@@ -1,1 +1,1 @@
-{"postalCode":"1008994","prefCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"丸の内","address3":"２丁目７−２","address4":"東京中央郵便局"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"1008994","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"丸の内","address3":"２丁目７−２","address4":"東京中央郵便局"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

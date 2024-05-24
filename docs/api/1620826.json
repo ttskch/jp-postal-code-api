@@ -1,1 +1,1 @@
-{"postalCode":"1620826","prefCode":"13","ja":{"prefecture":"東京都","address1":"新宿区","address2":"市谷船河原町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shinjuku-ku","address2":"Ichigayafunagawaramachi","address3":"","address4":""}}
+{"postalCode":"1620826","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"新宿区","address2":"市谷船河原町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shinjuku-ku","address2":"Ichigayafunagawaramachi","address3":"","address4":""}}]}

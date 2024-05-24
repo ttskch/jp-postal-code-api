@@ -1,1 +1,1 @@
-{"postalCode":"0630021","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市西区","address2":"平和一条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Nishi-ku, Sapporo-shi","address2":"Heiwa 1-jo","address3":"","address4":""}}
+{"postalCode":"0630021","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市西区","address2":"平和一条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Nishi-ku, Sapporo-shi","address2":"Heiwa 1-jo","address3":"","address4":""}}]}

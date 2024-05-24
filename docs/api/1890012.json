@@ -1,1 +1,1 @@
-{"postalCode":"1890012","prefCode":"13","ja":{"prefecture":"東京都","address1":"東村山市","address2":"萩山町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Higashimurayama-shi","address2":"Hagiyamacho","address3":"","address4":""}}
+{"postalCode":"1890012","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"東村山市","address2":"萩山町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Higashimurayama-shi","address2":"Hagiyamacho","address3":"","address4":""}}]}

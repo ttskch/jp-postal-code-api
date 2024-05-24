@@ -1,1 +1,1 @@
-{"postalCode":"1120005","prefCode":"13","ja":{"prefecture":"東京都","address1":"文京区","address2":"水道","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Bunkyo-ku","address2":"Suido","address3":"","address4":""}}
+{"postalCode":"1120005","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"文京区","address2":"水道","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Bunkyo-ku","address2":"Suido","address3":"","address4":""}}]}

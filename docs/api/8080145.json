@@ -1,1 +1,1 @@
-{"postalCode":"8080145","prefCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市若松区","address2":"高須南","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Wakamatsu-ku, Kitakyushu-shi","address2":"Minami, Takasu","address3":"","address4":""}}
+{"postalCode":"8080145","addresses":[{"prefectureCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市若松区","address2":"高須南","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Wakamatsu-ku, Kitakyushu-shi","address2":"Minami, Takasu","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"1418576","prefCode":"13","ja":{"prefecture":"東京都","address1":"品川区","address2":"大崎","address3":"１丁目６−３大崎ニューシティ３号館７Ｆ","address4":"日立オムロンターミナルソリューションズ 株式会社"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"1418576","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"品川区","address2":"大崎","address3":"１丁目６−３大崎ニューシティ３号館７Ｆ","address4":"日立オムロンターミナルソリューションズ 株式会社"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

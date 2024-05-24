@@ -1,1 +1,1 @@
-{"postalCode":"4608204","prefCode":"23","ja":{"prefecture":"愛知県","address1":"名古屋市中区","address2":"栄","address3":"四丁目６番１５号フォーティーンヒルズセンタービル６Ｆ","address4":"社団法人 日本電気協会 中部支部"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"4608204","addresses":[{"prefectureCode":"23","ja":{"prefecture":"愛知県","address1":"名古屋市中区","address2":"栄","address3":"四丁目６番１５号フォーティーンヒルズセンタービル６Ｆ","address4":"社団法人 日本電気協会 中部支部"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

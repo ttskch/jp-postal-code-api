@@ -1,1 +1,1 @@
-{"postalCode":"8550879","prefCode":"42","ja":{"prefecture":"長崎県","address1":"島原市","address2":"平成町","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Shimabara-shi","address2":"Heiseimachi","address3":"","address4":""}}
+{"postalCode":"8550879","addresses":[{"prefectureCode":"42","ja":{"prefecture":"長崎県","address1":"島原市","address2":"平成町","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Shimabara-shi","address2":"Heiseimachi","address3":"","address4":""}}]}

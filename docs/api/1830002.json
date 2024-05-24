@@ -1,1 +1,1 @@
-{"postalCode":"1830002","prefCode":"13","ja":{"prefecture":"東京都","address1":"府中市","address2":"多磨町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Fuchu-shi","address2":"Tamacho","address3":"","address4":""}}
+{"postalCode":"1830002","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"府中市","address2":"多磨町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Fuchu-shi","address2":"Tamacho","address3":"","address4":""}}]}

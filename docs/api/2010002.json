@@ -1,1 +1,1 @@
-{"postalCode":"2010002","prefCode":"13","ja":{"prefecture":"東京都","address1":"狛江市","address2":"東野川","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Komae-shi","address2":"Higashinogawa","address3":"","address4":""}}
+{"postalCode":"2010002","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"狛江市","address2":"東野川","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Komae-shi","address2":"Higashinogawa","address3":"","address4":""}}]}

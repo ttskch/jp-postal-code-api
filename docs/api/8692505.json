@@ -1,1 +1,1 @@
-{"postalCode":"8692505","prefCode":"43","ja":{"prefecture":"熊本県","address1":"阿蘇郡小国町","address2":"北里","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Oguni-machi, Aso-gun","address2":"Kitazato","address3":"","address4":""}}
+{"postalCode":"8692505","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"阿蘇郡小国町","address2":"北里","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Oguni-machi, Aso-gun","address2":"Kitazato","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"0591365","prefCode":"01","ja":{"prefecture":"北海道","address1":"苫小牧市","address2":"植苗","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Tomakomai-shi","address2":"Uenae","address3":"","address4":""}}
+{"postalCode":"0591365","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"苫小牧市","address2":"植苗","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Tomakomai-shi","address2":"Uenae","address3":"","address4":""}}]}

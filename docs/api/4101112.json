@@ -1,1 +1,1 @@
-{"postalCode":"4101112","prefCode":"22","ja":{"prefecture":"静岡県","address1":"裾野市","address2":"公文名","address3":"","address4":""},"en":{"prefecture":"Shizuoka","address1":"Susono-shi","address2":"Kumomyo","address3":"","address4":""}}
+{"postalCode":"4101112","addresses":[{"prefectureCode":"22","ja":{"prefecture":"静岡県","address1":"裾野市","address2":"公文名","address3":"","address4":""},"en":{"prefecture":"Shizuoka","address1":"Susono-shi","address2":"Kumomyo","address3":"","address4":""}}]}

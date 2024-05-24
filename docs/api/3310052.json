@@ -1,1 +1,1 @@
-{"postalCode":"3310052","prefCode":"11","ja":{"prefecture":"埼玉県","address1":"さいたま市西区","address2":"三橋","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Nishi-ku, Saitama-shi","address2":"Mihashi","address3":"","address4":""}}
+{"postalCode":"3310052","addresses":[{"prefectureCode":"11","ja":{"prefecture":"埼玉県","address1":"さいたま市西区","address2":"三橋","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Nishi-ku, Saitama-shi","address2":"Mihashi","address3":"","address4":""}}]}

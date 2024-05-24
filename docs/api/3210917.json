@@ -1,1 +1,1 @@
-{"postalCode":"3210917","prefCode":"09","ja":{"prefecture":"栃木県","address1":"宇都宮市","address2":"西刑部町","address3":"","address4":""},"en":{"prefecture":"Tochigi","address1":"Utsunomiya-shi","address2":"Nishiosakabemachi","address3":"","address4":""}}
+{"postalCode":"3210917","addresses":[{"prefectureCode":"09","ja":{"prefecture":"栃木県","address1":"宇都宮市","address2":"西刑部町","address3":"","address4":""},"en":{"prefecture":"Tochigi","address1":"Utsunomiya-shi","address2":"Nishiosakabemachi","address3":"","address4":""}}]}

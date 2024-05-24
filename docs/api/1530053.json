@@ -1,1 +1,1 @@
-{"postalCode":"1530053","prefCode":"13","ja":{"prefecture":"東京都","address1":"目黒区","address2":"五本木","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Meguro-ku","address2":"Gohongi","address3":"","address4":""}}
+{"postalCode":"1530053","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"目黒区","address2":"五本木","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Meguro-ku","address2":"Gohongi","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"2070023","prefCode":"13","ja":{"prefecture":"東京都","address1":"東大和市","address2":"上北台","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Higashiyamato-shi","address2":"Kamikitadai","address3":"","address4":""}}
+{"postalCode":"2070023","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"東大和市","address2":"上北台","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Higashiyamato-shi","address2":"Kamikitadai","address3":"","address4":""}}]}

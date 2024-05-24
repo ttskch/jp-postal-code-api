@@ -1,1 +1,1 @@
-{"postalCode":"5450005","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市阿倍野区","address2":"三明町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Abeno-ku, Osaka-shi","address2":"Sammeicho","address3":"","address4":""}}
+{"postalCode":"5450005","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市阿倍野区","address2":"三明町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Abeno-ku, Osaka-shi","address2":"Sammeicho","address3":"","address4":""}}]}

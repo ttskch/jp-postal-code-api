@@ -1,1 +1,1 @@
-{"postalCode":"5510021","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市大正区","address2":"南恩加島","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Taisho-ku, Osaka-shi","address2":"Minamiokajima","address3":"","address4":""}}
+{"postalCode":"5510021","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市大正区","address2":"南恩加島","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Taisho-ku, Osaka-shi","address2":"Minamiokajima","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"1160012","prefCode":"13","ja":{"prefecture":"東京都","address1":"荒川区","address2":"東尾久","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Arakawa-ku","address2":"Higashiogu","address3":"","address4":""}}
+{"postalCode":"1160012","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"荒川区","address2":"東尾久","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Arakawa-ku","address2":"Higashiogu","address3":"","address4":""}}]}

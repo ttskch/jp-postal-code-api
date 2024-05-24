@@ -1,1 +1,1 @@
-{"postalCode":"6020004","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市上京区","address2":"道正町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kamigyo-ku, Kyoto-shi","address2":"Doshocho","address3":"","address4":""}}
+{"postalCode":"6020004","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市上京区","address2":"道正町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kamigyo-ku, Kyoto-shi","address2":"Doshocho","address3":"","address4":""}}]}

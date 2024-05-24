@@ -1,1 +1,1 @@
-{"postalCode":"4000082","prefCode":"19","ja":{"prefecture":"山梨県","address1":"甲府市","address2":"下帯那町","address3":"","address4":""},"en":{"prefecture":"Yamanashi","address1":"Kofu-shi","address2":"Shimobinacho","address3":"","address4":""}}
+{"postalCode":"4000082","addresses":[{"prefectureCode":"19","ja":{"prefecture":"山梨県","address1":"甲府市","address2":"下帯那町","address3":"","address4":""},"en":{"prefecture":"Yamanashi","address1":"Kofu-shi","address2":"Shimobinacho","address3":"","address4":""}}]}

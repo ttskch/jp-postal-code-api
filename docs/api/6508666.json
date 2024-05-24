@@ -1,1 +1,1 @@
-{"postalCode":"6508666","prefCode":"28","ja":{"prefecture":"兵庫県","address1":"神戸市中央区","address2":"海岸通","address3":"１番地（神戸中央郵便局私書箱第１２３０号）","address4":"全国農業協同組合連合会 兵庫県本部"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"6508666","addresses":[{"prefectureCode":"28","ja":{"prefecture":"兵庫県","address1":"神戸市中央区","address2":"海岸通","address3":"１番地（神戸中央郵便局私書箱第１２３０号）","address4":"全国農業協同組合連合会 兵庫県本部"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

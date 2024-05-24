@@ -1,1 +1,1 @@
-{"postalCode":"0010029","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市北区","address2":"北二十九条西","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kita-ku, Sapporo-shi","address2":"Kita29-jonishi","address3":"","address4":""}}
+{"postalCode":"0010029","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市北区","address2":"北二十九条西","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kita-ku, Sapporo-shi","address2":"Kita29-jonishi","address3":"","address4":""}}]}

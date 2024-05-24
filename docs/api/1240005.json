@@ -1,1 +1,1 @@
-{"postalCode":"1240005","prefCode":"13","ja":{"prefecture":"東京都","address1":"葛飾区","address2":"宝町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Katsushika-ku","address2":"Takaramachi","address3":"","address4":""}}
+{"postalCode":"1240005","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"葛飾区","address2":"宝町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Katsushika-ku","address2":"Takaramachi","address3":"","address4":""}}]}

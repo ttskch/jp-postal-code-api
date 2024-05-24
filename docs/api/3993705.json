@@ -1,1 +1,1 @@
-{"postalCode":"3993705","prefCode":"20","ja":{"prefecture":"長野県","address1":"上伊那郡飯島町","address2":"七久保","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Iijima-machi, Kamiina-gun","address2":"Nanakubo","address3":"","address4":""}}
+{"postalCode":"3993705","addresses":[{"prefectureCode":"20","ja":{"prefecture":"長野県","address1":"上伊那郡飯島町","address2":"七久保","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Iijima-machi, Kamiina-gun","address2":"Nanakubo","address3":"","address4":""}}]}

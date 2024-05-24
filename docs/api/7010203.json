@@ -1,1 +1,1 @@
-{"postalCode":"7010203","prefCode":"33","ja":{"prefecture":"岡山県","address1":"岡山市南区","address2":"古新田","address3":"","address4":""},"en":{"prefecture":"Okayama","address1":"Minami-ku, Okayama-shi","address2":"Koshinden","address3":"","address4":""}}
+{"postalCode":"7010203","addresses":[{"prefectureCode":"33","ja":{"prefecture":"岡山県","address1":"岡山市南区","address2":"古新田","address3":"","address4":""},"en":{"prefecture":"Okayama","address1":"Minami-ku, Okayama-shi","address2":"Koshinden","address3":"","address4":""}}]}

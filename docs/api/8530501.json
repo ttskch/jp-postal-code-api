@@ -1,1 +1,1 @@
-{"postalCode":"8530501","prefCode":"42","ja":{"prefecture":"長崎県","address1":"五島市","address2":"玉之浦町荒川","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Goto-shi","address2":"Arakawa, Tamanoramachi","address3":"","address4":""}}
+{"postalCode":"8530501","addresses":[{"prefectureCode":"42","ja":{"prefecture":"長崎県","address1":"五島市","address2":"玉之浦町荒川","address3":"","address4":""},"en":{"prefecture":"Nagasaki","address1":"Goto-shi","address2":"Arakawa, Tamanoramachi","address3":"","address4":""}}]}

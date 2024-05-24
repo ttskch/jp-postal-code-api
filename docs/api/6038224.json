@@ -1,1 +1,1 @@
-{"postalCode":"6038224","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市北区","address2":"紫野西藤ノ森町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kita-ku, Kyoto-shi","address2":"Nishifujinomoricho, Murasakino","address3":"","address4":""}}
+{"postalCode":"6038224","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市北区","address2":"紫野西藤ノ森町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kita-ku, Kyoto-shi","address2":"Nishifujinomoricho, Murasakino","address3":"","address4":""}}]}

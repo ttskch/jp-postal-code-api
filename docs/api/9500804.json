@@ -1,1 +1,1 @@
-{"postalCode":"9500804","prefCode":"15","ja":{"prefecture":"新潟県","address1":"新潟市東区","address2":"本所","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Higashi-ku, Niigata-shi","address2":"Honjo","address3":"","address4":""}}
+{"postalCode":"9500804","addresses":[{"prefectureCode":"15","ja":{"prefecture":"新潟県","address1":"新潟市東区","address2":"本所","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Higashi-ku, Niigata-shi","address2":"Honjo","address3":"","address4":""}}]}

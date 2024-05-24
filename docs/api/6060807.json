@@ -1,1 +1,1 @@
-{"postalCode":"6060807","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"下鴨泉川町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Izumigawacho, Shimogamo","address3":"","address4":""}}
+{"postalCode":"6060807","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市左京区","address2":"下鴨泉川町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Sakyo-ku, Kyoto-shi","address2":"Izumigawacho, Shimogamo","address3":"","address4":""}}]}

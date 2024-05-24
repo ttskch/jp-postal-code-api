@@ -1,1 +1,1 @@
-{"postalCode":"9191333","prefCode":"18","ja":{"prefecture":"福井県","address1":"三方上中郡若狭町","address2":"中央","address3":"","address4":""},"en":{"prefecture":"Fukui","address1":"Wakasa-cho, Mikatakaminaka-gun","address2":"Chuo","address3":"","address4":""}}
+{"postalCode":"9191333","addresses":[{"prefectureCode":"18","ja":{"prefecture":"福井県","address1":"三方上中郡若狭町","address2":"中央","address3":"","address4":""},"en":{"prefecture":"Fukui","address1":"Wakasa-cho, Mikatakaminaka-gun","address2":"Chuo","address3":"","address4":""}}]}

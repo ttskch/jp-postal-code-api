@@ -1,1 +1,1 @@
-{"postalCode":"1520001","prefCode":"13","ja":{"prefecture":"東京都","address1":"目黒区","address2":"中央町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Meguro-ku","address2":"Chuocho","address3":"","address4":""}}
+{"postalCode":"1520001","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"目黒区","address2":"中央町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Meguro-ku","address2":"Chuocho","address3":"","address4":""}}]}

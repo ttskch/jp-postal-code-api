@@ -1,1 +1,1 @@
-{"postalCode":"8610803","prefCode":"43","ja":{"prefecture":"熊本県","address1":"玉名郡南関町","address2":"関町","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Nankan-machi, Tamana-gun","address2":"Sekimachi","address3":"","address4":""}}
+{"postalCode":"8610803","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"玉名郡南関町","address2":"関町","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Nankan-machi, Tamana-gun","address2":"Sekimachi","address3":"","address4":""}}]}

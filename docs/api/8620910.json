@@ -1,1 +1,1 @@
-{"postalCode":"8620910","prefCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市東区","address2":"健軍本町","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Higashi-ku, Kumamoto-shi","address2":"Kengunhommachi","address3":"","address4":""}}
+{"postalCode":"8620910","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市東区","address2":"健軍本町","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Higashi-ku, Kumamoto-shi","address2":"Kengunhommachi","address3":"","address4":""}}]}

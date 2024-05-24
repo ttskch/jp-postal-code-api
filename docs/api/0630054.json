@@ -1,1 +1,1 @@
-{"postalCode":"0630054","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市西区","address2":"宮の沢四条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Nishi-ku, Sapporo-shi","address2":"Miyanosawa 4-jo","address3":"","address4":""}}
+{"postalCode":"0630054","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市西区","address2":"宮の沢四条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Nishi-ku, Sapporo-shi","address2":"Miyanosawa 4-jo","address3":"","address4":""}}]}

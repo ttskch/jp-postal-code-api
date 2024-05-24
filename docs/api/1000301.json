@@ -1,1 +1,1 @@
-{"postalCode":"1000301","prefCode":"13","ja":{"prefecture":"東京都","address1":"利島村","address2":"","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Toshima-mura","address2":"","address3":"","address4":""}}
+{"postalCode":"1000301","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"利島村","address2":"","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Toshima-mura","address2":"","address3":"","address4":""}}]}

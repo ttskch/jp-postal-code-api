@@ -1,1 +1,1 @@
-{"postalCode":"8110203","prefCode":"40","ja":{"prefecture":"福岡県","address1":"福岡市東区","address2":"塩浜","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Higashi-ku, Fukuoka-shi","address2":"Shiohama","address3":"","address4":""}}
+{"postalCode":"8110203","addresses":[{"prefectureCode":"40","ja":{"prefecture":"福岡県","address1":"福岡市東区","address2":"塩浜","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Higashi-ku, Fukuoka-shi","address2":"Shiohama","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"0040075","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市厚別区","address2":"厚別北五条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Atsubetsu-ku, Sapporo-shi","address2":"Atsubetsukita 5-jo","address3":"","address4":""}}
+{"postalCode":"0040075","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市厚別区","address2":"厚別北五条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Atsubetsu-ku, Sapporo-shi","address2":"Atsubetsukita 5-jo","address3":"","address4":""}}]}

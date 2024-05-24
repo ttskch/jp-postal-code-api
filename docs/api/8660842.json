@@ -1,1 +1,1 @@
-{"postalCode":"8660842","prefCode":"43","ja":{"prefecture":"熊本県","address1":"八代市","address2":"若草町","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Yatsushiro-shi","address2":"Wakakusacho","address3":"","address4":""}}
+{"postalCode":"8660842","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"八代市","address2":"若草町","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Yatsushiro-shi","address2":"Wakakusacho","address3":"","address4":""}}]}

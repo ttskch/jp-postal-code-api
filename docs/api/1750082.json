@@ -1,1 +1,1 @@
-{"postalCode":"1750082","prefCode":"13","ja":{"prefecture":"東京都","address1":"板橋区","address2":"高島平","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Itabashi-ku","address2":"Takashimadaira","address3":"","address4":""}}
+{"postalCode":"1750082","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"板橋区","address2":"高島平","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Itabashi-ku","address2":"Takashimadaira","address3":"","address4":""}}]}

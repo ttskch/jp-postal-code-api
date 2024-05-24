@@ -1,1 +1,1 @@
-{"postalCode":"9012121","prefCode":"47","ja":{"prefecture":"沖縄県","address1":"浦添市","address2":"内間","address3":"","address4":""},"en":{"prefecture":"Okinawa","address1":"Urasoe-shi","address2":"Uchima","address3":"","address4":""}}
+{"postalCode":"9012121","addresses":[{"prefectureCode":"47","ja":{"prefecture":"沖縄県","address1":"浦添市","address2":"内間","address3":"","address4":""},"en":{"prefecture":"Okinawa","address1":"Urasoe-shi","address2":"Uchima","address3":"","address4":""}}]}

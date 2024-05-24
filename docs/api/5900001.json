@@ -1,1 +1,1 @@
-{"postalCode":"5900001","prefCode":"27","ja":{"prefecture":"大阪府","address1":"堺市堺区","address2":"遠里小野町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Sakai-ku, Sakai-shi","address2":"Orionocho","address3":"","address4":""}}
+{"postalCode":"5900001","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"堺市堺区","address2":"遠里小野町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Sakai-ku, Sakai-shi","address2":"Orionocho","address3":"","address4":""}}]}

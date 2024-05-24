@@ -1,1 +1,1 @@
-{"postalCode":"2500004","prefCode":"14","ja":{"prefecture":"神奈川県","address1":"小田原市","address2":"浜町","address3":"","address4":""},"en":{"prefecture":"Kanagawa","address1":"Odawara-shi","address2":"Hamacho","address3":"","address4":""}}
+{"postalCode":"2500004","addresses":[{"prefectureCode":"14","ja":{"prefecture":"神奈川県","address1":"小田原市","address2":"浜町","address3":"","address4":""},"en":{"prefecture":"Kanagawa","address1":"Odawara-shi","address2":"Hamacho","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"6520006","prefCode":"28","ja":{"prefecture":"兵庫県","address1":"神戸市兵庫区","address2":"神田町","address3":"","address4":""},"en":{"prefecture":"Hyogo","address1":"Hyogo-ku, Kobe-shi","address2":"Kandacho","address3":"","address4":""}}
+{"postalCode":"6520006","addresses":[{"prefectureCode":"28","ja":{"prefecture":"兵庫県","address1":"神戸市兵庫区","address2":"神田町","address3":"","address4":""},"en":{"prefecture":"Hyogo","address1":"Hyogo-ku, Kobe-shi","address2":"Kandacho","address3":"","address4":""}}]}

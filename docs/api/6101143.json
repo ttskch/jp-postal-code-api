@@ -1,1 +1,1 @@
-{"postalCode":"6101143","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市西京区","address2":"大原野東境谷町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Nishikyo-ku, Kyoto-shi","address2":"Higashisakaidanicho, Oharano","address3":"","address4":""}}
+{"postalCode":"6101143","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市西京区","address2":"大原野東境谷町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Nishikyo-ku, Kyoto-shi","address2":"Higashisakaidanicho, Oharano","address3":"","address4":""}}]}

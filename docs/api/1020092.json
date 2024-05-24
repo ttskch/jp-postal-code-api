@@ -1,1 +1,1 @@
-{"postalCode":"1020092","prefCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"隼町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Chiyoda-ku","address2":"Hayabusacho","address3":"","address4":""}}
+{"postalCode":"1020092","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"千代田区","address2":"隼町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Chiyoda-ku","address2":"Hayabusacho","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"5630011","prefCode":"27","ja":{"prefecture":"大阪府","address1":"池田市","address2":"伏尾町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Ikeda-shi","address2":"Fushiocho","address3":"","address4":""}}
+{"postalCode":"5630011","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"池田市","address2":"伏尾町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Ikeda-shi","address2":"Fushiocho","address3":"","address4":""}}]}

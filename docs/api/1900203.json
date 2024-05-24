@@ -1,1 +1,1 @@
-{"postalCode":"1900203","prefCode":"13","ja":{"prefecture":"東京都","address1":"西多摩郡檜原村","address2":"神戸","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Hinohara-mura, Nishitama-gun","address2":"Kanoto","address3":"","address4":""}}
+{"postalCode":"1900203","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"西多摩郡檜原村","address2":"神戸","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Hinohara-mura, Nishitama-gun","address2":"Kanoto","address3":"","address4":""}}]}

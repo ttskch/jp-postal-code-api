@@ -1,1 +1,1 @@
-{"postalCode":"0591307","prefCode":"01","ja":{"prefecture":"北海道","address1":"苫小牧市","address2":"ウトナイ南","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Tomakomai-shi","address2":"Utonaiminami","address3":"","address4":""}}
+{"postalCode":"0591307","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"苫小牧市","address2":"ウトナイ南","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Tomakomai-shi","address2":"Utonaiminami","address3":"","address4":""}}]}

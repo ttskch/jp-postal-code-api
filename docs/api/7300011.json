@@ -1,1 +1,1 @@
-{"postalCode":"7300011","prefCode":"34","ja":{"prefecture":"広島県","address1":"広島市中区","address2":"基町","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Naka-ku, Hiroshima-shi","address2":"Motomachi","address3":"","address4":""}}
+{"postalCode":"7300011","addresses":[{"prefectureCode":"34","ja":{"prefecture":"広島県","address1":"広島市中区","address2":"基町","address3":"","address4":""},"en":{"prefecture":"Hiroshima","address1":"Naka-ku, Hiroshima-shi","address2":"Motomachi","address3":"","address4":""}}]}

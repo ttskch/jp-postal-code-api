@@ -1,1 +1,1 @@
-{"postalCode":"0040864","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市清田区","address2":"北野四条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kiyota-ku, Sapporo-shi","address2":"Kitano 4-jo","address3":"","address4":""}}
+{"postalCode":"0040864","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市清田区","address2":"北野四条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kiyota-ku, Sapporo-shi","address2":"Kitano 4-jo","address3":"","address4":""}}]}

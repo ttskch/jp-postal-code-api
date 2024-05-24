@@ -1,1 +1,1 @@
-{"postalCode":"3701611","prefCode":"10","ja":{"prefecture":"群馬県","address1":"多野郡上野村","address2":"新羽","address3":"","address4":""},"en":{"prefecture":"Gumma","address1":"Ueno-mura, Tano-gun","address2":"Nippa","address3":"","address4":""}}
+{"postalCode":"3701611","addresses":[{"prefectureCode":"10","ja":{"prefecture":"群馬県","address1":"多野郡上野村","address2":"新羽","address3":"","address4":""},"en":{"prefecture":"Gumma","address1":"Ueno-mura, Tano-gun","address2":"Nippa","address3":"","address4":""}}]}

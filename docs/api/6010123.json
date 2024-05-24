@@ -1,1 +1,1 @@
-{"postalCode":"6010123","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市北区","address2":"中川西山","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kita-ku, Kyoto-shi","address2":"Nishiyama, Nakagawa","address3":"","address4":""}}
+{"postalCode":"6010123","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市北区","address2":"中川西山","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kita-ku, Kyoto-shi","address2":"Nishiyama, Nakagawa","address3":"","address4":""}}]}

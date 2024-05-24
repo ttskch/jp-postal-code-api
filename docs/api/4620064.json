@@ -1,1 +1,1 @@
-{"postalCode":"4620064","prefCode":"23","ja":{"prefecture":"愛知県","address1":"名古屋市北区","address2":"大我麻町","address3":"","address4":""},"en":{"prefecture":"Aichi","address1":"Kita-ku, Nagoya-shi","address2":"Ogamacho","address3":"","address4":""}}
+{"postalCode":"4620064","addresses":[{"prefectureCode":"23","ja":{"prefecture":"愛知県","address1":"名古屋市北区","address2":"大我麻町","address3":"","address4":""},"en":{"prefecture":"Aichi","address1":"Kita-ku, Nagoya-shi","address2":"Ogamacho","address3":"","address4":""}}]}

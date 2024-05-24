@@ -1,1 +1,1 @@
-{"postalCode":"2860123","prefCode":"12","ja":{"prefecture":"千葉県","address1":"成田市","address2":"新駒井野","address3":"","address4":""},"en":{"prefecture":"Chiba","address1":"Narita-shi","address2":"Shinkomaino","address3":"","address4":""}}
+{"postalCode":"2860123","addresses":[{"prefectureCode":"12","ja":{"prefecture":"千葉県","address1":"成田市","address2":"新駒井野","address3":"","address4":""},"en":{"prefecture":"Chiba","address1":"Narita-shi","address2":"Shinkomaino","address3":"","address4":""}}]}

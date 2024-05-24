@@ -1,1 +1,1 @@
-{"postalCode":"8610131","prefCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市北区","address2":"植木町広住","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Kita-ku, Kumamoto-shi","address2":"Hirozumi, Uekimachi","address3":"","address4":""}}
+{"postalCode":"8610131","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"熊本市北区","address2":"植木町広住","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Kita-ku, Kumamoto-shi","address2":"Hirozumi, Uekimachi","address3":"","address4":""}}]}

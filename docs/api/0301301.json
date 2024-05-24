@@ -1,1 +1,1 @@
-{"postalCode":"0301301","prefCode":"02","ja":{"prefecture":"青森県","address1":"東津軽郡外ヶ浜町","address2":"蟹田石浜","address3":"","address4":""},"en":{"prefecture":"Aomori","address1":"Sotogahama-machi, Higashitsugaru-gun","address2":"Ishihama, Kanita","address3":"","address4":""}}
+{"postalCode":"0301301","addresses":[{"prefectureCode":"02","ja":{"prefecture":"青森県","address1":"東津軽郡外ヶ浜町","address2":"蟹田石浜","address3":"","address4":""},"en":{"prefecture":"Aomori","address1":"Sotogahama-machi, Higashitsugaru-gun","address2":"Ishihama, Kanita","address3":"","address4":""}}]}

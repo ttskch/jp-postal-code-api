@@ -1,1 +1,1 @@
-{"postalCode":"3890200","prefCode":"20","ja":{"prefecture":"長野県","address1":"北佐久郡御代田町","address2":"","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Miyota-machi, Kitasaku-gun","address2":"","address3":"","address4":""}}
+{"postalCode":"3890200","addresses":[{"prefectureCode":"20","ja":{"prefecture":"長野県","address1":"北佐久郡御代田町","address2":"","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Miyota-machi, Kitasaku-gun","address2":"","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"5620003","prefCode":"27","ja":{"prefecture":"大阪府","address1":"箕面市","address2":"西小路","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Mino-shi","address2":"Nishishoji","address3":"","address4":""}}
+{"postalCode":"5620003","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"箕面市","address2":"西小路","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Mino-shi","address2":"Nishishoji","address3":"","address4":""}}]}

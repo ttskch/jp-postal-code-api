@@ -1,1 +1,1 @@
-{"postalCode":"1036132","prefCode":"13","ja":{"prefecture":"東京都","address1":"中央区","address2":"日本橋日本橋高島屋三井ビルディン","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Chuo-ku","address2":"Nihombashitakashimayamit, Nihombashi","address3":"","address4":""}}
+{"postalCode":"1036132","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"中央区","address2":"日本橋日本橋高島屋三井ビルディン","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Chuo-ku","address2":"Nihombashitakashimayamit, Nihombashi","address3":"","address4":""}}]}

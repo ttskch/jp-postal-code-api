@@ -1,1 +1,1 @@
-{"postalCode":"1980223","prefCode":"13","ja":{"prefecture":"東京都","address1":"西多摩郡奥多摩町","address2":"原","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Okutama-machi, Nishitama-gun","address2":"Hara","address3":"","address4":""}}
+{"postalCode":"1980223","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"西多摩郡奥多摩町","address2":"原","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Okutama-machi, Nishitama-gun","address2":"Hara","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"5900123","prefCode":"27","ja":{"prefecture":"大阪府","address1":"堺市南区","address2":"逆瀬川","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Minami-ku, Sakai-shi","address2":"Sakasegawa","address3":"","address4":""}}
+{"postalCode":"5900123","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"堺市南区","address2":"逆瀬川","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Minami-ku, Sakai-shi","address2":"Sakasegawa","address3":"","address4":""}}]}

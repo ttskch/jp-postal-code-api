@@ -1,1 +1,1 @@
-{"postalCode":"5700016","prefCode":"27","ja":{"prefecture":"大阪府","address1":"守口市","address2":"大日東町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Moriguchi-shi","address2":"Dainichihigashimachi","address3":"","address4":""}}
+{"postalCode":"5700016","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"守口市","address2":"大日東町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Moriguchi-shi","address2":"Dainichihigashimachi","address3":"","address4":""}}]}

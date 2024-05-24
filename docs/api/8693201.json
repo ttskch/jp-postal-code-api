@@ -1,1 +1,1 @@
-{"postalCode":"8693201","prefCode":"43","ja":{"prefecture":"熊本県","address1":"宇城市","address2":"三角町大田尾","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Uki-shi","address2":"Otao, Misumimachi","address3":"","address4":""}}
+{"postalCode":"8693201","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"宇城市","address2":"三角町大田尾","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Uki-shi","address2":"Otao, Misumimachi","address3":"","address4":""}}]}

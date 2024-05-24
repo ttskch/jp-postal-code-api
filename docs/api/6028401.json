@@ -1,1 +1,1 @@
-{"postalCode":"6028401","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市上京区","address2":"薬師前町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kamigyo-ku, Kyoto-shi","address2":"Yakushimaecho","address3":"","address4":""}}
+{"postalCode":"6028401","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市上京区","address2":"薬師前町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Kamigyo-ku, Kyoto-shi","address2":"Yakushimaecho","address3":"","address4":""}}]}

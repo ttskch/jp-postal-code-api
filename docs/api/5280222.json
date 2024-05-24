@@ -1,1 +1,1 @@
-{"postalCode":"5280222","prefCode":"25","ja":{"prefecture":"滋賀県","address1":"甲賀市","address2":"土山町平子","address3":"","address4":""},"en":{"prefecture":"Shiga","address1":"Koka-shi","address2":"Hirako, Tsuchiyamacho","address3":"","address4":""}}
+{"postalCode":"5280222","addresses":[{"prefectureCode":"25","ja":{"prefecture":"滋賀県","address1":"甲賀市","address2":"土山町平子","address3":"","address4":""},"en":{"prefecture":"Shiga","address1":"Koka-shi","address2":"Hirako, Tsuchiyamacho","address3":"","address4":""}}]}

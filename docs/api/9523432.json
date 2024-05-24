@@ -1,1 +1,1 @@
-{"postalCode":"9523432","prefCode":"15","ja":{"prefecture":"新潟県","address1":"佐渡市","address2":"椎泊","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Sado-shi","address2":"Shiidomari","address3":"","address4":""}}
+{"postalCode":"9523432","addresses":[{"prefectureCode":"15","ja":{"prefecture":"新潟県","address1":"佐渡市","address2":"椎泊","address3":"","address4":""},"en":{"prefecture":"Niigata","address1":"Sado-shi","address2":"Shiidomari","address3":"","address4":""}}]}

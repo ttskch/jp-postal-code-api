@@ -1,1 +1,1 @@
-{"postalCode":"4442123","prefCode":"23","ja":{"prefecture":"愛知県","address1":"岡崎市","address2":"鴨田南町","address3":"","address4":""},"en":{"prefecture":"Aichi","address1":"Okazaki-shi","address2":"Minamimachi, Kamoda","address3":"","address4":""}}
+{"postalCode":"4442123","addresses":[{"prefectureCode":"23","ja":{"prefecture":"愛知県","address1":"岡崎市","address2":"鴨田南町","address3":"","address4":""},"en":{"prefecture":"Aichi","address1":"Okazaki-shi","address2":"Minamimachi, Kamoda","address3":"","address4":""}}]}

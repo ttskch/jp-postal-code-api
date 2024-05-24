@@ -1,1 +1,1 @@
-{"postalCode":"0612263","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"簾舞三条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Misumai 3-jo","address3":"","address4":""}}
+{"postalCode":"0612263","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"簾舞三条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Misumai 3-jo","address3":"","address4":""}}]}

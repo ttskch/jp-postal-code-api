@@ -1,1 +1,1 @@
-{"postalCode":"5570031","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市西成区","address2":"鶴見橋","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Nishinari-ku, Osaka-shi","address2":"Tsurumibashi","address3":"","address4":""}}
+{"postalCode":"5570031","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市西成区","address2":"鶴見橋","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Nishinari-ku, Osaka-shi","address2":"Tsurumibashi","address3":"","address4":""}}]}

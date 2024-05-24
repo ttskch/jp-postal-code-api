@@ -1,1 +1,1 @@
-{"postalCode":"1800023","prefCode":"13","ja":{"prefecture":"東京都","address1":"武蔵野市","address2":"境南町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Musashino-shi","address2":"Kyonancho","address3":"","address4":""}}
+{"postalCode":"1800023","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"武蔵野市","address2":"境南町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Musashino-shi","address2":"Kyonancho","address3":"","address4":""}}]}

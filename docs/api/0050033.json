@@ -1,1 +1,1 @@
-{"postalCode":"0050033","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"南三十三条西","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Minami33-jonishi","address3":"","address4":""}}
+{"postalCode":"0050033","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"南三十三条西","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Minami33-jonishi","address3":"","address4":""}}]}

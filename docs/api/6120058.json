@@ -1,1 +1,1 @@
-{"postalCode":"6120058","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市伏見区","address2":"桃山長岡越中南町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Fushimi-ku, Kyoto-shi","address2":"Nagaokaetchuminamimachi, Momoyama","address3":"","address4":""}}
+{"postalCode":"6120058","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市伏見区","address2":"桃山長岡越中南町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Fushimi-ku, Kyoto-shi","address2":"Nagaokaetchuminamimachi, Momoyama","address3":"","address4":""}}]}

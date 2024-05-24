@@ -1,1 +1,1 @@
-{"postalCode":"0591366","prefCode":"01","ja":{"prefecture":"北海道","address1":"苫小牧市","address2":"あけぼの町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Tomakomai-shi","address2":"Akebonocho","address3":"","address4":""}}
+{"postalCode":"0591366","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"苫小牧市","address2":"あけぼの町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Tomakomai-shi","address2":"Akebonocho","address3":"","address4":""}}]}

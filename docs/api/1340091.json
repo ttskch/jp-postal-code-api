@@ -1,1 +1,1 @@
-{"postalCode":"1340091","prefCode":"13","ja":{"prefecture":"東京都","address1":"江戸川区","address2":"船堀","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Edogawa-ku","address2":"Funabori","address3":"","address4":""}}
+{"postalCode":"1340091","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"江戸川区","address2":"船堀","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Edogawa-ku","address2":"Funabori","address3":"","address4":""}}]}

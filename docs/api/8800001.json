@@ -1,1 +1,1 @@
-{"postalCode":"8800001","prefCode":"45","ja":{"prefecture":"宮崎県","address1":"宮崎市","address2":"橘通西","address3":"","address4":""},"en":{"prefecture":"Miyazaki","address1":"Miyazaki-shi","address2":"Nishi, Tachibanadori","address3":"","address4":""}}
+{"postalCode":"8800001","addresses":[{"prefectureCode":"45","ja":{"prefecture":"宮崎県","address1":"宮崎市","address2":"橘通西","address3":"","address4":""},"en":{"prefecture":"Miyazaki","address1":"Miyazaki-shi","address2":"Nishi, Tachibanadori","address3":"","address4":""}}]}

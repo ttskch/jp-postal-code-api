@@ -1,1 +1,1 @@
-{"postalCode":"3300042","prefCode":"11","ja":{"prefecture":"埼玉県","address1":"さいたま市浦和区","address2":"木崎","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Urawa-ku, Saitama-shi","address2":"Kizaki","address3":"","address4":""}}
+{"postalCode":"3300042","addresses":[{"prefectureCode":"11","ja":{"prefecture":"埼玉県","address1":"さいたま市浦和区","address2":"木崎","address3":"","address4":""},"en":{"prefecture":"Saitama","address1":"Urawa-ku, Saitama-shi","address2":"Kizaki","address3":"","address4":""}}]}

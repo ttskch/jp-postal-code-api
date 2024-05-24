@@ -1,1 +1,1 @@
-{"postalCode":"5300046","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"菅原町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Osaka-shi","address2":"Sugaharacho","address3":"","address4":""}}
+{"postalCode":"5300046","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"菅原町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Osaka-shi","address2":"Sugaharacho","address3":"","address4":""}}]}

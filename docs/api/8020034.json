@@ -1,1 +1,1 @@
-{"postalCode":"8020034","prefCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市小倉北区","address2":"須賀町","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Kokurakita-ku, Kitakyushu-shi","address2":"Sugamachi","address3":"","address4":""}}
+{"postalCode":"8020034","addresses":[{"prefectureCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市小倉北区","address2":"須賀町","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Kokurakita-ku, Kitakyushu-shi","address2":"Sugamachi","address3":"","address4":""}}]}

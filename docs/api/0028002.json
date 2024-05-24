@@ -1,1 +1,1 @@
-{"postalCode":"0028002","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市北区","address2":"太平二条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kita-ku, Sapporo-shi","address2":"Taihei 2-jo","address3":"","address4":""}}
+{"postalCode":"0028002","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市北区","address2":"太平二条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kita-ku, Sapporo-shi","address2":"Taihei 2-jo","address3":"","address4":""}}]}

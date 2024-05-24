@@ -1,1 +1,1 @@
-{"postalCode":"5300057","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"曽根崎","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Osaka-shi","address2":"Sonezaki","address3":"","address4":""}}
+{"postalCode":"5300057","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市北区","address2":"曽根崎","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Osaka-shi","address2":"Sonezaki","address3":"","address4":""}}]}

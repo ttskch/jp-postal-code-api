@@ -1,1 +1,1 @@
-{"postalCode":"1030007","prefCode":"13","ja":{"prefecture":"東京都","address1":"中央区","address2":"日本橋浜町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Chuo-ku","address2":"Nihombashihamacho","address3":"","address4":""}}
+{"postalCode":"1030007","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"中央区","address2":"日本橋浜町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Chuo-ku","address2":"Nihombashihamacho","address3":"","address4":""}}]}

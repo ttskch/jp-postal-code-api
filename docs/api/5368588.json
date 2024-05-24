@@ -1,1 +1,1 @@
-{"postalCode":"5368588","prefCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市城東区","address2":"森之宮","address3":"１丁目６番１０７号","address4":"公益財団法人 大阪府保健医療財団 大阪がん循環器病予防センター"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"5368588","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"大阪市城東区","address2":"森之宮","address3":"１丁目６番１０７号","address4":"公益財団法人 大阪府保健医療財団 大阪がん循環器病予防センター"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

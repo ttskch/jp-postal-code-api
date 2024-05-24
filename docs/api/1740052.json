@@ -1,1 +1,1 @@
-{"postalCode":"1740052","prefCode":"13","ja":{"prefecture":"東京都","address1":"板橋区","address2":"蓮沼町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Itabashi-ku","address2":"Hasunumacho","address3":"","address4":""}}
+{"postalCode":"1740052","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"板橋区","address2":"蓮沼町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Itabashi-ku","address2":"Hasunumacho","address3":"","address4":""}}]}

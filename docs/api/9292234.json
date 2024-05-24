@@ -1,1 +1,1 @@
-{"postalCode":"9292234","prefCode":"17","ja":{"prefecture":"石川県","address1":"七尾市","address2":"中島町塩津","address3":"","address4":""},"en":{"prefecture":"Ishikawa","address1":"Nanao-shi","address2":"Shiotsu, Nakajimamachi","address3":"","address4":""}}
+{"postalCode":"9292234","addresses":[{"prefectureCode":"17","ja":{"prefecture":"石川県","address1":"七尾市","address2":"中島町塩津","address3":"","address4":""},"en":{"prefecture":"Ishikawa","address1":"Nanao-shi","address2":"Shiotsu, Nakajimamachi","address3":"","address4":""}}]}

@@ -1,1 +1,1 @@
-{"postalCode":"5918044","prefCode":"27","ja":{"prefecture":"大阪府","address1":"堺市北区","address2":"中長尾町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Sakai-shi","address2":"Nakanagaocho","address3":"","address4":""}}
+{"postalCode":"5918044","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"堺市北区","address2":"中長尾町","address3":"","address4":""},"en":{"prefecture":"Osaka","address1":"Kita-ku, Sakai-shi","address2":"Nakanagaocho","address3":"","address4":""}}]}

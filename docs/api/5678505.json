@@ -1,1 +1,1 @@
-{"postalCode":"5678505","prefCode":"27","ja":{"prefecture":"大阪府","address1":"茨木市","address2":"駅前","address3":"３丁目８−１３","address4":"茨木市役所"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}
+{"postalCode":"5678505","addresses":[{"prefectureCode":"27","ja":{"prefecture":"大阪府","address1":"茨木市","address2":"駅前","address3":"３丁目８−１３","address4":"茨木市役所"},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}

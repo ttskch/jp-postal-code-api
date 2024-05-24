@@ -1,1 +1,1 @@
-{"postalCode":"0420915","prefCode":"01","ja":{"prefecture":"北海道","address1":"函館市","address2":"西旭岡町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Hakodate-shi","address2":"Nishiasahiokacho","address3":"","address4":""}}
+{"postalCode":"0420915","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"函館市","address2":"西旭岡町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Hakodate-shi","address2":"Nishiasahiokacho","address3":"","address4":""}}]}

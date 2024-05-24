@@ -1,1 +1,1 @@
-{"postalCode":"3030004","prefCode":"08","ja":{"prefecture":"茨城県","address1":"常総市","address2":"水海道元町","address3":"","address4":""},"en":{"prefecture":"Ibaraki","address1":"Joso-shi","address2":"Motomachi, Mitsukaido","address3":"","address4":""}}
+{"postalCode":"3030004","addresses":[{"prefectureCode":"08","ja":{"prefecture":"茨城県","address1":"常総市","address2":"水海道元町","address3":"","address4":""},"en":{"prefecture":"Ibaraki","address1":"Joso-shi","address2":"Motomachi, Mitsukaido","address3":"","address4":""}}]}

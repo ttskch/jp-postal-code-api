@@ -1,1 +1,1 @@
-{"postalCode":"8111234","prefCode":"40","ja":{"prefecture":"福岡県","address1":"那珂川市","address2":"五ケ山","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Nakagawa-shi","address2":"Gokayama","address3":"","address4":""}}
+{"postalCode":"8111234","addresses":[{"prefectureCode":"40","ja":{"prefecture":"福岡県","address1":"那珂川市","address2":"五ケ山","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Nakagawa-shi","address2":"Gokayama","address3":"","address4":""}}]}

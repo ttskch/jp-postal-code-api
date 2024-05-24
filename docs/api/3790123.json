@@ -1,1 +1,1 @@
-{"postalCode":"3790123","prefCode":"10","ja":{"prefecture":"群馬県","address1":"安中市","address2":"上間仁田","address3":"","address4":""},"en":{"prefecture":"Gumma","address1":"Annaka-shi","address2":"Kamimanita","address3":"","address4":""}}
+{"postalCode":"3790123","addresses":[{"prefectureCode":"10","ja":{"prefecture":"群馬県","address1":"安中市","address2":"上間仁田","address3":"","address4":""},"en":{"prefecture":"Gumma","address1":"Annaka-shi","address2":"Kamimanita","address3":"","address4":""}}]}

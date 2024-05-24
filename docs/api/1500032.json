@@ -1,1 +1,1 @@
-{"postalCode":"1500032","prefCode":"13","ja":{"prefecture":"東京都","address1":"渋谷区","address2":"鶯谷町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shibuya-ku","address2":"Uguisudanicho","address3":"","address4":""}}
+{"postalCode":"1500032","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"渋谷区","address2":"鶯谷町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Shibuya-ku","address2":"Uguisudanicho","address3":"","address4":""}}]}

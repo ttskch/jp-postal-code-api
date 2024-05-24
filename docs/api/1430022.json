@@ -1,1 +1,1 @@
-{"postalCode":"1430022","prefCode":"13","ja":{"prefecture":"東京都","address1":"大田区","address2":"東馬込","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Ota-ku","address2":"Higashimagome","address3":"","address4":""}}
+{"postalCode":"1430022","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"大田区","address2":"東馬込","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Ota-ku","address2":"Higashimagome","address3":"","address4":""}}]}

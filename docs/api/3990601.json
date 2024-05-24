@@ -1,1 +1,1 @@
-{"postalCode":"3990601","prefCode":"20","ja":{"prefecture":"長野県","address1":"上伊那郡辰野町","address2":"小野","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Tatsuno-machi, Kamiina-gun","address2":"Ono","address3":"","address4":""}}
+{"postalCode":"3990601","addresses":[{"prefectureCode":"20","ja":{"prefecture":"長野県","address1":"上伊那郡辰野町","address2":"小野","address3":"","address4":""},"en":{"prefecture":"Nagano","address1":"Tatsuno-machi, Kamiina-gun","address2":"Ono","address3":"","address4":""}}]}

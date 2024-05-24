@@ -1,1 +1,1 @@
-{"postalCode":"0700014","prefCode":"01","ja":{"prefecture":"北海道","address1":"旭川市","address2":"新星町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Asahikawa-shi","address2":"Shinseicho","address3":"","address4":""}}
+{"postalCode":"0700014","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"旭川市","address2":"新星町","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Asahikawa-shi","address2":"Shinseicho","address3":"","address4":""}}]}

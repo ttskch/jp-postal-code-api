@@ -1,1 +1,1 @@
-{"postalCode":"8612405","prefCode":"43","ja":{"prefecture":"熊本県","address1":"阿蘇郡西原村","address2":"宮山","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Nishihara-mura, Aso-gun","address2":"Miyayama","address3":"","address4":""}}
+{"postalCode":"8612405","addresses":[{"prefectureCode":"43","ja":{"prefecture":"熊本県","address1":"阿蘇郡西原村","address2":"宮山","address3":"","address4":""},"en":{"prefecture":"Kumamoto","address1":"Nishihara-mura, Aso-gun","address2":"Miyayama","address3":"","address4":""}}]}

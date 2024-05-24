@@ -1,1 +1,1 @@
-{"postalCode":"1740071","prefCode":"13","ja":{"prefecture":"東京都","address1":"板橋区","address2":"常盤台","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Itabashi-ku","address2":"Tokiwadai","address3":"","address4":""}}
+{"postalCode":"1740071","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"板橋区","address2":"常盤台","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Itabashi-ku","address2":"Tokiwadai","address3":"","address4":""}}]}

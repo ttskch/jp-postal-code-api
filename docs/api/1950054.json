@@ -1,1 +1,1 @@
-{"postalCode":"1950054","prefCode":"13","ja":{"prefecture":"東京都","address1":"町田市","address2":"三輪町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Machida-shi","address2":"Miwamachi","address3":"","address4":""}}
+{"postalCode":"1950054","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"町田市","address2":"三輪町","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Machida-shi","address2":"Miwamachi","address3":"","address4":""}}]}

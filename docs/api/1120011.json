@@ -1,1 +1,1 @@
-{"postalCode":"1120011","prefCode":"13","ja":{"prefecture":"東京都","address1":"文京区","address2":"千石","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Bunkyo-ku","address2":"Sengoku","address3":"","address4":""}}
+{"postalCode":"1120011","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"文京区","address2":"千石","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Bunkyo-ku","address2":"Sengoku","address3":"","address4":""}}]}

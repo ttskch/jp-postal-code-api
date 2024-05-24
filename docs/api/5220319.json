@@ -1,1 +1,1 @@
-{"postalCode":"5220319","prefCode":"25","ja":{"prefecture":"滋賀県","address1":"犬上郡多賀町","address2":"桃原","address3":"","address4":""},"en":{"prefecture":"Shiga","address1":"Taga-cho, Inukami-gun","address2":"Mobara","address3":"","address4":""}}
+{"postalCode":"5220319","addresses":[{"prefectureCode":"25","ja":{"prefecture":"滋賀県","address1":"犬上郡多賀町","address2":"桃原","address3":"","address4":""},"en":{"prefecture":"Shiga","address1":"Taga-cho, Inukami-gun","address2":"Mobara","address3":"","address4":""}}]}

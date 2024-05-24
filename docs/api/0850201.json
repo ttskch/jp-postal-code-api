@@ -1,1 +1,1 @@
-{"postalCode":"0850201","prefCode":"01","ja":{"prefecture":"北海道","address1":"釧路市","address2":"阿寒町仁々志別","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kushiro-shi","address2":"Ninishibetsu, Akancho","address3":"","address4":""}}
+{"postalCode":"0850201","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"釧路市","address2":"阿寒町仁々志別","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Kushiro-shi","address2":"Ninishibetsu, Akancho","address3":"","address4":""}}]}

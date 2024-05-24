@@ -1,1 +1,1 @@
-{"postalCode":"6008333","prefCode":"26","ja":{"prefecture":"京都府","address1":"京都市下京区","address2":"卜味金仏町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Shimogyo-ku, Kyoto-shi","address2":"Bokumikanabutsucho","address3":"","address4":""}}
+{"postalCode":"6008333","addresses":[{"prefectureCode":"26","ja":{"prefecture":"京都府","address1":"京都市下京区","address2":"卜味金仏町","address3":"","address4":""},"en":{"prefecture":"Kyoto","address1":"Shimogyo-ku, Kyoto-shi","address2":"Bokumikanabutsucho","address3":"","address4":""}}]}

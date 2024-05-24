@@ -1,1 +1,1 @@
-{"postalCode":"8080006","prefCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市若松区","address2":"宮前町","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Wakamatsu-ku, Kitakyushu-shi","address2":"Miyamaemachi","address3":"","address4":""}}
+{"postalCode":"8080006","addresses":[{"prefectureCode":"40","ja":{"prefecture":"福岡県","address1":"北九州市若松区","address2":"宮前町","address3":"","address4":""},"en":{"prefecture":"Fukuoka","address1":"Wakamatsu-ku, Kitakyushu-shi","address2":"Miyamaemachi","address3":"","address4":""}}]}

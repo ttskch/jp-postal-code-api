@@ -1,1 +1,1 @@
-{"postalCode":"0050843","prefCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"石山三条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Ishiyama 3-jo","address3":"","address4":""}}
+{"postalCode":"0050843","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市南区","address2":"石山三条","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Minami-ku, Sapporo-shi","address2":"Ishiyama 3-jo","address3":"","address4":""}}]}

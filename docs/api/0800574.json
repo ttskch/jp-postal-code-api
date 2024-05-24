@@ -1,1 +1,1 @@
-{"postalCode":"0800574","prefCode":"01","ja":{"prefecture":"北海道","address1":"河東郡音更町","address2":"駒場西","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Otofuke-cho, Kato-gun","address2":"Nishi, Komaba","address3":"","address4":""}}
+{"postalCode":"0800574","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"河東郡音更町","address2":"駒場西","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Otofuke-cho, Kato-gun","address2":"Nishi, Komaba","address3":"","address4":""}}]}

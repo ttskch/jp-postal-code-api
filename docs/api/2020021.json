@@ -1,1 +1,1 @@
-{"postalCode":"2020021","prefCode":"13","ja":{"prefecture":"東京都","address1":"西東京市","address2":"東伏見","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Nishitokyo-shi","address2":"Higashifushimi","address3":"","address4":""}}
+{"postalCode":"2020021","addresses":[{"prefectureCode":"13","ja":{"prefecture":"東京都","address1":"西東京市","address2":"東伏見","address3":"","address4":""},"en":{"prefecture":"Tokyo","address1":"Nishitokyo-shi","address2":"Higashifushimi","address3":"","address4":""}}]}
