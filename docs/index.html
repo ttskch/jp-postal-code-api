@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>日本の郵便番号API</title>
+  <meta name="description" content="この郵便番号APIは、日本郵便によって公開されているデータを元に、GitHub Pagesを使用して静的なJSONファイルとして配信しています。そのため可用性が高く、またオープンソースなのでクライアントワークでも安心して使用できます。郵便番号から英語の住所を取得することも可能です。ただし、大口事業所個別番号は英語には対応していません。なお、このAPIの配信データはGitHub Actionsを使用して毎日最新の内容に更新しています。">
+  <link rel="canonical" href="https://jp-postal-code-api.ttskch.com">
+
+  <!-- @see https://ogp.me/ -->
+  <!-- required -->
+  <meta property="og:title" content="日本の郵便番号API">
+  <meta property="og:type" content="website">
+  <!--meta property="og:image" content=""-->
+  <meta property="og:url" content="https://jp-postal-code-api.ttskch.com">
+  <meta property="fb:app_id" content="">
+  <!-- optional -->
+  <meta property="og:description" content="この郵便番号APIは、日本郵便によって公開されているデータを元に、GitHub Pagesを使用して静的なJSONファイルとして配信しています。そのため可用性が高く、またオープンソースなのでクライアントワークでも安心して使用できます。郵便番号から英語の住所を取得することも可能です。ただし、大口事業所個別番号は英語には対応していません。なお、このAPIの配信データはGitHub Actionsを使用して毎日最新の内容に更新しています。">
+  <meta property="og:site_name" content="日本の郵便番号API">
+
+  <!-- @see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started -->
+  <!-- required -->
+  <meta name="twitter:card" content="summary">
+  <!-- optional -->
+  <meta name="twitter:site" content="@ttskch">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    #grid {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-height: 100vh;
+    }
+    p {
+      margin-bottom: 0.5rem;
+    }
+    input, textarea {
+      font-size: 16px; /* for iOS */
+    }
+  </style>
+</head>
+<body>
+<div id="grid">
+  <nav class="navbar static bg-primary-subtle">
+    <div class="container">
+      <a class="navbar-brand" href="/">日本の郵便番号API</a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/ttskch/jp-postal-code-api" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="container mt-3 mt-lg-5">
+    <div class="mb-4 mb-lg-5">
+      <p>日本の郵便番号から住所のデータを取得できるWeb APIのデモ画面です。</p>
+      <p>詳しくは <a href="https://github.com/ttskch/jp-postal-code-api" target="_blank">GitHubリポジトリ</a> をご参照ください。</p>
+    </div>
+    <form id="form" class="row row-cols-lg-auto g-3 align-items-center">
+      <div class="col-12">
+        <label class="visually-hidden" for="postal-code">郵便番号</label>
+        <div class="input-group">
+          <div class="input-group-text">〒</div>
+          <input type="search" class="form-control" id="postal-code" placeholder="例：1000014" required pattern="(\d{7}|\d{3}-\d{4})">
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">住所を取得</button>
+      </div>
+    </form>
+    <div id="result" class="mt-3 d-none">
+      <div class="card mb-2">
+        <div class="card-body">
+          エンドポイント：<a id="endpoint" target="_blank"></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <pre id="response" class="mb-0"></pre>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelector('#form').addEventListener('submit', async (e) => {
+        e.preventDefault()
+        const postalCode = document.querySelector('#postal-code').value.replace('-', '')
+        const endpoint = `https://jp-postal-code-api.ttskch.com/api/${postalCode}.json`
+        const res = await fetch(endpoint)
+        const $endpoint = document.querySelector('#endpoint')
+        const $response = document.querySelector('#response')
+        $endpoint.setAttribute('href', endpoint)
+        $endpoint.textContent = endpoint
+        if (res.ok) {
+          $response.textContent = JSON.stringify(await res.json(), null, 2)
+        } else if (res.status === 404) {
+          $response.textContent = '該当する住所が見つかりませんでした。'
+        } else {
+          $response.textContent = 'エラーが発生しました。'
+        }
+        document.querySelector('#result').classList.remove('d-none')
+      })
+    </script>
+  </main>
+  <footer class="container-fluid bg-body-tertiary">
+    <div class="small text-muted text-end py-3">
+      <div><a href="https://twitter.com/ttskch" target="_blank">@ttskch</a> &copy; 2024</div>
+    </div>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

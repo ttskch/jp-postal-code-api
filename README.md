@@ -16,6 +16,10 @@ GitHub Pagesを使用して静的なJSONファイルとして配信している�
 > [!NOTE]
 > このプロジェクトの実装は [madefor/postal-code-api](https://github.com/madefor/postal-code-api) にインスピレーションを受けています。長期間メンテナンスが行われていない同プロジェクトに代わるものとして、モダンPHPで再実装しました。オリジナルのソースコードに最大の敬意を表します。
 
+## デモ
+
+https://jp-postal-code-api.ttskch.com
+
 ## エンドポイント
 
 ```
