@@ -104,21 +104,25 @@ https://jp-postal-code-api.ttskch.com/api/1008111.json
 ```json
 {
     "postalCode": "1008111",
-    "prefCode": "13",
-    "ja": {
-        "prefecture": "東京都",
-        "address1": "千代田区",
-        "address2": "千代田",
-        "address3": "１−１",
-        "address4": "宮内庁"
-    },
-    "en": {
-        "prefecture": "",
-        "address1": "",
-        "address2": "",
-        "address3": "",
-        "address4": ""
-    }
+    "addresses": [
+        {
+            "prefectureCode": "13",
+            "ja": {
+                "prefecture": "東京都",
+                "address1": "千代田区",
+                "address2": "千代田",
+                "address3": "１−１",
+                "address4": "宮内庁"
+            },
+            "en": {
+                "prefecture": "",
+                "address1": "",
+                "address2": "",
+                "address3": "",
+                "address4": ""
+            }
+        }
+    ]
 }
 ```
 
@@ -150,3 +154,7 @@ $ bin/console build
 
 * バグの報告や機能の提案は [Issue](https://github.com/ttskch/jp-postal-code-api/issues) または [Pull Request](https://github.com/ttskch/jp-postal-code-api/pulls) にてお願いします
 * Starを付けていただけると開発者のモチベーションが上がります
+
+## ライセンス
+
+[MIT](LICENSE)
