@@ -2,7 +2,7 @@ name: cron
 
 on:
   schedule:
-    - cron: "0 15 * * *" # 00:00 JSt
+    - cron: "0 15 * * *" # 00:00 JST
 
 jobs:
   # https://zenn.dev/snowcait/articles/903d86d668fcb7
