@@ -46,7 +46,7 @@ jobs:
           git diff --name-only --exit-code
         continue-on-error: true
 
-      - name: Commit and push to GitHub
+      - name: Commit and push to GitHub if needed
         if: steps.diff.outcome == 'failure'
         # https://github.com/actions/checkout/issues/13#issuecomment-724415212
         run: |
@@ -66,8 +66,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Get current date
         id: now
@@ -81,7 +80,7 @@ jobs:
         id: diff
         run: echo "days=$(expr \( ${{ steps.now.outputs.date }} - ${{ steps.last_commit.outputs.date }} \) / 86400)" >> $GITHUB_OUTPUT
 
-      - name: Push to GitHub an empty commit
+      - name: Push to GitHub an empty commit if needed
         if: ${{ steps.diff.outputs.days >= 59 }}
         run: |
           set -x
