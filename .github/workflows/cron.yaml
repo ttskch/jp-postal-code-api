@@ -56,3 +56,36 @@ jobs:
           git add .
           git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed"
           git push
+
+  # prevent scheduled workflows from being disabled automatically
+  # https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow
+  ensure_activity:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Get current date
+        id: now
+        run: echo "date=$(date +%s)" >> $GITHUB_OUTPUT
+
+      - name: Get last commit date
+        id: last_commit
+        run: echo "date=$(git log -1 --format=%ct)" >> $GITHUB_OUTPUT
+
+      - name: Calculate date difference
+        id: diff
+        run: echo "days=$(expr \( ${{ steps.now.outputs.date }} - ${{ steps.last_commit.outputs.date }} \) / 86400)" >> $GITHUB_OUTPUT
+
+      - name: Push to GitHub an empty commit
+        if: ${{ steps.diff.outputs.days >= 59 }}
+        run: |
+          set -x
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git commit --allow-empty --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Empty commit to ensure activity" -m "" -m "see: https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow#:~:text=In%20a%20public%20repository%2C%20scheduled%20workflows%20are%20automatically%20disabled%20when%20no%20repository%20activity%20has%20occurred%20in%2060%20days."
+          git push
