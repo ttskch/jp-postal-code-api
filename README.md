@@ -26,7 +26,7 @@ https://jp-postal-code-api.ttskch.com
 https://jp-postal-code-api.ttskch.com/api/{郵便番号}.json
 ```
 
-# 使い方
+## 使い方
 
 例えば、郵便番号が `100-0014` の住所（東京都千代田区永田町）を取得したい場合は、エンドポイントのURLとレスポンスの内容は以下のようになります。
 
