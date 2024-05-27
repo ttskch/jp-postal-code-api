@@ -134,7 +134,7 @@ https://jp-postal-code-api.ttskch.com/api/1008111.json
 
 ## 配信データの自動更新
 
-[こちらの](.github/workflows/cron.yaml) GitHub Actions Workflowによって、[毎日午前0時頃に自動的に](https://github.com/ttskch/jp-postal-code-api/actions/workflows/cron.yaml?query=branch:main) Web APIの配信データの内容を最新化しています。
+[こちらのGitHub Actions Workflow](.github/workflows/cron.yaml) によって、[毎日午前0時頃に自動的に](https://github.com/ttskch/jp-postal-code-api/actions/workflows/cron.yaml?query=branch:main) Web APIの配信データの内容を最新化しています。
 
 更新処理の具体的な内容は以下のとおりです。
 
