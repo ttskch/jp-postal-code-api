@@ -12,26 +12,29 @@ use Ttskch\JpPostalCodeApi\FileSystem\BaseDirectoryInterface;
 
 final readonly class JpPostalCodeApi
 {
+    private Application $console;
+
     public function __construct(
         private CsvProviderInterface $csvProvider,
         private CsvParserInterface $kenAllCsvParser,
         private CsvParserInterface $kenAllRomeCsvParser,
         private CsvParserInterface $jigyosyoCsvParser,
         private BaseDirectoryInterface $baseDirectory,
+        ?Application $console = null,
     ) {
+        $this->console = $console ?? new Application();
     }
 
     public function run(): void
     {
-        $console = new Application();
-        $console->setName('jp-postal-code-api console');
-        $console->add(new BuildCommand(
+        $this->console->setName('jp-postal-code-api console');
+        $this->console->add(new BuildCommand(
             $this->csvProvider,
             $this->kenAllCsvParser,
             $this->kenAllRomeCsvParser,
             $this->jigyosyoCsvParser,
             $this->baseDirectory,
         ));
-        $console->run();
+        $this->console->run();
     }
 }
