@@ -22,7 +22,7 @@ use Ttskch\JpPostalCodeApi\Model\ParsedCsvRow;
 )]
 final class BuildCommand extends Command
 {
-    private const string DEFAULT_DESTINATION_DIR = __DIR__.'/../../docs/api';
+    private const string DEFAULT_DESTINATION_DIR = __DIR__.'/../../docs/api/v1';
 
     public function __construct(
         readonly private CsvProviderInterface $csvProvider,

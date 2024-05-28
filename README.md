@@ -23,14 +23,14 @@ https://jp-postal-code-api.ttskch.com
 ## エンドポイント
 
 ```
-https://jp-postal-code-api.ttskch.com/api/{郵便番号}.json
+https://jp-postal-code-api.ttskch.com/api/v1/{郵便番号}.json
 ```
 
 ## 使い方
 
 例えば、郵便番号が `100-0014` の住所（東京都千代田区永田町）を取得したい場合は、エンドポイントのURLとレスポンスの内容は以下のようになります。
 
-https://jp-postal-code-api.ttskch.com/api/1000014.json
+https://jp-postal-code-api.ttskch.com/api/v1/1000014.json
 
 ```json
 {
@@ -59,7 +59,7 @@ https://jp-postal-code-api.ttskch.com/api/1000014.json
 
 1つの郵便番号に複数の住所がある場合は、レスポンスの内容は以下のようになります。
 
-https://jp-postal-code-api.ttskch.com/api/6180000.json
+https://jp-postal-code-api.ttskch.com/api/v1/6180000.json
 
 ```json
 {
@@ -105,7 +105,7 @@ https://jp-postal-code-api.ttskch.com/api/6180000.json
 
 大口事業所個別番号では英語表記の住所は空になります。
 
-https://jp-postal-code-api.ttskch.com/api/1008111.json
+https://jp-postal-code-api.ttskch.com/api/v1/1008111.json
 
 ```json
 {
@@ -153,7 +153,7 @@ $ composer install
 ```
 
 ```shell
-# docs/api/ 配下にJSONファイルを生成（15万ファイルほど生成されるので要注意）
+# docs/api/v1/ 配下にJSONファイルを生成（15万ファイルほど生成されるので要注意）
 $ bin/console build
 ```
 

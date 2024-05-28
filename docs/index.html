@@ -86,7 +86,7 @@
       document.querySelector('#form').addEventListener('submit', async (e) => {
         e.preventDefault()
         const postalCode = document.querySelector('#postal-code').value.replace('-', '')
-        const endpoint = `https://jp-postal-code-api.ttskch.com/api/${postalCode}.json`
+        const endpoint = `https://jp-postal-code-api.ttskch.com/api/v1/${postalCode}.json`
         const res = await fetch(endpoint)
         const $endpoint = document.querySelector('#endpoint')
         const $response = document.querySelector('#response')
