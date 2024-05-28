@@ -9,15 +9,7 @@
 
 GitHub Pagesを使用して静的なJSONファイルとして配信しているため、可用性が高いのが特徴です。また、オープンソースなのでクライアントワークでも安心してご使用いただけます。もし永続性が心配な場合はご自由にフォークしてご利用ください。
 
-[日本郵便によって公開されているデータ](https://www.post.japanpost.jp/zipcode/download.html) を元に住所データのJSONファイルを生成して配信しています。JSONファイルには日本語表記・カナ表記・英語表記の住所データが含まれています。ただし、以下の注意事項があります。
-
-* 大口事業所個別番号の住所データは以下のように出力されます（[元データ](https://www.post.japanpost.jp/zipcode/dl/jigyosyo/index-zip.html) の内容がそうであるため）
-    * カナ表記は事業所名についてのみ出力されます
-    * 事業所名のカナ表記は促音・拗音が大書きで出力されます
-    * 英語表記は出力されません
-* 直近1年程度以内に [市町村変更があった住所](https://www.post.japanpost.jp/zipcode/merge/index.html) については、英語表記は出力されません（[元データが年1回程度しか更新されない](https://www.post.japanpost.jp/zipcode/dl/roman-zip.html) ため）
-
-なお、配信データはGitHub Actionsを使用して [毎日最新の内容に更新しています](https://github.com/ttskch/jp-postal-code-api/actions/workflows/cron.yaml?query=branch:main)。
+[日本郵便によって公開されているデータ](https://www.post.japanpost.jp/zipcode/download.html) を元に住所データのJSONファイルを生成して配信しています。配信データはGitHub Actionsを使用して [毎日最新の内容に更新しています](https://github.com/ttskch/jp-postal-code-api/actions/workflows/cron.yaml?query=branch:main)。
 
 > [!NOTE]
 > このプロジェクトの実装は [madefor/postal-code-api](https://github.com/madefor/postal-code-api) にインスピレーションを受けています。長期間メンテナンスが行われていない同プロジェクトに代わるものとして、モダンPHPで再実装しました。オリジナルのソースコードに最大の敬意を表します。
@@ -203,9 +195,17 @@ https://jp-postal-code-api.ttskch.com/api/v1/4328003.json
 }
 ```
 
-## 配信データの自動更新
+## 配信データの仕様
 
-[こちらのGitHub Actions Workflow](.github/workflows/cron.yaml) によって、[毎日午前0時頃に自動的に](https://github.com/ttskch/jp-postal-code-api/actions/workflows/cron.yaml?query=branch:main) Web APIの配信データの内容を最新化しています。
+Web APIの配信データは [日本郵便によって公開されているデータ](https://www.post.japanpost.jp/zipcode/download.html) を元に生成しています。具体的なスキーマは [使い方](?tab=readme-ov-file#使い方) の例をご参照ください。 日本語表記・カナ表記・英語表記の住所データが含まれていますが、以下の注意事項があります。
+
+* 大口事業所個別番号の住所データは以下のように出力されます（[元データ](https://www.post.japanpost.jp/zipcode/dl/jigyosyo/index-zip.html) の内容がそうであるため）
+    * カナ表記は事業所名についてのみ出力されます
+    * 事業所名のカナ表記は促音・拗音が大書きで出力されます
+    * 英語表記は出力されません
+* 直近1年程度以内に [市町村変更があった住所](https://www.post.japanpost.jp/zipcode/merge/index.html) については、英語表記は出力されません（[元データが年1回程度しか更新されない](https://www.post.japanpost.jp/zipcode/dl/roman-zip.html) ため）
+
+また、[こちらのGitHub Actions Workflow](.github/workflows/cron.yaml) によって、[毎日午前0時頃に自動的に](https://github.com/ttskch/jp-postal-code-api/actions/workflows/cron.yaml?query=branch:main) Web APIの配信データの内容を最新化しています。
 
 更新処理の具体的な内容は以下のとおりです。
 
