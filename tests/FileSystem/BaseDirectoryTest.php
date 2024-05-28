@@ -21,11 +21,39 @@ class BaseDirectoryTest extends TestCase
         mkdir($this->path);
 
         $jsonContent = <<<JSON
-{"postalCode":"0600000","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市中央区","address2":"旭ケ丘","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Chuo-ku, Sapporo-shi","address2":"Asahigaoka","address3":"","address4":""}}]}
+{
+  "postalCode": "0640941",
+  "addresses": [
+    {
+      "prefectureCode": "01",
+      "ja": {
+        "prefecture": "北海道",
+        "address1": "札幌市中央区",
+        "address2": "旭ケ丘",
+        "address3": "",
+        "address4": ""
+      },
+      "kana": {
+        "prefecture": "ホッカイドウ",
+        "address1": "サッポロシチュウオウク",
+        "address2": "アサヒガオカ",
+        "address3": "",
+        "address4": ""
+      },
+      "en": {
+        "prefecture": "",
+        "address1": "",
+        "address2": "",
+        "address3": "",
+        "address4": ""
+      }
+    }
+  ]
+}
 JSON;
         file_put_contents(sprintf('%s/1.json', $this->path), '');
         file_put_contents(sprintf('%s/2.json', $this->path), '');
-        file_put_contents(sprintf('%s/0600000.json', $this->path), $jsonContent);
+        file_put_contents(sprintf('%s/0640941.json', $this->path), $jsonContent);
 
         $this->SUT = new BaseDirectory($this->path);
     }
@@ -37,25 +65,58 @@ JSON;
         self::assertTrue(is_dir($this->path));
         self::assertFalse(file_exists(sprintf('%s/1.json', $this->path)));
         self::assertFalse(file_exists(sprintf('%s/2.json', $this->path)));
-        self::assertFalse(file_exists(sprintf('%s/0600000.json', $this->path)));
+        self::assertFalse(file_exists(sprintf('%s/0640941.json', $this->path)));
     }
 
     public function testPutJsonFile(): void
     {
         $this->SUT->putJsonFile(new ParsedCsvRow(
-            '0600000',
+            '0640941',
             new Address(
-                '02',
-                ja: new AddressUnit('test', 'test', 'test'),
-                en: new AddressUnit(),
+                '01',
+                ja: new AddressUnit('北海道', '札幌市中央区', '旭ケ丘'),
+                en: new AddressUnit('Hokkaido', 'Chuo-ku, Sapporo-shi', 'Asahigaoka'),
             ),
-        ));
+        ), true);
 
-        $content = strval(file_get_contents(sprintf('%s/0600000.json', $this->path)));
+        $content = strval(file_get_contents(sprintf('%s/0640941.json', $this->path)));
         $expected = <<<JSON
-{"postalCode":"0600000","addresses":[{"prefectureCode":"01","ja":{"prefecture":"北海道","address1":"札幌市中央区","address2":"旭ケ丘","address3":"","address4":""},"en":{"prefecture":"Hokkaido","address1":"Chuo-ku, Sapporo-shi","address2":"Asahigaoka","address3":"","address4":""}},{"prefectureCode":"02","ja":{"prefecture":"test","address1":"test","address2":"test","address3":"","address4":""},"en":{"prefecture":"","address1":"","address2":"","address3":"","address4":""}}]}
+{
+  "postalCode": "0640941",
+  "addresses": [
+    {
+      "prefectureCode": "01",
+      "ja": {
+        "prefecture": "北海道",
+        "address1": "札幌市中央区",
+        "address2": "旭ケ丘",
+        "address3": "",
+        "address4": ""
+      },
+      "kana": {
+        "prefecture": "ホッカイドウ",
+        "address1": "サッポロシチュウオウク",
+        "address2": "アサヒガオカ",
+        "address3": "",
+        "address4": ""
+      },
+      "en": {
+        "prefecture": "Hokkaido",
+        "address1": "Chuo-ku, Sapporo-shi",
+        "address2": "Asahigaoka",
+        "address3": "",
+        "address4": ""
+      }
+    }
+  ]
+}
 JSON;
 
-        self::assertSame($expected, $content);
+        self::assertJsonStringEqualsJsonString($expected, $content);
+    }
+
+    public function testCountJsonFiles(): void
+    {
+        self::assertSame(3, $this->SUT->countJsonFiles());
     }
 }

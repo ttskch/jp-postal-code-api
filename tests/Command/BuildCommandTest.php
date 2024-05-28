@@ -22,11 +22,22 @@ class BuildCommandTest extends TestCase
     public function testExecute(): void
     {
         $csvProvider = $this->prophesize(CsvProviderInterface::class);
-        $csvProvider->fromZipUrl('https://www.post.japanpost.jp/zipcode/dl/roman/KEN_ALL_ROME.zip')->willReturn(Reader::createFromString('ken,all,csv'));
+        $csvProvider->fromZipUrl('https://www.post.japanpost.jp/zipcode/dl/kogaki/zip/ken_all.zip')->willReturn(Reader::createFromString('ken,all,csv'));
+        $csvProvider->fromZipUrl('https://www.post.japanpost.jp/zipcode/dl/roman/KEN_ALL_ROME.zip')->willReturn(Reader::createFromString('kenall,rome,csv'));
         $csvProvider->fromZipUrl('https://www.post.japanpost.jp/zipcode/dl/jigyosyo/zip/jigyosyo.zip')->willReturn(Reader::createFromString('jigyo,syo,csv'));
 
         $kenAllCsvParser = $this->prophesize(CsvParserInterface::class);
         $kenAllCsvParser->parse(['ken', 'all', 'csv'])->willReturn(new ParsedCsvRow(
+            '0600000',
+            new Address(
+                '01',
+                ja: new AddressUnit('北海道', '札幌市中央区', '旭ケ丘', '', ''),
+                kana: new AddressUnit('ホッカイドウ', 'サッポロシチュウオウク', 'アサヒガオカ', '', ''),
+            ),
+        ));
+
+        $kenAllRomeCsvParser = $this->prophesize(CsvParserInterface::class);
+        $kenAllRomeCsvParser->parse(['kenall', 'rome', 'csv'])->willReturn(new ParsedCsvRow(
             '0600000',
             new Address(
                 '01',
@@ -52,9 +63,17 @@ class BuildCommandTest extends TestCase
             new Address(
                 '01',
                 ja: new AddressUnit('北海道', '札幌市中央区', '旭ケ丘', '', ''),
-                en: new AddressUnit('Hokkaido', 'Chuo-ku, Sapporo-shi', 'Asahigaoka', '', ''),
+                kana: new AddressUnit('ホッカイドウ', 'サッポロシチュウオウク', 'アサヒガオカ', '', ''),
             ),
         ))->shouldBeCalled();
+        $baseDirectory->putJsonFile(new ParsedCsvRow(
+            '0600000',
+            new Address(
+                '01',
+                ja: new AddressUnit('北海道', '札幌市中央区', '旭ケ丘', '', ''),
+                en: new AddressUnit('Hokkaido', 'Chuo-ku, Sapporo-shi', 'Asahigaoka', '', ''),
+            ),
+        ), true)->shouldBeCalled();
         $baseDirectory->putJsonFile(new ParsedCsvRow(
             '1008111',
             new Address(
@@ -63,10 +82,12 @@ class BuildCommandTest extends TestCase
                 en: new AddressUnit(),
             ),
         ))->shouldBeCalled();
+        $baseDirectory->countJsonFiles()->willReturn(1);
 
         $command = new BuildCommand(
             $csvProvider->reveal(),
             $kenAllCsvParser->reveal(),
+            $kenAllRomeCsvParser->reveal(),
             $jigyosyoCsvParser->reveal(),
             $baseDirectory->reveal(),
         );
@@ -80,6 +101,6 @@ class BuildCommandTest extends TestCase
         $commandTester->assertCommandIsSuccessful();
 
         $output = $commandTester->getDisplay();
-        self::assertStringContainsString('Finished!', $output);
+        self::assertStringContainsString('Finished! 1 files are created from 3 CSV records.', $output);
     }
 }

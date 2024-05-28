@@ -34,7 +34,7 @@ final readonly class BaseDirectory implements BaseDirectoryInterface
         mkdir($this->path, recursive: true);
     }
 
-    public function putJsonFile(ParsedCsvRow $row): void
+    public function putJsonFile(ParsedCsvRow $row, bool $en = false): void
     {
         $jsonFilePath = sprintf('%s/%s.json', $this->path, $row->postalCode);
 
@@ -45,10 +45,28 @@ final readonly class BaseDirectory implements BaseDirectoryInterface
             : new ApiResource($row->postalCode)
         ;
 
-        $apiResource->addresses[] = $row->address;
+        if ($en) {
+            // Add English address unit only if Japanese address unit is the same
+            foreach ($apiResource->addresses as $address) {
+                if ($row->address->ja == $address->ja) { // not `===`
+                    $address->en = $row->address->en;
+                }
+            }
+        } else {
+            // Push Japanese address
+            $apiResource->addresses[] = $row->address;
+        }
 
         $json = json_encode($apiResource, JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
 
         file_put_contents($jsonFilePath, $json);
+    }
+
+    public function countJsonFiles(): int
+    {
+        $glob = glob(sprintf('%s/*.json', $this->path), GLOB_NOSORT | GLOB_BRACE);
+        $glob = false === $glob ? [] : $glob;
+
+        return count($glob);
     }
 }

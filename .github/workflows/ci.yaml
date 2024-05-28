@@ -13,7 +13,7 @@ jobs:
       - uses: shivammathur/setup-php@v2
         with:
           php-version: 8.3
-          extensions: pcov
+          extensions: mbstring, pcov
 
       - uses: actions/checkout@v4
 

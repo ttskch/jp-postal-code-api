@@ -23,6 +23,7 @@ final class BuildCommand extends Command
     public function __construct(
         readonly private CsvProviderInterface $csvProvider,
         readonly private CsvParserInterface $kenAllCsvParser,
+        readonly private CsvParserInterface $kenAllRomeCsvParser,
         readonly private CsvParserInterface $jigyosyoCsvParser,
         readonly private BaseDirectoryInterface $baseDirectory,
     ) {
@@ -32,19 +33,28 @@ final class BuildCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $kenAllCsv = $this->csvProvider->fromZipUrl(ZipUrls::KEN_ALL);
+        $kenAllRomeCsv = $this->csvProvider->fromZipUrl(ZipUrls::KEN_ALL_ROME);
         $jigyosyoCsv = $this->csvProvider->fromZipUrl(ZipUrls::JIGYOSYO);
 
-        $total = $kenAllCsv->count() + $jigyosyoCsv->count();
+        $total = $kenAllCsv->count() + $kenAllRomeCsv->count() + $jigyosyoCsv->count();
 
         $io = new SymfonyStyle($input, $output);
         $io->progressStart($total);
 
         $this->baseDirectory->clear();
 
+        // $kenAllCsv must be processed before $kenAllRomeCsv
         /** @var array<int, string> $row */
         foreach ($kenAllCsv as $row) {
             $parsedRow = $this->kenAllCsvParser->parse($row);
             $this->baseDirectory->putJsonFile($parsedRow);
+            $io->progressAdvance();
+        }
+
+        /** @var array<int, string> $row */
+        foreach ($kenAllRomeCsv as $row) {
+            $parsedRow = $this->kenAllRomeCsvParser->parse($row);
+            $this->baseDirectory->putJsonFile($parsedRow, true);
             $io->progressAdvance();
         }
 
@@ -56,7 +66,7 @@ final class BuildCommand extends Command
         }
 
         $io->progressFinish();
-        $io->success('Finished!');
+        $io->success(sprintf('Finished! %s files are created from %s CSV records.', number_format($this->baseDirectory->countJsonFiles()), number_format($total)));
 
         return Command::SUCCESS;
     }

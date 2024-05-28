@@ -32,6 +32,7 @@ class CsvParserTest extends TestCase
         self::assertSame($expected[9], $actual->address->en->address2);
         self::assertSame($expected[10], $actual->address->en->address3);
         self::assertSame($expected[11], $actual->address->en->address4);
+        self::assertSame($expected[12], $actual->address->kana->address4);
     }
 
     /**
@@ -69,6 +70,7 @@ class CsvParserTest extends TestCase
                     '',
                     '',
                     '',
+                    'シラヌカチヨウギヨギヨウ　キヨウドウクミアイ',
                 ],
             ],
         ];

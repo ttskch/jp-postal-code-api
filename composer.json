@@ -10,6 +10,7 @@
     ],
     "require": {
         "php": "^8.3",
+        "ext-mbstring": "*",
         "ext-zip": "*",
         "league/csv": "^9.15",
         "symfony/console": "^7.0"

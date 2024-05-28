@@ -15,6 +15,7 @@ final readonly class JpPostalCodeApi
     public function __construct(
         private CsvProviderInterface $csvProvider,
         private CsvParserInterface $kenAllCsvParser,
+        private CsvParserInterface $kenAllRomeCsvParser,
         private CsvParserInterface $jigyosyoCsvParser,
         private BaseDirectoryInterface $baseDirectory,
     ) {
@@ -27,6 +28,7 @@ final readonly class JpPostalCodeApi
         $console->add(new BuildCommand(
             $this->csvProvider,
             $this->kenAllCsvParser,
+            $this->kenAllRomeCsvParser,
             $this->jigyosyoCsvParser,
             $this->baseDirectory,
         ));

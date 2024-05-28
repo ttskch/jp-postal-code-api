@@ -12,4 +12,5 @@ final readonly class CsvHeaders
     public const int ADDRESS_2_JA = 5;
     public const int ADDRESS_3_JA = 6;
     public const int ADDRESS_4_JA = 2;
+    public const int ADDRESS_4_KANA = 1;
 }

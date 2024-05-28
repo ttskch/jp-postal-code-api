@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ttskch\JpPostalCodeApi\Csv\KenAll;
+namespace Ttskch\JpPostalCodeApi\Csv\KenAllRome;
 
 use PHPUnit\Framework\TestCase;
 
@@ -27,11 +27,11 @@ class CsvParserTest extends TestCase
         self::assertSame($expected[4], $actual->address->ja->address2);
         self::assertSame($expected[5], $actual->address->ja->address3);
         self::assertSame($expected[6], $actual->address->ja->address4);
-        self::assertSame($expected[7], $actual->address->kana->prefecture);
-        self::assertSame($expected[8], $actual->address->kana->address1);
-        self::assertSame($expected[9], $actual->address->kana->address2);
-        self::assertSame($expected[10], $actual->address->kana->address3);
-        self::assertSame($expected[11], $actual->address->kana->address4);
+        self::assertSame($expected[7], $actual->address->en->prefecture);
+        self::assertSame($expected[8], $actual->address->en->address1);
+        self::assertSame($expected[9], $actual->address->en->address2);
+        self::assertSame($expected[10], $actual->address->en->address3);
+        self::assertSame($expected[11], $actual->address->en->address4);
     }
 
     /**
@@ -42,15 +42,13 @@ class CsvParserTest extends TestCase
         return [
             [
                 [
-                    '01101',
-                    '060',
                     '0600000',
-                    'ﾎｯｶｲﾄﾞｳ',
-                    'ｻｯﾎﾟﾛｼﾁｭｳｵｳｸ',
-                    'ｲｶﾆｹｲｻｲｶﾞﾅｲﾊﾞｱｲ',
                     '北海道',
-                    '札幌市中央区',
+                    '札幌市　中央区',
                     '以下に掲載がない場合',
+                    'HOKKAIDO',
+                    'SAPPORO SHI CHUO KU',
+                    'IKANIKEISAIGANAIBAAI',
                 ],
                 [
                     '0600000',
@@ -60,8 +58,8 @@ class CsvParserTest extends TestCase
                     '',
                     '',
                     '',
-                    'ホッカイドウ',
-                    'サッポロシチュウオウク',
+                    'Hokkaido',
+                    'Chuo-ku, Sapporo-shi',
                     '',
                     '',
                     '',
@@ -69,15 +67,13 @@ class CsvParserTest extends TestCase
             ],
             [
                 [
-                    '01101',
-                    '060',
                     '0600042',
-                    'ﾎｯｶｲﾄﾞｳ',
-                    'ｻｯﾎﾟﾛｼﾁｭｳｵｳｸ',
-                    'ｵｵﾄﾞｵﾘﾆｼ(1-19ﾁｮｳﾒ)',
                     '北海道',
-                    '札幌市中央区',
+                    '札幌市　中央区',
                     '大通西（１～１９丁目）',
+                    'HOKKAIDO',
+                    'SAPPORO SHI CHUO KU',
+                    'ODORINISHI(1-19-CHOME)',
                 ],
                 [
                     '0600042',
@@ -87,24 +83,22 @@ class CsvParserTest extends TestCase
                     '大通西',
                     '',
                     '',
-                    'ホッカイドウ',
-                    'サッポロシチュウオウク',
-                    'オオドオリニシ',
+                    'Hokkaido',
+                    'Chuo-ku, Sapporo-shi',
+                    'Odorinishi',
                     '',
                     '',
                 ],
             ],
             [
                 [
-                    '01224',
-                    '066',
                     '0660005',
-                    'ﾎｯｶｲﾄﾞｳ',
-                    'ﾁﾄｾｼ',
-                    'ｷｮｳﾜ(88-2､271-10､343-2､404-1､427-',
                     '北海道',
                     '千歳市',
-                    '協和（８８－２、２７１－１０、３４３－２、４０４－１、４２７－',
+                    '協和（８８－２、２７１－１０、３４',
+                    'HOKKAIDO',
+                    'CHITOSE SHI',
+                    'KYOWA(88-2.271-10.343-2.404-1.427-',
                 ],
                 [
                     '0660005',
@@ -114,24 +108,22 @@ class CsvParserTest extends TestCase
                     '協和',
                     '',
                     '',
-                    'ホッカイドウ',
-                    'チトセシ',
-                    'キョウワ',
+                    'Hokkaido',
+                    'Chitose-shi',
+                    'Kyowa',
                     '',
                     '',
                 ],
             ],
             [
                 [
-                    '01224',
-                    '066',
                     '0660005',
-                    'ﾎｯｶｲﾄﾞｳ',
-                    'ﾁﾄｾｼ',
-                    '3､431-12､443-6､608-2､641-8､814､842-',
                     '北海道',
                     '千歳市',
-                    '３、４３１－１２、４４３－６、６０８－２、６４１－８、８１４、８４２－',
+                    '３、４３１－１２、４４３－６、６０',
+                    'HOKKAIDO',
+                    'CHITOSE SHI',
+                    '3.431-12.443-6.608-2.641-8.814.842-',
                 ],
                 [
                     '0660005',
@@ -141,8 +133,8 @@ class CsvParserTest extends TestCase
                     '',
                     '',
                     '',
-                    'ホッカイドウ',
-                    'チトセシ',
+                    'Hokkaido',
+                    'Chitose-shi',
                     '',
                     '',
                     '',

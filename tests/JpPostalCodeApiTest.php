@@ -22,6 +22,7 @@ class JpPostalCodeApiTest extends TestCase
             $this->prophesize(CsvProviderInterface::class)->reveal(),
             $this->prophesize(CsvParserInterface::class)->reveal(),
             $this->prophesize(CsvParserInterface::class)->reveal(),
+            $this->prophesize(CsvParserInterface::class)->reveal(),
             $this->prophesize(BaseDirectoryInterface::class)->reveal(),
         );
     }

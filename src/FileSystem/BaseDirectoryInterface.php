@@ -10,5 +10,7 @@ interface BaseDirectoryInterface
 {
     public function clear(): void;
 
-    public function putJsonFile(ParsedCsvRow $row): void;
+    public function putJsonFile(ParsedCsvRow $row, bool $en = false): void;
+
+    public function countJsonFiles(): int;
 }

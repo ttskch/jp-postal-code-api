@@ -12,6 +12,50 @@ class CsvProviderTest extends TestCase
     {
         $SUT = new CsvProvider();
 
+        $actual = $SUT->fromZipUrl(__DIR__.'/../resources/ken_all.zip');
+
+        self::assertSame(124683, $actual->count());
+
+        foreach ($actual as $i => $row) {
+            if (0 === $i) {
+                self::assertSame([
+                    '01101',
+                    '060  ',
+                    '0600000',
+                    'ﾎｯｶｲﾄﾞｳ',
+                    'ｻｯﾎﾟﾛｼﾁｭｳｵｳｸ',
+                    'ｲｶﾆｹｲｻｲｶﾞﾅｲﾊﾞｱｲ',
+                    '北海道',
+                    '札幌市中央区',
+                    '以下に掲載がない場合',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                ], $row);
+            } elseif ($i === $actual->count() - 1) {
+                self::assertSame([
+                    '47382',
+                    '90718',
+                    '9071801',
+                    'ｵｷﾅﾜｹﾝ',
+                    'ﾔｴﾔﾏｸﾞﾝﾖﾅｸﾞﾆﾁｮｳ',
+                    'ﾖﾅｸﾞﾆ',
+                    '沖縄県',
+                    '八重山郡与那国町',
+                    '与那国',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                ], $row);
+            }
+        }
+
         $actual = $SUT->fromZipUrl(__DIR__.'/../resources/KEN_ALL_ROME.zip');
 
         self::assertSame(124574, $actual->count());
