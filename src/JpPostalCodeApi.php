@@ -8,6 +8,7 @@ use Symfony\Component\Console\Application;
 use Ttskch\JpPostalCodeApi\Command\BuildCommand;
 use Ttskch\JpPostalCodeApi\Csv\CsvParserInterface;
 use Ttskch\JpPostalCodeApi\DataSource\CsvProviderInterface;
+use Ttskch\JpPostalCodeApi\FileSystem\BaseDirectoryInterface;
 
 final readonly class JpPostalCodeApi
 {
@@ -15,6 +16,7 @@ final readonly class JpPostalCodeApi
         private CsvProviderInterface $csvProvider,
         private CsvParserInterface $kenAllCsvParser,
         private CsvParserInterface $jigyosyoCsvParser,
+        private BaseDirectoryInterface $baseDirectory,
     ) {
     }
 
@@ -22,7 +24,12 @@ final readonly class JpPostalCodeApi
     {
         $console = new Application();
         $console->setName('jp-postal-code-api console');
-        $console->add(new BuildCommand($this->csvProvider, $this->kenAllCsvParser, $this->jigyosyoCsvParser));
+        $console->add(new BuildCommand(
+            $this->csvProvider,
+            $this->kenAllCsvParser,
+            $this->jigyosyoCsvParser,
+            $this->baseDirectory,
+        ));
         $console->run();
     }
 }

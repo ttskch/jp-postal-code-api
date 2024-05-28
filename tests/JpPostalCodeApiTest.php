@@ -8,6 +8,7 @@ use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Ttskch\JpPostalCodeApi\Csv\CsvParserInterface;
 use Ttskch\JpPostalCodeApi\DataSource\CsvProviderInterface;
+use Ttskch\JpPostalCodeApi\FileSystem\BaseDirectoryInterface;
 
 class JpPostalCodeApiTest extends TestCase
 {
@@ -21,6 +22,7 @@ class JpPostalCodeApiTest extends TestCase
             $this->prophesize(CsvProviderInterface::class)->reveal(),
             $this->prophesize(CsvParserInterface::class)->reveal(),
             $this->prophesize(CsvParserInterface::class)->reveal(),
+            $this->prophesize(BaseDirectoryInterface::class)->reveal(),
         );
     }
 
