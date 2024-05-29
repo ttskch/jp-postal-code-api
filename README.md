@@ -32,33 +32,33 @@ https://jp-postal-code-api.ttskch.com/api/v1/1000014.json
 
 ```json
 {
-  "postalCode": "1000014",
-  "addresses": [
-    {
-      "prefectureCode": "13",
-      "ja": {
-        "prefecture": "東京都",
-        "address1": "千代田区",
-        "address2": "永田町",
-        "address3": "",
-        "address4": ""
-      },
-      "kana": {
-        "prefecture": "トウキョウト",
-        "address1": "チヨダク",
-        "address2": "ナガタチョウ",
-        "address3": "",
-        "address4": ""
-      },
-      "en": {
-        "prefecture": "Tokyo",
-        "address1": "Chiyoda-ku",
-        "address2": "Nagatacho ",
-        "address3": "",
-        "address4": ""
-      }
-    }
-  ]
+    "postalCode": "1000014",
+    "addresses": [
+        {
+            "prefectureCode": "13",
+            "ja": {
+                "prefecture": "東京都",
+                "address1": "千代田区",
+                "address2": "永田町",
+                "address3": "",
+                "address4": ""
+            },
+            "kana": {
+                "prefecture": "トウキョウト",
+                "address1": "チヨダク",
+                "address2": "ナガタチョウ",
+                "address3": "",
+                "address4": ""
+            },
+            "en": {
+                "prefecture": "Tokyo",
+                "address1": "Chiyoda-ku",
+                "address2": "Nagatacho ",
+                "address3": "",
+                "address4": ""
+            }
+        }
+    ]
 }
 ```
 
@@ -68,57 +68,57 @@ https://jp-postal-code-api.ttskch.com/api/v1/6180000.json
 
 ```json
 {
-  "postalCode": "6180000",
-  "addresses": [
-    {
-      "prefectureCode": "26",
-      "ja": {
-        "prefecture": "京都府",
-        "address1": "乙訓郡大山崎町",
-        "address2": "",
-        "address3": "",
-        "address4": ""
-      },
-      "kana": {
-        "prefecture": "キョウトフ",
-        "address1": "オトクニグンオオヤマザキチョウ",
-        "address2": "",
-        "address3": "",
-        "address4": ""
-      },
-      "en": {
-        "prefecture": "Kyoto",
-        "address1": "Oyamazaki-cho, Otokuni-gun",
-        "address2": "",
-        "address3": "",
-        "address4": ""
-      }
-    },
-    {
-      "prefectureCode": "27",
-      "ja": {
-        "prefecture": "大阪府",
-        "address1": "三島郡島本町",
-        "address2": "",
-        "address3": "",
-        "address4": ""
-      },
-      "kana": {
-        "prefecture": "オオサカフ",
-        "address1": "ミシマグンシマモトチョウ",
-        "address2": "",
-        "address3": "",
-        "address4": ""
-      },
-      "en": {
-        "prefecture": "Osaka",
-        "address1": "Shimamoto-cho, Mishima-gun",
-        "address2": "",
-        "address3": "",
-        "address4": ""
-      }
-    }
-  ]
+    "postalCode": "6180000",
+    "addresses": [
+        {
+            "prefectureCode": "26",
+            "ja": {
+                "prefecture": "京都府",
+                "address1": "乙訓郡大山崎町",
+                "address2": "",
+                "address3": "",
+                "address4": ""
+            },
+            "kana": {
+                "prefecture": "キョウトフ",
+                "address1": "オトクニグンオオヤマザキチョウ",
+                "address2": "",
+                "address3": "",
+                "address4": ""
+            },
+            "en": {
+                "prefecture": "Kyoto",
+                "address1": "Oyamazaki-cho, Otokuni-gun",
+                "address2": "",
+                "address3": "",
+                "address4": ""
+            }
+        },
+        {
+            "prefectureCode": "27",
+            "ja": {
+                "prefecture": "大阪府",
+                "address1": "三島郡島本町",
+                "address2": "",
+                "address3": "",
+                "address4": ""
+            },
+            "kana": {
+                "prefecture": "オオサカフ",
+                "address1": "ミシマグンシマモトチョウ",
+                "address2": "",
+                "address3": "",
+                "address4": ""
+            },
+            "en": {
+                "prefecture": "Osaka",
+                "address1": "Shimamoto-cho, Mishima-gun",
+                "address2": "",
+                "address3": "",
+                "address4": ""
+            }
+        }
+    ]
 }
 ```
 
@@ -129,33 +129,33 @@ https://jp-postal-code-api.ttskch.com/api/v1/1008111.json
 
 ```json
 {
-  "postalCode": "1008111",
-  "addresses": [
-    {
-      "prefectureCode": "13",
-      "ja": {
-        "prefecture": "東京都",
-        "address1": "千代田区",
-        "address2": "千代田",
-        "address3": "１−１",
-        "address4": "宮内庁"
-      },
-      "kana": {
-        "prefecture": "",
-        "address1": "",
-        "address2": "",
-        "address3": "",
-        "address4": "クナイチヨウ"
-      },
-      "en": {
-        "prefecture": "",
-        "address1": "",
-        "address2": "",
-        "address3": "",
-        "address4": ""
-      }
-    }
-  ]
+    "postalCode": "1008111",
+    "addresses": [
+        {
+            "prefectureCode": "13",
+            "ja": {
+                "prefecture": "東京都",
+                "address1": "千代田区",
+                "address2": "千代田",
+                "address3": "１−１",
+                "address4": "宮内庁"
+            },
+            "kana": {
+                "prefecture": "",
+                "address1": "",
+                "address2": "",
+                "address3": "",
+                "address4": "クナイチヨウ"
+            },
+            "en": {
+                "prefecture": "",
+                "address1": "",
+                "address2": "",
+                "address3": "",
+                "address4": ""
+            }
+        }
+    ]
 }
 ```
 
