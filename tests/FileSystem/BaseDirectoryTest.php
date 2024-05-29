@@ -111,7 +111,21 @@ JSON;
   ]
 }
 JSON;
+        self::assertJsonStringEqualsJsonString($expected, $content);
 
+        // The same address with less information should not be pushed
+        $this->SUT->putJsonFile(new ParsedCsvRow(
+            '0640941',
+            new Address(
+                '01',
+                ja: new AddressUnit('北海道', '札幌市中央区'),
+                kana: new AddressUnit('ホッカイドウ', 'サッポロシチュウオウク'),
+            ),
+        ));
+
+        $content = strval(file_get_contents(sprintf('%s/0640941.json', $this->path)));
+
+        // Nothing should be changed
         self::assertJsonStringEqualsJsonString($expected, $content);
     }
 

@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Ttskch\JpPostalCodeApi\FileSystem;
 
+use Ttskch\JpPostalCodeApi\Model\Address;
+use Ttskch\JpPostalCodeApi\Model\AddressUnit;
 use Ttskch\JpPostalCodeApi\Model\ApiResource;
 use Ttskch\JpPostalCodeApi\Model\ParsedCsvRow;
 
@@ -45,16 +47,31 @@ final readonly class BaseDirectory implements BaseDirectoryInterface
             : new ApiResource($row->postalCode)
         ;
 
+        // Add English address unit only if Japanese address unit is the same
         if ($en) {
-            // Add English address unit only if Japanese address unit is the same
             foreach ($apiResource->addresses as $address) {
                 if ($row->address->ja == $address->ja) { // not `===`
                     $address->en = $row->address->en;
+                    break;
                 }
             }
-        } else {
-            // Push Japanese address
-            $apiResource->addresses[] = $row->address;
+        }
+
+        // Push or overwrite Japanese address
+        if (!$en) {
+            // If the CSV row and existent JSON refer to the same address, overwrite it with the one that contains more information
+            $overwritten = false;
+            foreach ($apiResource->addresses as $address) {
+                if (null !== ($ja = $this->max($address->ja, $row->address->ja))) {
+                    $address->ja = $ja;
+                    $overwritten = true;
+                    break;
+                }
+            }
+            // If not, just push it
+            if (!$overwritten) {
+                $apiResource->addresses[] = $row->address;
+            }
         }
 
         $json = json_encode($apiResource, JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
@@ -68,5 +85,25 @@ final readonly class BaseDirectory implements BaseDirectoryInterface
         $glob = false === $glob ? [] : $glob;
 
         return count($glob);
+    }
+
+    /**
+     * If $a and $b refer to the same address, return the one that contains more information. If not, return null.
+     */
+    private function max(AddressUnit $a, AddressUnit $b): ?AddressUnit
+    {
+        if ($a->prefecture !== $b->prefecture || $a->address1 !== $b->address1) {
+            return null;
+        }
+
+        if ('' === $a->address2 && '' !== $b->address2) {
+            return $b;
+        }
+
+        if ('' !== $a->address2 && '' === $b->address2) {
+            return $a;
+        }
+
+        return null;
     }
 }

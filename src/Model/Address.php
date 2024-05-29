@@ -6,7 +6,7 @@ namespace Ttskch\JpPostalCodeApi\Model;
 
 final class Address implements \JsonSerializable
 {
-    public readonly AddressUnit $ja;
+    public AddressUnit $ja;
     public readonly AddressUnit $kana;
     public AddressUnit $en;
 
