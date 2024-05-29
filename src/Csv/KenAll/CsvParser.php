@@ -27,6 +27,7 @@ final readonly class CsvParser implements CsvParserInterface
         $address2Ja = trim($csvRow[CsvHeaders::ADDRESS_2_JA]);
         $address2Ja = strval(preg_replace('/　/', '', $address2Ja));
         $address2Ja = strval(preg_replace('/（.*/', '', $address2Ja));
+        $address2Ja = strval(preg_replace('/.*）/', '', $address2Ja));
         $address2Ja = strval(preg_replace('/.*場合$/', '', $address2Ja));
         $address2Ja = strval(preg_replace('/.*一円$/', '', $address2Ja));
 
@@ -39,6 +40,7 @@ final readonly class CsvParser implements CsvParserInterface
         $address2Kana = trim($csvRow[CsvHeaders::ADDRESS_2_KANA]);
         $address2Kana = KanaString::normalize($address2Kana);
         $address2Kana = strval(preg_replace('/（.*/', '', $address2Kana));
+        $address2Kana = strval(preg_replace('/.*）/', '', $address2Kana));
         $address2Kana = strval(preg_replace('/.*バアイ$/', '', $address2Kana));
         $address2Kana = strval(preg_replace('/.*イチエン$/', '', $address2Kana));
 
