@@ -197,17 +197,20 @@ https://jp-postal-code-api.ttskch.com/api/v1/4328003.json
 
 ## 配信データの仕様
 
-Web APIの配信データは [日本郵便によって公開されているデータ](https://www.post.japanpost.jp/zipcode/download.html) を元に生成しています。具体的なスキーマは [使い方](?tab=readme-ov-file#使い方) の例をご参照ください。 日本語表記・カナ表記・英語表記の住所データが含まれていますが、以下の注意事項があります。
+Web APIの配信データは [日本郵便によって公開されているデータ](https://www.post.japanpost.jp/zipcode/download.html) を元に生成しています。具体的なスキーマは [使い方](#使い方) の例をご参照ください。 日本語表記・カナ表記・英語表記の住所データが含まれていますが、後述の制限事項があります。
+
+### 制限事項
 
 * 大口事業所個別番号の住所データは以下のように出力されます（[元データ](https://www.post.japanpost.jp/zipcode/dl/jigyosyo/index-zip.html) の内容がそうであるため）
     * カナ表記は事業所名についてのみ出力されます
     * 事業所名のカナ表記は促音・拗音が大書きで出力されます
     * 英語表記は出力されません
+* 一部の住所において、英語表記のうち主に `address2` フィールドの内容が途切れている場合があります（[元データ](https://www.post.japanpost.jp/zipcode/dl/roman-zip.html) の内容が [そうである](https://www.post.japanpost.jp/zipcode/dl/readme_ro.html#:~:text=%E5%8D%8A%E8%A7%92%E3%81%A8%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%83%AD%E3%83%BC%E3%83%9E%E5%AD%97%E9%83%A8%E5%88%86%E3%81%AE%E6%96%87%E5%AD%97%E6%95%B0%E3%81%8C35%E6%96%87%E5%AD%97%E3%82%92%E8%B6%85%E3%81%88%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AF%E3%80%81%E8%B6%85%E3%81%88%E3%81%9F%E9%83%A8%E5%88%86%E3%81%AE%E5%8F%8E%E9%8C%B2%E3%81%AF%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82) ため）
 * 直近1年程度以内に [市町村変更があった住所](https://www.post.japanpost.jp/zipcode/merge/index.html) については、英語表記は出力されません（[元データが年1回程度しか更新されない](https://www.post.japanpost.jp/zipcode/dl/roman-zip.html) ため）
 
-また、[こちらのGitHub Actions Workflow](.github/workflows/cron.yaml) によって、[毎日午前0時頃に自動的に](https://github.com/ttskch/jp-postal-code-api/actions/workflows/cron.yaml?query=branch:main) Web APIの配信データの内容を最新化しています。
+### 自動更新
 
-更新処理の具体的な内容は以下のとおりです。
+[こちらのGitHub Actions Workflow](.github/workflows/cron.yaml) によって、[毎日午前0時頃に自動的に](https://github.com/ttskch/jp-postal-code-api/actions/workflows/cron.yaml?query=branch:main) Web APIの配信データの内容を最新化しています。更新処理の具体的な内容は以下のとおりです。
 
 1. [日本郵便のWebサイト](https://www.post.japanpost.jp/zipcode/download.html) から [住所の郵便番号](https://www.post.japanpost.jp/zipcode/dl/kogaki-zip.html)、[住所の郵便番号（ローマ字）](https://www.post.japanpost.jp/zipcode/dl/roman-zip.html)、[事業所の個別郵便番号](https://www.post.japanpost.jp/zipcode/dl/jigyosyo/index-zip.html) のデータをダウンロード
 2. ダウンロードしたZipファイルからCSVファイルを取得
