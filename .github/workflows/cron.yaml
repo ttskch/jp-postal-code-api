@@ -40,6 +40,13 @@ jobs:
       - name: Build JSON files
         run: bin/console build
 
+      - name: Check sizes of JSON files
+        run: |
+          # The largest file should be smaller thant 30000 bytes
+          test $(du -ab docs/api/v1 | sort -nr | head -2 | tail -1 | awk '{print $1}') -lt 30000
+          # The smallest file should be larger than 300 bytes
+          test $(du -ab docs/api/v1 | sort -n | head -1 | awk '{print $1}') -gt 300
+
       - name: Check diff
         id: diff
         run: |
