@@ -7,7 +7,7 @@
 
 日本の郵便番号から住所のデータを取得できるWeb APIです。
 
-GitHub Pagesを使用して静的なJSONファイルとして配信しているため、可用性が高いのが特徴です。また、オープンソースなのでクライアントワークでも安心してご使用いただけます。もし永続性が心配な場合はご自由にフォークしてご利用ください。
+GitHub Pagesを使用して静的なJSONファイルとして配信しているため、可用性が高いのが特徴です。また、オープンソースなのでクライアントワークでも安心してご使用いただけます。もしリポジトリの永続性や [GitHub Pagesの利用制限](#github-pagesの利用制限について) が心配な場合は、ご自由にフォークしてご利用ください。
 
 [日本郵便によって公開されているデータ](https://www.post.japanpost.jp/zipcode/download.html) を元に住所データのJSONファイルを生成して配信しています。配信データはGitHub Actionsを使用して [毎日最新の内容に更新しています](https://github.com/ttskch/jp-postal-code-api/actions/workflows/cron.yaml?query=branch:main)。
 
@@ -217,6 +217,20 @@ Web APIの配信データは [日本郵便によって公開されているデ�
 3. CSVファイルをパースし、配信データとしてのJSONファイル群を生成
 4. その際、「住所の郵便番号」と「住所の郵便番号（ローマ字）」のデータを、日本語表記の住所が一致している場合にのみマージ
 5. 生成したJSONファイル群をコミットし、GitHub Pagesを更新
+
+## GitHub Pagesの利用制限について
+
+2024年5月現在、GitHub Pagesで公開したサイトには [月当たり100GBの帯域制限](https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages#:~:text=GitHub%20Pages%20%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%AF%E3%80%81%E6%9C%88%E5%BD%93%E3%81%9F%E3%82%8A%20100%20GB%20%E3%81%AE%20%E3%82%BD%E3%83%95%E3%83%88%E3%81%AA%20%E5%B8%AF%E5%9F%9F%E5%B9%85%E5%88%B6%E9%99%90%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82) があります。このWeb APIの配信データの容量は平均およそ400バイトなので、毎秒104リクエスト程度のペースが1ヶ月間継続すると制限の対象となる可能性があります。
+
+もしこの制限が心配な場合は、本リポジトリをフォークしてご自身のGitHubアカウントでホストしてご利用ください。その場合、エンドポイントのURLは
+
+```
+https://{あなたのGitHubユーザー名}.github.io/jp-postal-code-api/api/v1/{郵便番号}.json
+```
+
+のようになります。
+
+ただし、それでも悪意ある攻撃者によって大量のリクエストが行われると利用制限の対象になる可能性があります。どうしても心配な場合は、フォークしたリポジトリを [Cloudflare Pages](https://www.cloudflare.com/ja-jp/developer-platform/pages/) などの多機能なホスティングサービスやその他PaaSなどに接続して、BASIC認証などをかけた状態でWeb APIをホストするといった運用を検討してください。
 
 ## ローカル環境での使用
 
