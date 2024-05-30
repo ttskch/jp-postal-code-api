@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Ttskch\JpPostalCodeApi\FileSystem;
 
-use Ttskch\JpPostalCodeApi\Model\Address;
 use Ttskch\JpPostalCodeApi\Model\AddressUnit;
 use Ttskch\JpPostalCodeApi\Model\ApiResource;
 use Ttskch\JpPostalCodeApi\Model\ParsedCsvRow;
@@ -72,6 +71,11 @@ final readonly class BaseDirectory implements BaseDirectoryInterface
             if (!$overwritten) {
                 $apiResource->addresses[] = $row->address;
             }
+        }
+
+        // For postal codes where only English addresses exist in the CSV
+        if ([] === $apiResource->addresses) {
+            return;
         }
 
         $json = json_encode($apiResource, JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
