@@ -28,8 +28,6 @@ final readonly class CsvParser implements CsvParserInterface
         $address2Ja = strval(preg_replace('/　/', '', $address2Ja));
         $address2Ja = strval(preg_replace('/（.*/', '', $address2Ja));
         $address2Ja = strval(preg_replace('/.*）/', '', $address2Ja));
-        $address2Ja = strval(preg_replace('/.*場合$/', '', $address2Ja));
-        $address2Ja = strval(preg_replace('/.*一円$/', '', $address2Ja));
 
         $prefectureKana = trim($csvRow[CsvHeaders::PREFECTURE_KANA]);
         $prefectureKana = KanaString::normalize($prefectureKana);
@@ -41,10 +39,19 @@ final readonly class CsvParser implements CsvParserInterface
         $address2Kana = KanaString::normalize($address2Kana);
         $address2Kana = strval(preg_replace('/（.*/', '', $address2Kana));
         $address2Kana = strval(preg_replace('/.*）/', '', $address2Kana));
-        $address2Kana = strval(preg_replace('/.*バアイ$/', '', $address2Kana));
-        $address2Kana = strval(preg_replace('/.*イチエン$/', '', $address2Kana));
 
-        // if address2Ja contains '、', it's some irregular address, so ignore it for now.
+        if ('以下に掲載がない場合' === $address2Ja) {
+            $address2Ja = '';
+            $address2Kana = '';
+        }
+
+        // 'xxx一円' is a special address which is not a real address
+        if (1 === preg_match('/.+一円$/', $address2Ja)) {
+            $address2Ja = '';
+            $address2Kana = '';
+        }
+
+        // If $address2Ja contains '、', it's some irregular address, so ignore it for now
         if (false !== mb_strpos($address2Ja, '、')) {
             $address2Ja = '';
             $address2Kana = '';

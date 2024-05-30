@@ -27,8 +27,6 @@ final readonly class CsvParser implements CsvParserInterface
         $address2Ja = strval(preg_replace('/　/', '', $address2Ja));
         $address2Ja = strval(preg_replace('/（.*/', '', $address2Ja));
         $address2Ja = strval(preg_replace('/.*）/', '', $address2Ja));
-        $address2Ja = strval(preg_replace('/.*場合$/', '', $address2Ja));
-        $address2Ja = strval(preg_replace('/.*一円$/', '', $address2Ja));
 
         $prefectureEn = trim($csvRow[CsvHeaders::PREFECTURE_EN]);
         $prefectureEn = strval(preg_replace('/ .+$/', '', $prefectureEn));
@@ -42,12 +40,21 @@ final readonly class CsvParser implements CsvParserInterface
         $address2En = trim($csvRow[CsvHeaders::ADDRESS_2_EN]);
         $address2En = strval(preg_replace('/\(.*/', '', $address2En));
         $address2En = strval(preg_replace('/.*\)/', '', $address2En));
-        $address2En = strval(preg_replace('/.*baai$/i', '', $address2En));
-        $address2En = strval(preg_replace('/.*ichien$/i', '', $address2En));
         $address2En = strval(preg_replace('/^([A-Z]+) ([A-Z]+)$/', '$2, $1', $address2En));
         $address2En = ucwords(strtolower($address2En));
 
-        // if address2Ja contains '、', it's some irregular address, so ignore it for now.
+        if ('以下に掲載がない場合' === $address2Ja) {
+            $address2Ja = '';
+            $address2En = '';
+        }
+
+        // 'xxx一円' is a special address which is not a real address
+        if (1 === preg_match('/.+一円$/', $address2Ja)) {
+            $address2Ja = '';
+            $address2En = '';
+        }
+
+        // If address2Ja contains '、', it's some irregular address, so ignore it for now
         if (false !== mb_strpos($address2Ja, '、')) {
             $address2Ja = '';
             $address2En = '';
