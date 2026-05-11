@@ -22,9 +22,9 @@ class BuildCommandTest extends TestCase
     public function testExecute(): void
     {
         $csvProvider = $this->prophesize(CsvProviderInterface::class);
-        $csvProvider->fromZipUrl('https://www.post.japanpost.jp/zipcode/dl/kogaki/zip/ken_all.zip')->willReturn(Reader::createFromString('ken,all,csv'));
-        $csvProvider->fromZipUrl('https://www.post.japanpost.jp/zipcode/dl/roman/KEN_ALL_ROME.zip')->willReturn(Reader::createFromString('kenall,rome,csv'));
-        $csvProvider->fromZipUrl('https://www.post.japanpost.jp/zipcode/dl/jigyosyo/zip/jigyosyo.zip')->willReturn(Reader::createFromString('jigyo,syo,csv'));
+        $csvProvider->fromZipUrl('https://www.post.japanpost.jp/service/search/zipcode/download/kogaki/zip/ken_all.zip')->willReturn(Reader::createFromString('ken,all,csv'));
+        $csvProvider->fromZipUrl('https://www.post.japanpost.jp/service/search/zipcode/download/roman/KEN_ALL_ROME.zip')->willReturn(Reader::createFromString('kenall,rome,csv'));
+        $csvProvider->fromZipUrl('https://www.post.japanpost.jp/service/search/zipcode/download/office/zip/jigyosyo.zip')->willReturn(Reader::createFromString('jigyo,syo,csv'));
 
         $kenAllCsvParser = $this->prophesize(CsvParserInterface::class);
         $kenAllCsvParser->parse(['ken', 'all', 'csv'])->willReturn(new ParsedCsvRow(
